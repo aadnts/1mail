@@ -1,0 +1,38 @@
+{
+    "id": "18f7cfccafa37d7e",
+    "snippet": "Hi there, We charged $32.43 to your credit card ending in 8576 to fund your OpenAI API credit balance. You may review your billing history at any time. You received this email because you have a paid",
+    "historyId": "2155183",
+    "internalDate": "2024-05-15 18:01:32",
+    "sizeEstimate": 14861,
+    "threadId": "18f7cfccafa37d7e",
+    "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from [40.84.182.33] by mandrillapp.com id dd0dfcb9a8ab479ab9b92b99ee6a361f; Wed, 15 May 2024 16:01:32 +0000",
+        "X-Google-Smtp-Source": "AGHT+IEHDeQKbgBiECovxYurRLC/wHD4qygLSN+geioTpuuaNStd5+UE9Y+DhiaoiziDd/rl82HK",
+        "X-Received": "by 2002:a05:6808:18a7:b0:3c8:2c1e:b55f with SMTP id 5614622812f47-3c99703791dmr19253190b6e.1.1715788893111;        Wed, 15 May 2024 09:01:33 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715788893; cv=none;        d=google.com; s=arc-20160816;        b=modAr8iiH0xRVkFt7vTie6sF3CJdjK3Aqjl8pxOBkJA7FESxnSsJYejs64Ig9lz0O8         4OJDohLEDTC4HesAj3AbvU+hA1k13VMVH4sxqLkfelH/ekSnxnRh2Zc/JAI9upjlsDW+         GbulXV7cebvEZBnnnkxxzastqb3ghC/ACHtHBddZuvPauvFwqWyRsMAsTg9tlwrrAB+g         IOVGkmDMKAebeO7aXbXECOFAf+28ncKAUJTitwsF1gE0+fxlUdA2X1XjS2jpr7mIAXxy         s6TI9fytuQR5hyGReTalWQ0pbAkcUJzXNHsd2cdOecBMJhpCpHfzEZFOBdEgfe8lZh+y         TQ9Q==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=mime-version:date:message-id:feedback-id:to:reply-to:subject:from         :dkim-signature:dkim-signature;        bh=HaVYxQK7altcJ6RjDCOvxwD6ojvAwr7Z8fHDy3YCbO0=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=C7vj1rs6YPnVo9lJcbKaiLGwexGWtaiMD4hhj1c+kypH0XSeKcm64Ca6H8W2TL4WXG         /DFnNl6OaOShxw7v059r/JNNeNjoAP8rAhaZt+Bqum6AWFO3GzpWT456oym78ui2Zkef         RChOF3D2gtzbg/TZesJXHwDCOJ2DZHWwuoPCp/xei9TJTXxWq2X1LVU9TcpJUniZs5Wp         GWgxtj1MYQs6oCiA4vXmRkdmm00VhKnkgZ5FzCFVxVHbuEozRnKCmaT7QDqGU3xAZHpD         QleTiyMuzeeV2oX0AfKpNQeyjQVKOLlfWO20LPvHzjksWYkZmHzS/3uB+Ts/CBL5r6eC         JQHQ==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@mandrillapp.com header.s=mte1 header.b=geOzT6kd;       dkim=pass header.i=@tm.openai.com header.s=mandrill header.b=faqh6S+e;       spf=pass (google.com: domain of bounce-md_31165340.6644dc5c.v1-dd0dfcb9a8ab479ab9b92b99ee6a361f@mandrillapp.com designates 198.2.187.199 as permitted sender) smtp.mailfrom=bounce-md_31165340.6644dc5c.v1-dd0dfcb9a8ab479ab9b92b99ee6a361f@mandrillapp.com;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=tm.openai.com",
+        "Return-Path": "<bounce-md_31165340.6644dc5c.v1-dd0dfcb9a8ab479ab9b92b99ee6a361f@mandrillapp.com>",
+        "Received-SPF": "pass (google.com: domain of bounce-md_31165340.6644dc5c.v1-dd0dfcb9a8ab479ab9b92b99ee6a361f@mandrillapp.com designates 198.2.187.199 as permitted sender) client-ip=198.2.187.199;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@mandrillapp.com header.s=mte1 header.b=geOzT6kd;       dkim=pass header.i=@tm.openai.com header.s=mandrill header.b=faqh6S+e;       spf=pass (google.com: domain of bounce-md_31165340.6644dc5c.v1-dd0dfcb9a8ab479ab9b92b99ee6a361f@mandrillapp.com designates 198.2.187.199 as permitted sender) smtp.mailfrom=bounce-md_31165340.6644dc5c.v1-dd0dfcb9a8ab479ab9b92b99ee6a361f@mandrillapp.com;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=tm.openai.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=tm.openai.com; s=mandrill; t=1715788892; x=1716049392; i=noreply@tm.openai.com; bh=HaVYxQK7altcJ6RjDCOvxwD6ojvAwr7Z8fHDy3YCbO0=; h=From:Subject:Reply-To:To:Feedback-ID:Message-Id:Date:MIME-Version:\t Content-Type:CC:Date:Subject:From; b=faqh6S+eXfV3j2V5f7ll9OHks6ZSj5BlA8QJ0XFHr4Vora2jqD14ig0zYHgehcbvw\t HhWqP7gktFrbh0C631z2SDvTL3f/XlZ9X9AM2qs0BpkPQXuUfe4yyJ1WS/sB65lhVJ\t cL1ryFomoT+iIDC4hYg/OokYjetE1entu0QZErI0=",
+        "From": "OpenAI <noreply@tm.openai.com>",
+        "Subject": "Your OpenAI API account has been funded",
+        "Reply-To": "support@openai.com",
+        "To": "antonioroddantas@gmail.com",
+        "X-Native-Encoded": "1",
+        "X-Report-Abuse": "Please forward a copy of this message, including all headers, to abuse@mandrill.com. You can also report abuse here: https://mandrillapp.com/contact/abuse?id=31165340.dd0dfcb9a8ab479ab9b92b99ee6a361f",
+        "X-Mandrill-User": "md_31165340",
+        "Feedback-ID": "31165340:31165340.20240515:md",
+        "Message-Id": "<31165340.20240515160132.6644dc5cd3d418.32976268@mail187-199.suw11.mandrillapp.com>",
+        "Date": "Wed, 15 May 2024 16:01:32 +0000",
+        "MIME-Version": "1.0",
+        "Content-Type": "multipart/alternative; boundary=\"_av-UbucLdKN1NdKScyypnM1xQ\""
+    }
+}

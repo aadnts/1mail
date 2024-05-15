@@ -1,0 +1,13 @@
+     Your OpenAI API account has been funded      
+                      Hi there,
+
+  We charged $32.43 to your credit card ending in 8576 to fund your OpenAI
+API credit balance. 
+
+  You may review your billing history
+<https://platform.openai.com/account/billing/history?with_org=org-LhbQKOPN7p0tjYzNg5F71yGB>
+at any time. 
+
+                You received this email because you have a paid account
+with OpenAI
+ Organization: Personal (org-LhbQKOPN7p0tjYzNg5F71yGB)

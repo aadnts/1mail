@@ -1,0 +1,30 @@
+{
+  "document_name": "Geneva_Medical_Clinic_Reminder",
+  "document_id": "11223",
+  "document_type": "reminder",
+  "date": "2024-05-05",
+  "sender": {
+    "name": "Dr. Alice Johnson",
+    "address": "123 Medical St, Health City, USA",
+    "phone_number": "+1-555-555-3333",
+    "email": "alice.johnson@medicalclinic.com"
+  },
+  "company": {
+    "name": "Geneva Medical Clinic",
+    "address": "123 Medical St, Health City, USA",
+    "phone_number": "+1-555-555-3333",
+    "field": "Healthcare"
+  },
+  "person": {
+    "name": "Jane Smith",
+    "address": "789 Residential Ave, Hometown, USA",
+    "phone_number": "+1-555-555-9876",
+    "role": "Patient"
+  },
+  "reminder_details": {
+    "reminder_id": "R-2024-003",
+    "appointment_date": "2024-05-20",
+    "appointment_time": "10:00 AM",
+    "notes": "Regular check-up appointment."
+  }
+}

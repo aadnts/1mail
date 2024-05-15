@@ -1,0 +1,29 @@
+{
+  "document_name": "Education_State_Department_Communication",
+  "document_id": "33445",
+  "document_type": "state_communication",
+  "date": "2024-04-25",
+  "sender": {
+    "name": "Education State Department",
+    "address": "123 State St, Capital City, USA",
+    "phone_number": "+1-555-555-4444",
+    "email": "contact@statedepartment.gov"
+  },
+  "company": {
+    "name": "State Department",
+    "address": "123 State St, Capital City, USA",
+    "phone_number": "+1-555-555-4444",
+    "field": "Government"
+  },
+  "person": {
+    "name": "Jane Smith",
+    "address": "789 Residential Ave, Hometown, USA",
+    "phone_number": "+1-555-555-9876",
+    "role": "Citizen"
+  },
+  "communication_details": {
+    "communication_id": "SC-2024-010",
+    "subject": "Tax Return Reminder",
+    "body": "This is a reminder to submit your tax return by the due date."
+  }
+}

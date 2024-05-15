@@ -1,0 +1,30 @@
+{
+    "document_name": "Nom_DANTAS",
+    "document_id": "N/A",
+    "document_type": "student_card",
+    "date": "N/A",
+    "sender": {
+        "name": "University of Geneva",
+        "address": "N/A",
+        "phone_number": "N/A",
+        "email": "N/A"
+    },
+    "company": {
+        "name": "University of Geneva",
+        "address": "N/A",
+        "phone_number": "N/A",
+        "field": "Education"
+    },
+    "person": {
+        "name": "ANTONIO APARECIDO DANTAS",
+        "address": "N/A",
+        "phone_number": "N/A",
+        "role": "Student"
+    },
+    "student_card_details": {
+        "student_id": "18-617-340",
+        "faculty": "CUINF",
+        "validity_date": "30.10.2022",
+        "semester": "Spring 2022"
+    }
+}

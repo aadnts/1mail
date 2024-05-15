@@ -1,8 +1,17 @@
 Could you please extract all the relevant metadata of this document and produce a JSON file with it?
 Your answer should only contain the JSON file, nothing else!
 
-The metadata you will be searching for will vary depending on the document, so feel free to adapt the JSON file you will produce so that it contains any relevant information, here’s a reference for the type of JSON file that I want you to produce : 
+The metadata you will be searching for will vary depending on the document, so feel free to adapt the JSON file you will produce so that it contains any relevant information, here’s multiple references for the type of JSON file that I want you to produce : 
+
 {json_data}
 
-Here's the document :
+{json_data1}
+
+{json_data2}
+
+{json_data3}
+
+The only mandatory key your JSON file should contain is the "document_name", which should be as significative as possible and not have any spaces ' ' or punctuation, instead simply use '_' to separate words.
+
+Finally, here's the document I want you to analyze :
 {document}

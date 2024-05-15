@@ -1,0 +1,40 @@
+{
+  "document_name": "Rocks_Utility_Company_Bill",
+  "document_id": "67890",
+  "document_type": "bill",
+  "date": "2024-05-10",
+  "sender": {
+    "name": "Rocks Utility Company",
+    "address": "123 Utility St, Service City, USA",
+    "phone_number": "+1-555-555-2222",
+    "email": "billing@utilitycompany.com"
+  },
+  "company": {
+    "name": "Utility Company",
+    "address": "123 Utility St, Service City, USA",
+    "phone_number": "+1-555-555-2222",
+    "field": "Utilities"
+  },
+  "person": {
+    "name": "Jane Smith",
+    "address": "789 Residential Ave, Hometown, USA",
+    "phone_number": "+1-555-555-9876",
+    "role": "Customer"
+  },
+  "bill_details": {
+    "bill_id": "B-2024-005",
+    "billing_period": "2024-04-01 to 2024-04-30",
+    "amount_due": "100.00",
+    "due_date": "2024-05-25",
+    "services": [
+      {
+        "service_name": "Electricity",
+        "amount": "60.00"
+      },
+      {
+        "service_name": "Water",
+        "amount": "40.00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "document_name": "Schweizerische_Eidgenossenschaft",
+    "date": "2024-05-15",
+    "sender": {
+        "name": "Saferpay",
+        "address": "P.P.A-Priority CH-3003 Bern, BJ, SIRAER-SSR",
+        "phone_number": "",
+        "email": ""
+    },
+    "company": {
+        "name": "Casier judiciaire suisse",
+        "address": "Service des extraits des particuliers, Bundesrain 20, CH-3003 Berne",
+        "phone_number": "",
+        "field": "Legal"
+    },
+    "person": {
+        "name": "Antonio Aparecido Rodrigues Dantas Filho",
+        "address": "rue des Confessions 21, 1203 Genève, Switzerland",
+        "phone_number": "+41764536367",
+        "role": "Applicant"
+    },
+    "request_details": {
+        "request_type": "Extrait du casier judiciaire",
+        "requested_information": [
+            "Nom de famille",
+            "Nom de naissance",
+            "Prénom(s)",
+            "Date de naissance",
+            "Numéro AVS",
+            "Lieu d'origine / Pays d'origine",
+            "Nom et prénoms des parents",
+            "e-mail téléphone"
+        ]
+    },
+    "payment_details": {
+        "amount": "CHF 17.00",
+        "payment_method": "Extrait électronique avec signature numérique"
+    },
+    "communication_method": {
+        "notification_method": "SMS",
+        "notification_details": "Numéro de téléphone portable confirmé pour la notification du mot de passe de retrait"
+    },
+    "additional_info": {
+        "instructions": "Attention: n'oubliez pas de signer ce formulaire et de l'envoyer par poste. Si votre signature ne figure pas sur le formulaire ou si les pièces à joindre manquent, le formulaire vous sera retourné pour le compléter.",
+        "expected_delivery": "Vous recevrez probablement un lien de référence jusqu'au 27 mai 2024 à l'adresse de réception pour la notification électronique."
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "document_name": "Metanoia_Zoom_Gathering_Invite",
+    "sender": {
+        "name": "Bedros for Metanoia team",
+        "email": "info@metanoia.org"
+    },
+    "date": "2024-05-16",
+    "event_details": {
+        "event_type": "Zoom gathering",
+        "event_date": "2024-05-16",
+        "event_time": "19:00 - 20:00 CET",
+        "topic": "Metanoia Zoom call w/ Calev Myers",
+        "meeting_id": "860 1244 3339",
+        "passcode": "984945"
+    },
+    "company": {
+        "name": "Noor Global",
+        "address": "Rue des Chaudronniers 8, 1204 Geneva",
+        "bank": "Banque Cantonale de Genève",
+        "swift": "BCGECHGGXXX",
+        "iban": "CH08 0078 8000 0502 0972 3"
+    },
+    "copyright": "Copyright © 2024 Noor Global, All rights reserved.",
+    "unsubscribe_link": "https://noorglobal.us6.list-manage.com/unsubscribe?u=982a7d1467ec753dcd3abd16a&id=7c55a28676&t=b&e=33bd19b6a8&c=78853103b3"
+}

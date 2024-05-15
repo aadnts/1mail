@@ -1,130 +1,30 @@
 {
-    "documents": [
-      {
-        "document_id": "12345",
-        "document_type": "contract",
-        "date": "2024-05-15",
-        "sender": {
-          "name": "John Doe",
-          "address": "123 Main St, Anytown, USA",
-          "phone_number": "+1-555-555-5555",
-          "email": "johndoe@example.com"
-        },
-        "company": {
-          "name": "Example Corp",
-          "address": "456 Business Rd, Business City, USA",
-          "phone_number": "+1-555-555-1234",
-          "field": "Technology"
-        },
-        "person": {
-          "name": "Jane Smith",
-          "address": "789 Residential Ave, Hometown, USA",
-          "phone_number": "+1-555-555-9876",
-          "role": "Client"
-        },
-        "contract_details": {
-          "contract_id": "C-2024-001",
-          "start_date": "2024-06-01",
-          "end_date": "2025-06-01",
-          "terms": "Details of the contract terms and conditions."
-        }
-      },
-      {
-        "document_id": "67890",
-        "document_type": "bill",
-        "date": "2024-05-10",
-        "sender": {
-          "name": "Utility Company",
-          "address": "123 Utility St, Service City, USA",
-          "phone_number": "+1-555-555-2222",
-          "email": "billing@utilitycompany.com"
-        },
-        "company": {
-          "name": "Utility Company",
-          "address": "123 Utility St, Service City, USA",
-          "phone_number": "+1-555-555-2222",
-          "field": "Utilities"
-        },
-        "person": {
-          "name": "Jane Smith",
-          "address": "789 Residential Ave, Hometown, USA",
-          "phone_number": "+1-555-555-9876",
-          "role": "Customer"
-        },
-        "bill_details": {
-          "bill_id": "B-2024-005",
-          "billing_period": "2024-04-01 to 2024-04-30",
-          "amount_due": "100.00",
-          "due_date": "2024-05-25",
-          "services": [
-            {
-              "service_name": "Electricity",
-              "amount": "60.00"
-            },
-            {
-              "service_name": "Water",
-              "amount": "40.00"
-            }
-          ]
-        }
-      },
-      {
-        "document_id": "11223",
-        "document_type": "reminder",
-        "date": "2024-05-05",
-        "sender": {
-          "name": "Dr. Alice Johnson",
-          "address": "123 Medical St, Health City, USA",
-          "phone_number": "+1-555-555-3333",
-          "email": "alice.johnson@medicalclinic.com"
-        },
-        "company": {
-          "name": "Medical Clinic",
-          "address": "123 Medical St, Health City, USA",
-          "phone_number": "+1-555-555-3333",
-          "field": "Healthcare"
-        },
-        "person": {
-          "name": "Jane Smith",
-          "address": "789 Residential Ave, Hometown, USA",
-          "phone_number": "+1-555-555-9876",
-          "role": "Patient"
-        },
-        "reminder_details": {
-          "reminder_id": "R-2024-003",
-          "appointment_date": "2024-05-20",
-          "appointment_time": "10:00 AM",
-          "notes": "Regular check-up appointment."
-        }
-      },
-      {
-        "document_id": "33445",
-        "document_type": "state_communication",
-        "date": "2024-04-25",
-        "sender": {
-          "name": "State Department",
-          "address": "123 State St, Capital City, USA",
-          "phone_number": "+1-555-555-4444",
-          "email": "contact@statedepartment.gov"
-        },
-        "company": {
-          "name": "State Department",
-          "address": "123 State St, Capital City, USA",
-          "phone_number": "+1-555-555-4444",
-          "field": "Government"
-        },
-        "person": {
-          "name": "Jane Smith",
-          "address": "789 Residential Ave, Hometown, USA",
-          "phone_number": "+1-555-555-9876",
-          "role": "Citizen"
-        },
-        "communication_details": {
-          "communication_id": "SC-2024-010",
-          "subject": "Tax Return Reminder",
-          "body": "This is a reminder to submit your tax return by the due date."
-        }
-      }
-    ]
+  "document_name": "Example_Corp_Contract",
+  "document_id": "12345",
+  "document_type": "contract",
+  "date": "2024-05-15",
+  "sender": {
+    "name": "John Doe",
+    "address": "123 Main St, Anytown, USA",
+    "phone_number": "+1-555-555-5555",
+    "email": "johndoe@example.com"
+  },
+  "company": {
+    "name": "Example Corp",
+    "address": "456 Business Rd, Business City, USA",
+    "phone_number": "+1-555-555-1234",
+    "field": "Technology"
+  },
+  "person": {
+    "name": "Jane Smith",
+    "address": "789 Residential Ave, Hometown, USA",
+    "phone_number": "+1-555-555-9876",
+    "role": "Client"
+  },
+  "contract_details": {
+    "contract_id": "C-2024-001",
+    "start_date": "2024-06-01",
+    "end_date": "2025-06-01",
+    "terms": "Details of the contract terms and conditions."
   }
-  
+}

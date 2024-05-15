@@ -1,0 +1,41 @@
+{
+    "document_name": "Teologia_Interpretacao_Racional_Fe_Religiosa",
+    "document_id": "",
+    "document_type": "informational",
+    "date": "",
+    "sender": {
+        "name": "Mundo Cristão",
+        "address": "Rua Antônio Carlos Tacconi, 69 - Vila Santa Maria, 04810-020 - São Paulo, SP, Brasil",
+        "phone_number": "",
+        "email": ""
+    },
+    "company": {
+        "name": "",
+        "address": "",
+        "phone_number": "",
+        "field": ""
+    },
+    "person": {
+        "name": "",
+        "address": "",
+        "phone_number": "",
+        "role": ""
+    },
+    "content": {
+        "overview": "O texto aborda a interpretação racional da fé religiosa, destacando a origem da palavra 'teologia' e seu significado. Explora a teologia cristã como interpretação racional da fé cristã e identifica elementos essenciais da teologia.",
+        "types_of_theology": [
+            {
+                "type": "Teologia histórica",
+                "description": "Versa sobre os ensinos da Bíblia e os pronunciamentos da Igreja ao longo da história, estabelecendo o que é verdadeiro e errado."
+            },
+            {
+                "type": "Teologia bíblica",
+                "description": "Estudo específico da teologia baseado na Bíblia, considerando a revelação progressiva das verdades de Deus."
+            },
+            {
+                "type": "Teologia sistemática",
+                "description": "Correlaciona os dados da revelação bíblica para apresentar sistematicamente a autorrevelação de Deus."
+            }
+        ]
+    }
+}
