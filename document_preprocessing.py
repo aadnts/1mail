@@ -48,6 +48,40 @@ def create_folder_and_save_outputs(json_output, raw_text=None, original_text=Non
     with open(os.path.join(folder_path, "json_output.json"), 'w', encoding='UTF-8') as file:
         json.dump(json_output, file, ensure_ascii=False, indent=4)
 
+def process_files_in_folder(folder_path, predictor, model, systemPrompt, prompt, json_data, json_data1, json_data2, json_data3):
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        raw_text = None
+        original_text = None
+
+        if filename.endswith('.txt'):
+            original_text = process_text_file(file_path)
+        elif filename.endswith('.pdf') or filename.endswith(('.png', '.jpg', '.jpeg')):
+            raw_text = process_pdf_or_image(file_path, predictor)
+            if not raw_text:
+                continue
+        else:
+            continue
+
+        document_text = original_text if original_text else raw_text
+        prompt_template = PromptTemplate(template=prompt, input_variables=["json_data", "document"]).format(
+            json_data=str(json_data),
+            json_data1=str(json_data1),
+            json_data2=str(json_data2),
+            json_data3=str(json_data3),
+            document=document_text
+        )
+
+        messages = [
+            SystemMessage(content=systemPrompt.format()),
+            HumanMessage(content=prompt_template)
+        ]
+
+        result = model.invoke(messages)
+        json_output = json.loads(result.content)
+
+        create_folder_and_save_outputs(json_output, raw_text=raw_text, original_text=original_text, output_dir=folder_path)
+
 def main():
     # Load environment variables
     api_key = os.getenv("OPENAI_API_KEY")
@@ -95,7 +129,13 @@ def main():
             continue
 
         document_text = original_text if original_text else raw_text
-        prompt_template = PromptTemplate(template=prompt, input_variables=["json_data", "document"]).format(json_data=str(json_data),json_data1=str(json_data1),json_data2=str(json_data2),json_data3=str(json_data3), document=document_text)
+        prompt_template = PromptTemplate(template=prompt, input_variables=["json_data", "document"]).format(
+            json_data=str(json_data),
+            json_data1=str(json_data1),
+            json_data2=str(json_data2),
+            json_data3=str(json_data3),
+            document=document_text
+        )
         
         messages = [
             SystemMessage(content=systemPrompt.format()),
@@ -114,38 +154,7 @@ def main():
             for email_folder in os.listdir(thread_path):
                 email_path = os.path.join(thread_path, email_folder)
                 if os.path.isdir(email_path):
-                    for filename in os.listdir(email_path):
-                        file_path = os.path.join(email_path, filename)
-                        raw_text = None
-                        original_text = None
-
-                        if filename.endswith('.txt'):
-                            original_text = process_text_file(file_path)
-                        elif filename.endswith('.pdf') or filename.endswith(('.png', '.jpg', '.jpeg')):
-                            raw_text = process_pdf_or_image(file_path, predictor)
-                            if not raw_text:
-                                continue
-                        else:
-                            continue
-
-                        document_text = original_text if original_text else raw_text
-                        prompt_template = PromptTemplate(template=prompt, input_variables=["json_data", "document"]).format(
-                            json_data=str(json_data),
-                            json_data1=str(json_data1),
-                            json_data2=str(json_data2),
-                            json_data3=str(json_data3),
-                            document=document_text
-                        )
-
-                        messages = [
-                            SystemMessage(content=systemPrompt.format()),
-                            HumanMessage(content=prompt_template)
-                        ]
-
-                        result = model.invoke(messages)
-                        json_output = json.loads(result.content)
-
-                        create_folder_and_save_outputs(json_output, raw_text=raw_text, original_text=original_text, output_dir="./outputs")
+                    process_files_in_folder(email_path, predictor, model, systemPrompt, prompt, json_data, json_data1, json_data2, json_data3)
                         
 if __name__ == "__main__":
     main()

@@ -1,0 +1,27 @@
+{
+    "document_name": "Your_OpenAI_API_account_has_been_funded",
+    "date": "N/A",
+    "sender": {
+        "name": "OpenAI",
+        "address": "N/A",
+        "phone_number": "N/A",
+        "email": "N/A"
+    },
+    "company": {
+        "name": "OpenAI",
+        "address": "N/A",
+        "phone_number": "N/A",
+        "field": "Technology"
+    },
+    "person": {
+        "name": "N/A",
+        "address": "N/A",
+        "phone_number": "N/A",
+        "role": "N/A"
+    },
+    "communication_details": {
+        "communication_id": "N/A",
+        "subject": "Your OpenAI API account has been funded",
+        "body": "We charged $32.43 to your credit card ending in 8576 to fund your OpenAI API credit balance. You may review your billing history at any time. You received this email because you have a paid account with OpenAI."
+    }
+}

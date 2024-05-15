@@ -1,4 +1,31 @@
 {
     "document_name": "GENERALI",
-    "date": "2021-06-25"
+    "document_id": "",
+    "document_type": "proposal",
+    "date": "2021-06-25",
+    "sender": {
+        "name": "Generali Assurances Générales SA",
+        "address": "Place Genee",
+        "phone_number": "",
+        "email": ""
+    },
+    "company": {
+        "name": "Generali",
+        "address": "",
+        "phone_number": "",
+        "field": "Insurance"
+    },
+    "person": {
+        "name": "",
+        "address": "",
+        "phone_number": "",
+        "role": "Proposer"
+    },
+    "proposal_details": {
+        "offer_number": "502471889",
+        "validity_period": "14 days",
+        "authorization": "The proposer authorizes the Company to process data necessary for proposal examination and contract management.",
+        "confidentiality": "The Company undertakes to treat confidentially the received information.",
+        "additional_information": "General insurance terms and conditions, information document."
+    }
 }

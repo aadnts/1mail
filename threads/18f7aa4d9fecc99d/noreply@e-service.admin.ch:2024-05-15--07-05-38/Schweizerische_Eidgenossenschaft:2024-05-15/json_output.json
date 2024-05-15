@@ -1,0 +1,38 @@
+{
+    "document_name": "Schweizerische_Eidgenossenschaft",
+    "date": "2024-05-15",
+    "sender": {
+        "name": "Saferpay",
+        "address": "P.P.A-Priority CH-3003 Bern, BJ,SIRAER-SSR",
+        "phone_number": "",
+        "email": ""
+    },
+    "company": {
+        "name": "Casier judiciaire suisse",
+        "address": "Service des extraits des particuliers Bundesrain 20 CH-3003 Berne",
+        "phone_number": "",
+        "field": "Legal"
+    },
+    "person": {
+        "name": "Rodrigues Dantas Filho Antonio Aparecido",
+        "address": "rue des Confessions 21 1203 Genève Switzerland",
+        "phone_number": "+41764536367",
+        "role": "Requester"
+    },
+    "request_details": {
+        "request_type": "Demande d'extrait du casier judiciaire",
+        "documents_required": [
+            "Copie du passeport"
+        ]
+    },
+    "payment_details": {
+        "amount": "CHF 17.00",
+        "payment_date": "2024-05-15",
+        "payment_method": "Saferpay"
+    },
+    "delivery_details": {
+        "delivery_date": "2024-05-27",
+        "delivery_method": "Extrait électronique avec signature numérique",
+        "notification_method": "SMS"
+    }
+}
