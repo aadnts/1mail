@@ -1,0 +1,41 @@
+{
+    "id": "18f71ac685c10383",
+    "snippet": "Profitez de ces prix incroyables maintenant Version en ligne Logo Stickers Flyers Cartes De Visite AUTRES 1 Banni\u00e8re R\u00e9tractable Best-Seller CHF 56.93 CHF 45.54 Afficher plus \u00bb 2 Drapeaux Publicitaires",
+    "historyId": "2154265",
+    "internalDate": "2024-05-13 13:13:01",
+    "sizeEstimate": 61334,
+    "threadId": "18f71ac685c10383",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "by mta.mail.bizay.com id h87re62fmd4v for <antonioroddantas@gmail.com>; Mon, 13 May 2024 11:13:10 +0000 (envelope-from <bounce-103_HTML-123138414-1019058-100028578-2062@bounce.mail.bizay.com>)",
+        "X-Google-Smtp-Source": "AGHT+IEhgXdimasLmz1OqqmyFxyNNF6P6OLLLLI0B3PeBS7+Wpev6b+nvZPPeT2OkaHkMpway2r5",
+        "X-Received": "by 2002:a05:6830:1515:b0:6f0:e6a2:f619 with SMTP id 46e09a7af769-6f0e9042686mr12394400a34.0.1715599075385;        Mon, 13 May 2024 04:17:55 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715599075; cv=none;        d=google.com; s=arc-20160816;        b=O/BY2T+xwDfBOtsFNBrNmrOjbRgKAOQlx3CEp+oEJzWBiSPDMFO+c75/cyfV59fw9Q         RlxPcfGWl1era3Nr6kb1u/UIFahqnGSniSFQ4/yFqiS7rXMndi3IKSeq5FxkCyLtrmdq         QEAKZEwZ12E4IchFZiyPbA0TqDTScPAtLAZ5Jm0DNpG+IXyo3N4ciouD7FzceuzVwEZE         0j2XruqBn978VPFQop9VguU7aXxC/2UVm+JLsKrgQ0fK95/zJR+eT1dMDudV9puDoQzz         VweMB0cIk4rJuog0jwnRmzhcqAa5srNw1mOg3Rd9aQgWEyKIFaLVvuIHXBKUc4p+BPGJ         H2lg==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=content-transfer-encoding:feedback-id:message-id:list-id:reply-to         :mime-version:list-unsubscribe-post:list-unsubscribe:date:subject:to         :from:dkim-signature;        bh=MidcJB8HPau4twilmfitTNmOMCCM8B8GH2u0aQvEtjQ=;        fh=EMXkCWDI4uMhq7QwhuWzOsfzOF6vZQ2dloc9VHbajx8=;        b=lpaac3ms/h7wHSPsJ4hBvVOPXl9J/MChUV5zX4IDjAKn8PSkwfvqGhFOjqNyTfJOmc         Kcn0FpZmZaN/thlqM+/ee9JD+kaRIEuLAaFoLtmBu7BpqaZbOoro0owT6KroHmPkJR2i         Z+2jGSVIZ/KXO3hTExTcOufXitGybzB/YsNp2caL4DW12Hbfwz1KlfXtRBj3C26xKjQs         D4cZPffa5D36p/lNwyY84c+aAq05i1ZqEkxCrz0PgL1+VCxzrPHQmTyaH9nXvyRtnfKE         OaWd7D+UCnkUDw+AlEhtHLhk2GZM18Zg0bUotOnSuaDKWLKPIqRbFMSysMWCUJDmLvKu         h3hQ==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@mail.bizay.com header.s=10dkim1 header.b=\"I/LgXsMa\";       spf=pass (google.com: domain of bounce-103_html-123138414-1019058-100028578-2062@bounce.mail.bizay.com designates 13.111.124.95 as permitted sender) smtp.mailfrom=bounce-103_HTML-123138414-1019058-100028578-2062@bounce.mail.bizay.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bizay.com",
+        "Return-Path": "<bounce-103_HTML-123138414-1019058-100028578-2062@bounce.mail.bizay.com>",
+        "Received-SPF": "pass (google.com: domain of bounce-103_html-123138414-1019058-100028578-2062@bounce.mail.bizay.com designates 13.111.124.95 as permitted sender) client-ip=13.111.124.95;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@mail.bizay.com header.s=10dkim1 header.b=\"I/LgXsMa\";       spf=pass (google.com: domain of bounce-103_html-123138414-1019058-100028578-2062@bounce.mail.bizay.com designates 13.111.124.95 as permitted sender) smtp.mailfrom=bounce-103_HTML-123138414-1019058-100028578-2062@bounce.mail.bizay.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bizay.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; s=10dkim1; d=mail.bizay.com; h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version: Reply-To:List-ID:Message-ID:Content-Type:Content-Transfer-Encoding; i=campaigns@mail.bizay.com; bh=MidcJB8HPau4twilmfitTNmOMCCM8B8GH2u0aQvEtjQ=; b=I/LgXsMas8s1MDkbO2gaxdKpCHNQUibK5bLWPDx1sWqD9dfjhFUJuFiRaW1/YhgfznzD4ufhf9nL   oKdl/bp4PLSliBKBX5J2LdYKhqMTqTyFLjIpL+Tqdr3217XeTVfSVaw1AdID4RAMA4n1J7MMjfO4   Px7jqDxo1MQMvZNmhq5KjC+YAMEn5mAUNB2iOzvRRk9NuwntoJAmN0GJoDAwgT/jo4qgWiJtxyfv   xwW5uDuWdWzlVoLjew3iPeD3GYDHiDSlRTQ+aFBvxwGI8rmi5yHY0X1zAvWn1EUj5jWiX2q7MVrE   0Pu6v8lnAI9fkEWOzKtTJSgVy7m8oIXRj6bPnw==",
+        "From": "BIZAY <campaigns@mail.bizay.com>",
+        "To": "<antonioroddantas@gmail.com>",
+        "Subject": "20% sur les Affichages, Exposants et Signes \ud83e\udd11 Pour de grandes impressions, de grandes \u00e9conomies!",
+        "Date": "Mon, 13 May 2024 05:13:01 -0600",
+        "List-Unsubscribe": "<https://click.mail.bizay.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiIxMDAwMjg1NzgiLCJzIjoiMTIzMTM4NDE0IiwibGlkIjoiMTAzIiwiaiI6IjEwMTkwNTgiLCJqYiI6IjIwNjIiLCJkIjoiMTAwMjA5In0.BPtuZzjj1sLCsi7tfTO00i63U5HJF642_0RlYiYPduc>, <mailto:leave-fd571570760b5c392848-fe34157276650775711574-fe971570746d04787d-fe30157075640675701378-ff3516707366@leave.mail.bizay.com>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "MIME-Version": "1.0",
+        "Reply-To": "BIZAY <reply-fe971570746d04787d-103_HTML-123138414-100028578-2062@mail.bizay.com>",
+        "List-ID": "<100013109.xt.local>",
+        "X-SFMC-Stack": "10",
+        "x-job": "100028578_1019058",
+        "Message-ID": "<3db126e8-9f36-4625-aa91-2a16c63502e7@dfw1s10mta780.xt.local>",
+        "Feedback-ID": "100028578:1019058:13.111.124.95:sfmktgcld",
+        "Content-Type": "text/html; charset=\"utf-8\"",
+        "Content-Transfer-Encoding": "8bit"
+    }
+}

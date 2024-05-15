@@ -1,0 +1,332 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"></td></tr></table> 
+<head>
+
+  <!--[if gte mso 9]><xml>  <o:OfficeDocumentSettings>   <o:AllowPNG/>   <o:PixelsPerInch>96</o:PixelsPerInch>  </o:OfficeDocumentSettings> </xml><![endif]-->
+
+  <meta name="format-detection" content="date=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="width=device-width" name="viewport">
+  <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito:800|Open+Sans" rel="stylesheet">
+  <!--[if gte mso 9]> 
+<style> html, body { font-family: Arial, sans-serif !important; }  table, td, th, a, span, font, p, div { font-family: Arial, sans-serif !important; }  .font-size-smaller { font-size: 48px !important; line-height: 52px !important; } .font-size-smaller2 { font-size: 120px !important; line-height: 120px !important; } .font-size-18px, .white3 { font-size: 18px !important; line-height: 22px !important; } #font-outlook { font-size: 14px !important; line-height: 16px !important; } .font-size-12px { font-size: 12px !important; line-height: 16px !important; } .title-20px { font-size: 20px !important; line-height: 24px !important; } .title-18px { font-size: 18px !important; line-height: 22px !important; } .font-size-17pxb { font-size: 17px !important; line-height: 21px !important; } .white2,
+ .font-size-17px { font-size: 17px !important; line-height: 21px !important; } .font-size-24px { font-size: 22px !important; line-height: 26px !important;} .bluefont { font-size: 10px !important; line-height: 12px !important; font-weight: normal !important; } .font-size-11px { font-size: 11px !important; line-height: 12px !important; } .outlook-hide { display: none!important; visibility: hidden!important; overflow: hidden!important;}  </style> <![endif]-->
+  
+  
+  <!--[if gte mso 9]>     <style type="text/css"> div.preheader table   {      mso-hide:all;   }  </style> <![endif]-->
+  <title>Default template</title>
+  <style tyle type="text/css" media="screen">
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+    html {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      -webkit-font-smoothing: antialiased;
+      margin: 0 !important;
+      padding: 0 !important;
+      width: auto !important;
+      background-color: #f4f4f4 !important;
+    }
+
+    .ExternalClass {
+      width: 100%;
+      min-width: 640px;
+    }
+
+    .ExternalClass * {
+      line-height: 100%;
+    }
+
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    table td {
+      border-collapse: collapse;
+      border: 0;
+    }
+
+    th {
+      padding: 0;
+      font-weight: normal;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    img {
+      display: block;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+    }
+
+    a:link {
+      color: #455a63;
+    }
+
+    table.full-width-wrapper {
+      max-width: 630px !important;
+      min-width: 630x !important;
+      width: 630px;
+      margin: 0 auto;
+    }
+
+    table.full-width {
+      max-width: 600px !important;
+      min-width: 600px !important;
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    table.content-wrapper-small {
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    .black a {
+      color: #455a63;
+    }
+
+    .footer a {
+      color: #455a63;
+      text-decoration: none;
+    }
+
+    .button a,
+    .button2 a,
+    .white a,
+    .white2 a,
+    .white3 a {
+      color: #fffffe;
+      text-decoration: none;
+    }
+
+    .blue a {
+      color: #4561b9;
+      text-decoration: none;
+    }
+
+    .gmailfix {
+      display: none;
+      display: none !important;
+    }
+
+    .show {
+      display: none;
+    }
+
+    .content-wrapper,
+    .content-wrapper-small {
+      margin: 0 auto;
+    }
+
+        .mobile-visible {
+          display: none !important;
+          visibility: hidden !important;
+          overflow: hidden !important;
+        }
+
+        .stack-column-center {
+          display: block !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          direction: ltr !important;
+        }
+        .text-align{
+          text-align: left !important;
+          padding-left: 20px !important;
+        }
+
+    
+    }
+  </style>
+</head>
+
+<body bgcolor="#f4f4f4" style="box-sizing:border-box;margin:0;padding:0;width:100%;"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Profitez de l'offre</div>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper" bgcolor="#f4f4f4">
+    <tr>
+      <td align="center" bgcolor="#f4f4f4">
+        <table width="630" border="0" cellspacing="0" cellpadding="0" class="full-width-wrapper" align="center" bgcolor="#f4f4f4"           style="width: 630px;">
+
+          <tr>
+            <td height="24" style="font-size:1px; line-height:1px; height: 24px;">
+              <!--[if !mso]><!-->
+
+              <div class="gmailfix" style="white-space:nowrap; font:15px courier; line-height:1px; background:#f4f4f4;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+
+              <!--<![endif]-->
+            </td>
+          </tr>
+          <tr>
+            <td class="full-width-wrapper" style="width:630px; max-width:630px; min-width:630px;" align="center" bgcolor="#f4f4f4">
+              <!-- online -->
+
+              <table width="600" border="0" cellspacing="0" cellpadding="0" class="content-wrapper-small" align="center" style="width: 600px;">
+                <tr>
+                  <td class="title" align="center" style="color: #455a63; font-family: 'Open Sans', Arial, ans-serif; font-size: 12px; line-height: 16px;">
+                    <a  href="https://view.mail.bizay.com/?qs=13632182a7852a75c0d46f8e13f479f3d42a147d0172d6493bccb55ed13e27b05a3c3174b352d6a0a379c3b3845f7ec3c9caf9e20f34362096d88ded58ba35a181219c2ad6b9cfdf5cb9f713bb10c41c" target="_blank" style="color: #455a63; text-decoration: none;">Version en ligne</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table width="600" border="0" cellspacing="0" cellpadding="0" class="content-wrapper-small" align="center" style="width: 600px;">
+                <tr>
+                  <td height="24" style="font-size:1px; line-height:1px; height: 24px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+
+
+          <!-- /online -->
+          <tr>
+            <td class="full-width-wrapper" style="width:630px; max-width:630px; min-width:630px;" align="center">
+              <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="content-wrapper-small" style="width: 600px;" width="600">
+	
+		<tr>
+			<td align="center" style="padding: 4px 4px 0px 4px;">
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					
+						<tr>
+							<td class="logo">
+								<a   data-linkto="other" href="https://click.mail.bizay.com/?qs=e9b22b14726288809797260fc1cdb2b0242ac24f81164d985cc9f36a5c6dc5a9de6c1826cc953ea3493d4430231aeb6416ea301a92ec0bf7138970ed691087d6" title=""><img alt="" data-assetid="47101" height="50" src="https://fastimg.bizay.com/root/CRM/newlogo/logobizay_black_fr-CH.jpg" style="display: block; padding: 0px; height: 50px; width: 235px; text-align: center;" width="235"></a></td><td class="header-mobile block" style="text-align: right; color: #ffffff; font-family: &quot;Open Sans&quot;, Arial, ans-serif;font-weight:700; font-size: 8px; text-align: -webkit-right;">
+								<a   data-linkto="other" href="https://click.mail.bizay.com/?qs=9979b13589d538d662445bcd904ddd6f27794b1c239bcebe54ee8a782ac2d9ffffbd4754bd009f0decef7e2336ff5d94e6dc64a0e59abad8836010783ef51a4c" style="text-transform:uppercase;color:#000000;text-decoration:underline;" title="">Cartes de visite</a>&nbsp;&nbsp;&nbsp;<a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=e9b22b14726288806df13d26ea993c2520b05b2f5acea565caa922cc094b6409c572f9f0ea59021c34004da7f98548da245c10d28dc4994cebe5e50ecad71f0c" style="text-transform:uppercase;color:#000000;text-decoration:underline;" title="">Flyers</a>&nbsp;&nbsp;&nbsp;<a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=e9b22b1472628880ec35ab1ee37f3f6261927e33b0a26e5f226ff65fab8c85dff068f581db45a6c66a2e7c231bf8f3629b5251aad87a8cf5235c2ecba6055a6d" style="text-transform:uppercase;color:#000000;text-decoration:underline;" title="">Stickers</a>&nbsp;&nbsp;&nbsp;
+<a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=9979b13589d538d62ab21729df8191bf9bebcf1f3a6bc339249937e98efbb2bb8c103e772e00879575f4cf2fc331a87a6d516370bd1c32d7443cbc491f4fc58e" style="text-transform:uppercase;color:#000000;text-decoration:underline;" title="">Autres</a></td></tr></table></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="content-wrapper-small" style="width: 600px;" width="600">
+</table></td></tr></table>
+            </td>
+          </tr>
+          <tr>
+            <td class="full-width-wrapper" style="width:630px; max-width:630px; min-width:630px;" align="center">
+              <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" bgcolor="#e8e8e8" border="0" cellpadding="0" cellspacing="0" class="content-wrapper-small" width="600">
+ 
+  <tr>
+   <td class="full-width-img_100">
+    <a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=e9b22b14726288807d58b484d6bd0a08774a0037f7cd413b3ce9dd6287a7ebae9bc8d686d85399ab8277af93a3eb7a2b9a316b8fa9b61b35c4d5a0ac389d5ef2" style="color:#0d46a0;text-decoration:none;" title=""><img alt="https://www.bizay.ch?promo=PW20CH442&utm_source=c17&utm_campaign=13.c17.11.04.07.00.01.21.promoweek_202024&utm_medium=email&utm_content=promoweek_202024&utm_term=01&tr_ui=998321" border="0" height="50" src="https://fastimg.bizay.com/root/CRM/2024/01/promoweek/BANNER/email_promoweek_fr-CH_BANNER1.jpg" style="display: block;" width="600"></a></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" bgcolor="#ebebeb" border="0" cellpadding="0" cellspacing="0" class="content-wrapper-small" width="600">
+ 
+  <tr>
+   <td align="center" class="padding-general" style="padding: 10px 30px;">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+     
+      <tr>
+       <td align="center" class="column100">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+         
+          <tr>
+           <td align="center" class="full-width-img_100" classe="">
+            <a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=e9b22b14726288807d58b484d6bd0a08774a0037f7cd413b3ce9dd6287a7ebae9bc8d686d85399ab8277af93a3eb7a2b9a316b8fa9b61b35c4d5a0ac389d5ef2" title=""><img alt="https://www.bizay.ch/fr-CH/sac-de-transport-vertical-en-papier-avec-poignees-plates?id=3647027&promo=PW20CH442&utm_source=c17&utm_campaign=13.c17.11.04.07.00.01.21.promoweek_202024&utm_medium=email&utm_content=promoweek_202024&utm_term=01&tr_ui=998321" data-assetid="14250" height="270" src="https://pullazpsprdeu-4c63.kxcdn.com/28\270x370x120_25_KRAFT_STRAIGHT_BLACK.png" style="display: block; padding: 0px; text-align: center; height: 270px; width: 270px;" width="270"></a></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+<table align="center" bgcolor="#ebebeb" border="0" cellpadding="0" cellspacing="0" class="content-wrapper-small" width="600">
+	
+		<tr>
+			<td align="center" class="padding-general" style="padding: 24px 20px;">
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					
+						<tr>
+							<th align="center" class="column" style="font-weight:normal; vertical-align:middle;" valign="middle" width="260">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									
+										<tr>
+											<td align="center" class="content" style="font-family: 'Open Sans', Arial, sans-serif;font-size:11px; line-height:15px; ">
+												<p style="font-size: 30px; color:#000000; padding: 0px 0px 15px; margin: 0px; font-weight: bold;  text-align: center; text-decoration:none;">
+													20% DE RÉDUCTION</p><p style="font-size: 30px; line-height: 120%; color: rgb(15, 46, 94); padding-bottom: 15px; margin: 0px; text-align: center;color:#000000;text-decoration:none;text-transform:uppercase">
+													SUR LES Sacs en papier</p></td></tr><tr>
+											<td align="center" style="padding:10px 0px 0px 0px;">
+												<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; border-spacing: 0px;">
+													
+														<tr>
+															<td align="center" bgcolor="#00a899" class="button2" height="40" style="background-clip: padding-box; border:1px solid #00a899; border-radius:5px; min-width:240px;">
+																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																	
+																		<tr>
+																			<td align="center" class="white3" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; line-height:18px; color:#fffffe;">
+																				<a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=e9b22b1472628880d6f4672f1333dcc2a1b764551cde39a33971ae947484acefd3276eb4bcd220572e1fe688a4a9907d7219000a66e032a4396e0882813a324e" style="color:#fffffe;text-decoration:none; display:block; padding:6px 10px 7px 10px;" title="">Profitez-en maintenant &raquo;</a></td></tr></table></td></tr></table></td></tr></table></th></tr></table></td></tr></table></td></tr></table>
+            </td>
+          </tr>
+          <tr>
+            <td class="full-width-wrapper" style="width:630px; max-width:630px; min-width:630px;" align="center">
+              <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- footer --><table align="center" bgcolor="#f4f4f4" border="0" cellpadding="0" cellspacing="0" class="content-wrapper-small" width="600">
+	
+		<tr>
+			<td bgcolor="#f4f4f4" height="10" style="font-size:1px; line-height:1px; height: 10px;">
+				&nbsp;</td></tr><tr>
+			<td align="center" class="footer" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size:9px; line-height:14px; color:#888888; font-weight:400; padding-bottom: 3px;">
+				Campagne valable pour les achats effectués de 13.05.2024 à  19.05.2024, et ne peut être combinée avec d'autres promotions ou remises en vigueur. Remise applicable sur les produits suivants: Sacs en papier. Grâce à cet e-mail, la remise est automatiquement appliquée et peut être consultée à l'étape 3 du panier. Les images sont à titre indicatif seulement.  Limité au stock existant.</td></tr></table><!-- /footer --></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!--<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table cellpadding="0" cellspacing="0" role="presentation" width="100%">
+ 
+  <tr>
+   <td>
+    </td></tr></table></td></tr></table>--><!-- footer --><table align="center" bgcolor="#f4f4f4" border="0" cellpadding="0" cellspacing="0" class="content-wrapper-small" style="width: 600px;" width="600">
+ 
+  <tr>
+   <td height="10" style="font-size:9px; color:#888888; line-height:1px; height: 10px;">
+    &nbsp;</td></tr></table><table align="center" bgcolor="#f4f4f4" border="0" cellpadding="0" cellspacing="0" class="content-wrapper-small" width="600">
+ 
+  <tr>
+   <td align="center" class="footer" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size:9px; line-height:13px; color:#888888; font-weight:400; ">
+    <a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=e9b22b1472628880a42bc03cfe6dc2e70aa9336fd5a5ea3d322d1f7e15fa7c0bb76912754990d925f93a518c9bf5e8b7d6a81fbdede79892578d4bbb5812423e" style="color:#888888;text-decoration:none;" target="_blank" title="">FAQ</a> | <a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=9979b13589d538d6867aa9336547d95ebdc1d7a0e35116098ca3c403e13d1cfb72e8843da5c4f8fc569aacc9a54749d0036f48f6d521c89a3717ec0b97d14a88" style="color:#888888;text-decoration:none;" title="">TERMES ET CONDITIONS</a> | <a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=9979b13589d538d6513eb3274356ffa5d6f16ae357996cc505a630f831d622ac59d9df9614b0ce7fdfba9b5d4871ac4b30572b86450823afa8cabdc11f7fb258" style="color:#888888;text-decoration:none;" target="_blank" title="">www.bizay.ch</a></td></tr><tr>
+   <td height="14" style="font-size:9px; line-height:1px; color:#888888;">
+    &nbsp;</td></tr><tr>
+   <td align="center" class="footer" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size:9px; line-height:13px; color:#888888; font-weight:400;">
+    Pour ne plus recevoir d'offres promotionnelles dans votre courriel,  <a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=9979b13589d538d660a2e06e55d68b92a934cbebd399653d73c7153c70e6f74475fcfb80990807bcbaa11626915685320d79e63a3c5bafdfa9d7eebf2a325d18" style="color:#888888;text-decoration:none;" target="_blank" title="cliquez ici.">cliquez ici.</a><br>
+    Pour vous assurer de toujours recevoir nos courriels, veuillez ajouter l'adresse suivante <a href="mailto: campaigns@mail.bizay.com" style="color:#888888; text-decoration: none;">campaigns@mail.bizay.com</a>&nbsp;alla tua lista dei contatti.</td></tr><tr>
+   <td height="17" style="font-size:9px; color:#888888; line-height:1px;">
+    &nbsp;</td></tr><tr>
+   <td align="center" class="footer" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size:9px; line-height:13px; color:#888888; font-weight:400;">
+    Ce message a été envoyé à antonioroddantas@gmail.com, pour s'inscrire à <a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=9979b13589d538d66a35b450b87546fb529486d84bc3db5812c2eaabd2f9ea4211317c05eafdf500b6ac10541563517de9eaca2ee503028e5a308a4b4f17acd6" style="color:#888888;text-decoration:none;" target="_blank" title="">www.bizay.ch</a><br>
+    </td></tr><tr>
+   <td height="14" style="font-size:9px; color:#888888; line-height:1px;">
+    &nbsp;</td></tr><tr>
+   <td align="center" class="footer" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size:9px; line-height:13px; color:#888888; font-weight:400;">
+    </td></tr><tr>
+   <td height="7" style="font-size:9px; color:#888888; line-height:1px;">
+    &nbsp;</td></tr><tr>
+   <td align="center" class="footer" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size:9px; line-height:13px; color:#888888; font-weight:400;">
+    NOUS CONTACTER</td></tr><tr>
+   <td height="7" style="font-size:9px; color:#888888; line-height:1px;">
+    &nbsp;</td></tr><tr>
+   <td align="center" class="footer" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size:9px; line-height:13px; color:#888888; font-weight:400;">
+    Service à la clientèle :  <a   data-linkto="https://" href="https://click.mail.bizay.com/?qs=e9b22b147262888069758d32aba62d8478da043979bcd83d3333739ec03bb231dd4ef767f1d4625a8b2e2f592f2b9fff156057a743367adc067926d59703207e" style="color:#888888;text-decoration:none;" target="_blank" title="">www.bizay.ch</a></td></tr></table><table align="center" bgcolor="#f4f4f4" border="0" cellpadding="0" cellspacing="0" class="content-wrapper-small" width="600">
+ 
+  <tr>
+   <td height="20" style="font-size:16px; line-height:1px; height: 20px;">
+    &nbsp;</td></tr></table><!-- /footer --></td></tr></table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <img src="https://click.mail.bizay.com/open.aspx?ffcb10-fe9515707462037873-fe57117472640d7a7413-fe30157075640675701378-ff6b157076-fe34157276650775711574-ff221c757c63&d=100210&bmt=0" width="1" height="1" alt="">
+</body>
+
+</html>

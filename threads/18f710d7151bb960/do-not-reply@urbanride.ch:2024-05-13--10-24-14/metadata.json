@@ -1,0 +1,37 @@
+{
+    "id": "18f710d7151bb960",
+    "snippet": "Hello, It&#39;s the final stretch before summer, making it the perfect time to ramp up your energy levels. We are excited to help you step into the season at your peak so we&#39;re offering you a",
+    "historyId": "2154264",
+    "internalDate": "2024-05-13 10:24:14",
+    "sizeEstimate": 95362,
+    "threadId": "18f710d7151bb960",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from MTI0MzQxMzY (unknown) by geopod-ismtpd-canary-0 (SG) with HTTP id aMIa5XJsQ8KAMWPCfN_4ww Mon, 13 May 2024 08:24:07.270 +0000 (UTC)",
+        "X-Google-Smtp-Source": "AGHT+IGQQEgT/xpXVlD9qrouxAZAoRznvSXSQhWy5YbKz8xlVbkyfel/wFqUKoGoK0QTIehvzMuP",
+        "X-Received": "by 2002:ad4:4bcb:0:b0:6a3:3e85:b847 with SMTP id 6a1803df08f44-6a33e85ba41mr9904006d6.0.1715588657664;        Mon, 13 May 2024 01:24:17 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715588657; cv=none;        d=google.com; s=arc-20160816;        b=Oh0g1szlNI/qTaET69N9n5HFakTbiw1w9G9h0RHb2hd/JC4tGzaXEBhnXZYzVITGUD         cz1cW+Bh7m7dJ1Ai+koeVYZc8FIXI+uxziG18TacAiUQYNMO7zc2m50Qf2OGErrMTJCR         pLTN3F/VKyo/kfQf0uxsrMg/1EQkvduz+iUW79XL0wzVZPQr/GzQrBfkyaTO2tJhrvnl         Ycj6yXqCtNK0vMKvE/41vosJeEs4GfV/yas9ELPkt3kDvmJmQUGKlDcs4vNw1T2tSSmW         Rk21M6/njpO7pz4KdnxyxmeL4cre0OoBtjii0W8zA666HqwnAZuiaeZSdWjx74egB9TI         hUNw==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=to:subject:message-id:mime-version:from:date:dkim-signature;        bh=SOlHcFKdc4FcnN0WdfGGGvp0f6ESM849RAsqlW9R+BM=;        fh=R5zNtgpvXLarQmGHRZGw+d2ABh62fDtcJh3ejMGPpvE=;        b=LCpG7dGoCPkl69+SeNDzYNoPSnLuo7XsPgziaJZI3GThKNFEkYLMBMgVQgI9EbjsAd         Ihu0euSbuGHdhbp1cYql6S3UkOX2cY7WWOXn3ZbyCK5O1pp8WfTA8hvf3kFMyWGOK3vL         VEo4irsmfKNAwEhyrQk7BeODHKwzy1eawoaPfrQUXkdy016QBL6bPsu7YzIpKaPF5xmU         Y6Z9Lt6c3WjmCNJ/wn4V713SzNI35PiJjQDF863xYGdA6BYbC/N0hHl2GS3W01DkNe4x         HIWqjhFDhaCdvK7eriCGr/vzo66P1b4YjhDuJlSTZPpYybGQGcG5IO8sZUzaLF8pNu6E         YnHA==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@sendgrid.net header.s=smtpapi header.b=Xo2Avzq0;       spf=pass (google.com: domain of bounces+12434136-7cb4-antonioroddantas=gmail.com@sendgrid.net designates 149.72.180.233 as permitted sender) smtp.mailfrom=\"bounces+12434136-7cb4-antonioroddantas=gmail.com@sendgrid.net\"",
+        "Return-Path": "<bounces+12434136-7cb4-antonioroddantas=gmail.com@sendgrid.net>",
+        "Received-SPF": "pass (google.com: domain of bounces+12434136-7cb4-antonioroddantas=gmail.com@sendgrid.net designates 149.72.180.233 as permitted sender) client-ip=149.72.180.233;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@sendgrid.net header.s=smtpapi header.b=Xo2Avzq0;       spf=pass (google.com: domain of bounces+12434136-7cb4-antonioroddantas=gmail.com@sendgrid.net designates 149.72.180.233 as permitted sender) smtp.mailfrom=\"bounces+12434136-7cb4-antonioroddantas=gmail.com@sendgrid.net\"",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.net; h=content-type:from:mime-version:subject:x-feedback-id:to:cc: content-type:from:subject:to; s=smtpapi; bh=SOlHcFKdc4FcnN0WdfGGGvp0f6ESM849RAsqlW9R+BM=; b=Xo2Avzq095no5aGZk2EYkOZJCDlEXvLRaDjUL7k7rRcBPw6FgjsvKLAWr52/wpN0377Z EwiRFAUgkMPlcY6yVIxvpSoQKK7HlzK85DTLXYqaqqmgznVF24qPOPQIvR88QEgpwp2fyQ 8yNg6D9/KQV3znRF0SnV8BPKqEF3L8gt0=",
+        "Content-Type": "multipart/alternative; boundary=8d01b240f1df3c41c24a1539f9197521a10217a457b1db79b18032fb6fe2",
+        "Date": "Mon, 13 May 2024 08:24:14 +0000 (UTC)",
+        "From": "URBANRIDE <do-not-reply@urbanride.ch>",
+        "Mime-Version": "1.0",
+        "Message-ID": "<aMIa5XJsQ8KAMWPCfN_4ww@geopod-ismtpd-canary-0>",
+        "Subject": "\u2600\ufe0f [Special Offer] - 15% OFF - Get ready for summer \u2600\ufe0f",
+        "X-Feedback-ID": "12434136:SG",
+        "X-SG-EID": "u001.qyYBAtRXebHXSIqo8BJ+ZLxCH4LlS75LXUT5b93ba7LryR5fXs30rVVKWMT//C0CVeYvzMumeo1l4SX2Z/ALKVKfFi5KMoftOgGaBpuj8o0Mss3TdcLk6rS+Ef9ubVzq1/yWLuI8mGubcPNslBDw1GYraPsqaH9lCcpL3EYEzZqE0mPmY8AbHZO+m1meJG8e/wctDHJAAvjYDRkDyCfGl/7+1Ae+LXtrV0ltknC4E6x69G1OqU+7tvCd97sxhUM7iz1YRI/9iaHojmd8DyrAnQ==",
+        "X-SG-ID": "u001.SdBcvi+Evd/bQef8eZF3BpTL9BgbK5wfSJMJGMsmprCYWWufs80oJKuDwaXQbLPeLrEy9t8LxLpCZCN8Pj+RkybpwONRuVeU+KBswm48s09XyVYXW/slTMfOxDJTMuuE",
+        "To": "Antonio Dantas <antonioroddantas@gmail.com>",
+        "X-Entity-ID": "u001.Xp9YKe0qMGCsA5du30asTQ=="
+    }
+}

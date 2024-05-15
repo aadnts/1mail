@@ -1,0 +1,40 @@
+{
+    "id": "18f776e791cde6c0",
+    "snippet": "Demander simplement la Manor World Mastercard\u00ae gratuite \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c",
+    "historyId": "2154271",
+    "internalDate": "2024-05-14 16:07:59",
+    "sizeEstimate": 105935,
+    "threadId": "18f776e791cde6c0",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from inxmx84.inxserver.de (inxmx84.inxserver.de. [93.191.162.34])        by mx.google.com with ESMTPS id 5b1f17b1804b1-41fd80980c9si68658445e9.184.2024.05.14.07.07.59        for <antonioroddantas@gmail.com>        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);        Tue, 14 May 2024 07:07:59 -0700 (PDT)",
+        "X-Google-Smtp-Source": "AGHT+IGDKPmk1wYZ7ewdp6yBU4yMg0vKWnlKXj9bo4dw+96/EnXiyw7UTlDzvCwwE84+PBaCDK3Q",
+        "X-Received": "by 2002:a05:600c:3b86:b0:41a:c04a:8021 with SMTP id 5b1f17b1804b1-41fea52ed5bmr94252275e9.0.1715695679869;        Tue, 14 May 2024 07:07:59 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715695679; cv=none;        d=google.com; s=arc-20160816;        b=OOPisyb6xoNzAMsoptz27G1ZWWG7LiaXePB4CsBJLygZmeomj31HoT5vjhG8UlNjYU         PhZX892qspjUMVHygWh2T4i0i1Y4b7X8OVGRTeW/GorVU4P7/uYMzVVQ2VclZsOi7mxw         s54xQad3+uR48croeDhWVCQIFg474PeBOM9L7wbloIImwJ4vu/erinsmaGxhXPORh+GP         8/OAJ9IjZjZEw5iBjtywxiDx2MuxLMv+Tqri0gWzkhDT5RommfeNpv58q6s5kfYw9dLI         jo/qxpQcT8fDLBr1MRrDRb1nb8g/MeFL6WrOga7pk1XfVOiTGwRxHfc1O7/iJZzn1jsL         pDIw==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=feedback-id:list-unsubscribe-post:list-unsubscribe:list-id         :mime-version:subject:message-id:to:reply-to:from:date         :dkim-signature:dkim-signature;        bh=+pw21P0VrspkJDseV3ikispXOGL6lZGloVy8I8YvLKo=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=L8YbgtOJaFI9Eceo6gtAJsXVVZauSkzy9OnUlLqmBjKk/+ylTNj7Gs5eBA3yjbuPcn         04JXXLxXH42qtlYJxknzKz4mukKquDqY84XhAzYgCNJ7IEqZSwml0CckaYu03sx8qnZ/         bZig91H/vUxceFlbWUK+PU+9eqE9iZE1VyQmfDkjYDg3+HX5F7CALoWfp9QjoTbarOL5         QqrbbX2+VBZNyiLyJIhHA1CldxkQSEk9XAMe29nJ9ci436IgX49il25PUlc8d9y8K+6J         yMm7Au0CcJT4TXCLPixfPKAYaM2MlKn5/VE9vmjQGyzLaY4f1YKmKm4Bwf3E19TAJcnK         hN0Q==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@inxserver.com header.s=202007 header.b=ATvrecTM;       dkim=pass header.i=@newsletter.manor.ch header.s=inx48481782 header.b=iiGyhuTC;       spf=pass (google.com: domain of bounce_10791+caaac75vaaaaaaiaabz65aaaaaaaaadqdg6tca@newsletter.manor.ch designates 93.191.162.34 as permitted sender) smtp.mailfrom=bounce_10791+caAAC75VAAAAAAIAABZ65AAAAAAAAADQDG6TCA@newsletter.manor.ch;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=newsletter.manor.ch",
+        "Return-Path": "<bounce_10791+caAAC75VAAAAAAIAABZ65AAAAAAAAADQDG6TCA@newsletter.manor.ch>",
+        "Received-SPF": "pass (google.com: domain of bounce_10791+caaac75vaaaaaaiaabz65aaaaaaaaadqdg6tca@newsletter.manor.ch designates 93.191.162.34 as permitted sender) client-ip=93.191.162.34;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@inxserver.com header.s=202007 header.b=ATvrecTM;       dkim=pass header.i=@newsletter.manor.ch header.s=inx48481782 header.b=iiGyhuTC;       spf=pass (google.com: domain of bounce_10791+caaac75vaaaaaaiaabz65aaaaaaaaadqdg6tca@newsletter.manor.ch designates 93.191.162.34 as permitted sender) smtp.mailfrom=bounce_10791+caAAC75VAAAAAAIAABZ65AAAAAAAAADQDG6TCA@newsletter.manor.ch;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=newsletter.manor.ch",
+        "DKIM-Signature": "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1715695679; s=inx48481782; d=newsletter.manor.ch; i=news@newsletter.manor.ch; h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:List-Id:List-Unsubscribe:List-Unsubscribe-Post:Feedback-ID; bh=38czO99TjQDNfsysm6EZRMgL9mgaqjaJavzdq9MQ2xM=; b=iiGyhuTCR1KSnCL0TudV4hoQtxrr0TzBLn4vjtvkdfphMhK0q/Jk+Sc+QPvvSkrM DYlRuYpBhzP2eKBQwsBRVVKbpdhxyrBOndDWBPWAaw7hgp6XVWZfFUWNMBTunDwN6B8 3+XAtiWpD24LMHO2dar9DLwLy+jKja/hgiAVWG43MqNKLzPIP8sqDiC9Lx4k14yRZiK 55mIEkMmPHq4Fs66obSxnZxhbMgxKKaBZWySZ8xC3PPC7Donmsx/SZgZB/swM10ooK0 C2lD/TBgEU+uxfyNWyJQEIIopVBpnd2khIBi4L4g5D/XjkGovTXm5fmTfkSDhKxNSOJ plEgzjKbWQ==",
+        "Date": "Tue, 14 May 2024 16:07:59 +0200 (CEST)",
+        "From": "Manor Newsletter <news@newsletter.manor.ch>",
+        "Reply-To": "Manor Newsletter <news@newsletter.manor.ch>",
+        "To": "antonioroddantas@gmail.com",
+        "Message-ID": "<INX.17b62ea8c48174202c14d306f88.1cfba.601ba.16aaf.18f776a13d52e3@newsletter.manor.ch>",
+        "Subject": "Bon de -40% pour vous",
+        "MIME-Version": "1.0",
+        "Content-Type": "multipart/alternative; boundary=\"----=_Part_6338151_1332124065.1715695679134\"",
+        "List-Id": "\"0\" <4.17b62ea8c48174202c14d306f88.localhost>",
+        "List-Unsubscribe": "<https://newsletter.manor.ch/d?p0bk0umy00x7ni00l000000000000000bybtjur2yho7l4q5ugzu4wji00000i0000000tl0i70>, <mailto:news_10791@inxserver.com?subject=unsubscribe%20params%3Db00000b000x7ni00bz6500000000000o0m2zr6uh6>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "Feedback-ID": "xpro-10791-118714:xpro-10791:MAILING:inxmailde",
+        "X-CSA-Complaints": "csa-complaints@eco.de",
+        "X-Mailer": "Inxmail EE 4.8.61.287"
+    }
+}

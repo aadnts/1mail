@@ -1,0 +1,43 @@
+{
+    "id": "18f79a7218a0a0a2",
+    "snippet": "See the Sandsquall Desert biome, our Wand Weapon Progression Tree, and improvements we&#39;ve made to in-game lighting. Document View this email in your browser See Midnight Magic in our April 2024",
+    "historyId": "2154620",
+    "internalDate": "2024-05-14 20:11:38",
+    "sizeEstimate": 108458,
+    "threadId": "18f79a7218a0a0a2",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from localhost (localhost [127.0.0.1]) by mail55.atl31.mcdlv.net (Mailchimp) with ESMTP id 4Vf4Dv1fPYz4fQBlm for <antonioroddantas@gmail.com>; Tue, 14 May 2024 18:11:43 +0000 (GMT)",
+        "X-Google-Smtp-Source": "AGHT+IG2I6Ww3aLLRGl1W+AlmJW1WI79d5HF5iMPtrv45LrYK/MOAvR0hDDyrwTaQvR8NTuRmdHA",
+        "X-Received": "by 2002:a05:6902:114e:b0:dee:633a:df98 with SMTP id 3f1490d57ef6-dee633ae784mr8274276276.2.1715732947075;        Tue, 14 May 2024 17:29:07 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715732947; cv=none;        d=google.com; s=arc-20160816;        b=yW1MjyHvMm9np6cpdMXBpD5oXmlMGhsGA7Gw7jOpd7Q8mqfFA54lScm+eOm0O3KBq6         F8MQnMBXOs7GTfqvaLujTzURKeuLgiCZtdysyHpTQOSX8X0RrULg7LPCDDhscPQWGvkL         S8Fa6tnNbcLzzURNWtCeGTxjGVmtZ97vBRzX7Fxlb6bFm2VH/O6w/ZXCEkIUfKCh3fI+         +BD9AxeYrmoba9j5ohtSzg1qau44loIhZ3CHGkydgh2qD2lE29H7ojgB3EsOZ+zE8Vc/         vmb7P40R/F7fyFvhH5UOS1dU3yyzMYLqbb047dJ2E0EPIvALDVmzdtZfs0dGqq0CsYlj         40CQ==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=mime-version:list-unsubscribe-post:list-unsubscribe:list-id         :feedback-id:message-id:date:to:reply-to:from:subject:dkim-signature         :dkim-signature;        bh=ZjyenYY1ucQ+VoMDq3gP+ChtGJZmhJ3hvcagIKXWpZM=;        fh=EMXkCWDI4uMhq7QwhuWzOsfzOF6vZQ2dloc9VHbajx8=;        b=PBpC/hkyfDJZifDw/2TD/4i0gVaLU0VE7wmQ/MaMnrFNZZJ3kUzzFkNRW/yOBol26T         E3P21XfFz6+6HJgBVYTm9Oem88R761Ff8cIg/eXRovjgsN4ezu1qFGznx6Q9ZKXdsoJB         1sEAdTjMhm6XZxKFBAYvzUqcUqo1Wl3fygA4DTs0hXFWmYbeFxXMHG33ZPVme9CbmGYF         fVZkc0y9gkASy4AI/bmv9nH1QGXC/58rUyeZr6Y/7cJLrgq2UtuorpSWcLqptnAXNnQC         5KCNJGNJmKcHQB7QgJn0tBgjnSmyUxwOhvJIDfD5ru9aKjNjpFWhqpK9YLEzB7dfl1xA         F8oQ==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@gmail.mcsv.net header.s=k1 header.b=\"FY/nlWOk\";       dkim=pass header.i=@intrepidstudios.com header.s=k1 header.b=wQMs8trs;       spf=pass (google.com: domain of bounce-mc.us14_67773281.301720-17336ca295@mail55.atl31.mcdlv.net designates 205.201.134.55 as permitted sender) smtp.mailfrom=bounce-mc.us14_67773281.301720-17336ca295@mail55.atl31.mcdlv.net;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=intrepidstudios.com",
+        "Return-Path": "<bounce-mc.us14_67773281.301720-17336ca295@mail55.atl31.mcdlv.net>",
+        "Received-SPF": "pass (google.com: domain of bounce-mc.us14_67773281.301720-17336ca295@mail55.atl31.mcdlv.net designates 205.201.134.55 as permitted sender) client-ip=205.201.134.55;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@gmail.mcsv.net header.s=k1 header.b=\"FY/nlWOk\";       dkim=pass header.i=@intrepidstudios.com header.s=k1 header.b=wQMs8trs;       spf=pass (google.com: domain of bounce-mc.us14_67773281.301720-17336ca295@mail55.atl31.mcdlv.net designates 205.201.134.55 as permitted sender) smtp.mailfrom=bounce-mc.us14_67773281.301720-17336ca295@mail55.atl31.mcdlv.net;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=intrepidstudios.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=intrepidstudios.com; s=k1; t=1715710303; x=1715970803; i=community@intrepidstudios.com; bh=ZjyenYY1ucQ+VoMDq3gP+ChtGJZmhJ3hvcagIKXWpZM=; h=Subject:From:Reply-To:To:Date:Message-ID:X-MC-User:Feedback-ID:\t List-ID:List-Unsubscribe:List-Unsubscribe-Post:Content-Type:\t MIME-Version:CC:Date:Subject:From; b=wQMs8trsTPLUgaa1qgEZrymg3wqbMFTVmBPrSMR0wsil5Q8EgRT2UfiEVM5+NCBUu\t xCZENnlJ8zPEjKDg+n0gxu0h7IsmsJuTx+R0Xcc5fo0z42y7+xrkjBY6ZFm5E4DqZf\t 5PxBicuneijcHrJ51DHD8ua9UxUDme30wLAL7LjA=",
+        "Subject": "\u2728 What is Midnight Magic? \u2728",
+        "From": "Intrepid Studios <community@intrepidstudios.com>",
+        "Reply-To": "Intrepid Studios <community@intrepidstudios.com>",
+        "To": "<antonioroddantas@gmail.com>",
+        "Date": "Tue, 14 May 2024 18:11:38 +0000",
+        "Message-ID": "<2406fd77c38de6911ad0d132b.17336ca295.20240514181129.cf28fa7bbb.79fd0fe5@mail55.atl31.mcdlv.net>",
+        "X-Mailer": "Mailchimp Mailer - **CIDcf28fa7bbb17336ca295**",
+        "X-Campaign": "mailchimp2406fd77c38de6911ad0d132b.cf28fa7bbb",
+        "X-campaignid": "mailchimp2406fd77c38de6911ad0d132b.cf28fa7bbb",
+        "X-Report-Abuse": "Please report abuse for this campaign here: https://mailchimp.com/contact/abuse/?u=2406fd77c38de6911ad0d132b&id=cf28fa7bbb&e=17336ca295",
+        "X-MC-User": "2406fd77c38de6911ad0d132b",
+        "Feedback-ID": "67773281:67773281.301720:us14:mc",
+        "List-ID": "2406fd77c38de6911ad0d132bmc list <2406fd77c38de6911ad0d132b.145583.list-id.mcsv.net>",
+        "X-Accounttype": "pr",
+        "List-Unsubscribe": "<https://AshesofCreation.us14.list-manage.com/unsubscribe?u=2406fd77c38de6911ad0d132b&id=6d9730c509&t=h&e=17336ca295&c=cf28fa7bbb>, <mailto:unsubscribe-mc.us14_2406fd77c38de6911ad0d132b.cf28fa7bbb-17336ca295@unsubscribe.mailchimpapp.net?subject=unsubscribe>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "Content-Type": "multipart/alternative; boundary=\"_----------=_MCPart_1485717179\"",
+        "MIME-Version": "1.0"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "id": "18f7b18fd8a64780",
+    "snippet": "The Ritual of Sakura \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c",
+    "historyId": "2154667",
+    "internalDate": "2024-05-15 09:13:01",
+    "sizeEstimate": 101091,
+    "threadId": "18f7b18fd8a64780",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "by mta10.c.rituals.com id h8hg842fmd46 for <antonioroddantas@gmail.com>; Wed, 15 May 2024 07:13:02 +0000 (envelope-from <bounce-157_HTML-150901611-614635-510007668-11439@bounce.c.rituals.com>)",
+        "X-Google-Smtp-Source": "AGHT+IFn/NpCAwxG7OGR9cb9xAboyNacmyIhrEzBzrAXU1pZCAY6IIm0LOZQPrUXYmEww0mOEzMG",
+        "X-Received": "by 2002:a05:620a:19a9:b0:790:c7f6:5966 with SMTP id af79cd13be357-792c73cb7c3mr1736931485a.0.1715757186410;        Wed, 15 May 2024 00:13:06 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715757186; cv=none;        d=google.com; s=arc-20160816;        b=WKcMaRqw7NImbQgzsk43R6AC9Btp0sba5IUFzsYmCGMrAkt52WXMRWDf6mvG4s5nb0         bNtdMzW9wPcgF3UkxOXHzDLxm5JX7sOijCwkDXmYOqXlxQML22Ws7wxHORKo9UcwlJrX         X0fLG9ogirRyHe59fQjgnMrs+MkwVV1YyANYYShq/w3WGNFWkHA3rpVzjx6gooZwmTWE         qoK5uu0u3wQayJberaM9WZ/zl/ZCna7HWzjeOInrDn8myQNFXYNeBMtt4aw3fTaGHaLl         rzAX0J7CdyYNii/mPangFbz1jscE6xVphcUFlTN4ApjMYO+1W2xtea1of7NfASdNTt7B         ci4g==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=feedback-id:message-id:list-id:reply-to:mime-version         :list-unsubscribe-post:list-unsubscribe:date:subject:to:from         :dkim-signature;        bh=nbyeVAQsN/aRPewKG5pC2WnofJA0Eq8FP/nZiTXBEAE=;        fh=EMXkCWDI4uMhq7QwhuWzOsfzOF6vZQ2dloc9VHbajx8=;        b=BZI59UPi0XLHpcAmMcwHzYl6NkEO3SWSiqxooNjReRkITbNR0twX+rdSQ6neFYAKG6         Guqf74NIpPU5smFTUSGvyfxMhZl/DJV+ByKimt8xF2RlZmdezUBzMauOqPz/p51hyelw         NXijacXd2ZcDDc57SZk608BNGpcq6BmuK4c15imjVqfGkQxn0Qa+Fsqh7InFpMrt4d2G         j/wavWZb6HcgVv4tmMZ8L8De+MbhTStkAKeMxhSWvQottGRpFyqREu5Es5uSNqHOT9Lz         udswVkcHDRJj7M6x2l5WNLfbxL38YPvipliEzbR6gdwoeF1g8MlcR4XRmlkpDw99Xp9V         jmRQ==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@c.rituals.com header.s=50dkim1 header.b=Te6uwT4l;       spf=pass (google.com: domain of bounce-157_html-150901611-614635-510007668-11439@bounce.c.rituals.com designates 161.71.75.23 as permitted sender) smtp.mailfrom=bounce-157_HTML-150901611-614635-510007668-11439@bounce.c.rituals.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=c.rituals.com",
+        "Return-Path": "<bounce-157_HTML-150901611-614635-510007668-11439@bounce.c.rituals.com>",
+        "Received-SPF": "pass (google.com: domain of bounce-157_html-150901611-614635-510007668-11439@bounce.c.rituals.com designates 161.71.75.23 as permitted sender) client-ip=161.71.75.23;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@c.rituals.com header.s=50dkim1 header.b=Te6uwT4l;       spf=pass (google.com: domain of bounce-157_html-150901611-614635-510007668-11439@bounce.c.rituals.com designates 161.71.75.23 as permitted sender) smtp.mailfrom=bounce-157_HTML-150901611-614635-510007668-11439@bounce.c.rituals.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=c.rituals.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; s=50dkim1; d=c.rituals.com; h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version: Reply-To:List-ID:Message-ID:Content-Type; i=newsletter@c.rituals.com; bh=nbyeVAQsN/aRPewKG5pC2WnofJA0Eq8FP/nZiTXBEAE=; b=Te6uwT4lm9A40NhA5zorSuuVduQn9t22fVe4lc0BFKL1QIs3+iqz+7I7xKaZLW2eKWHfD7fNiuEd   6U63Mu/NXZS0iQXDEoizaY6I2rMun9XU6/CB8H5dpVY2UxvrOY74mnpuurmDzaQGIBI7bBBJlSEi   d1tJWDzxNbtJYDd+IgYBVuujIpMo/IXZj4mYCw490einPonCQ/eG/VE0Fjqaht5ErQBGmyOIeKtT   JXjpl8DZ9wiGSyDIgV8ln4ndtmow1g1v36Qi6KaX+2s6Mb1tXDYkwsTGklXWlMueudm2SNohXTfi   hIxyOUSOjyDA30NW9CAvbKHV/wQD7zoNbIkQ9g==",
+        "From": "Rituals Cosmetics <newsletter@c.rituals.com>",
+        "To": "<antonioroddantas@gmail.com>",
+        "Subject": "Les meilleurs parfums d\u2019int\u00e9rieur",
+        "Date": "Wed, 15 May 2024 01:13:01 -0600",
+        "List-Unsubscribe": "<https://click.c.rituals.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI1MTAwMDc2NjgiLCJzIjoiMTUwOTAxNjExIiwibGlkIjoiMTU3IiwiaiI6IjYxNDYzNSIsImpiIjoiMTE0MzkiLCJkIjoiNTAwMDEzIn0.nIcR8ueXdlOoEcki4qxh4YXghDp9CmM3pHDOlMGP5fc>, <mailto:leave-fd4e1575720b5c392848-fe371575756d047c731571-fec6127171620778-fe2e11717564047a731278-fefd157171670d@leave.c.rituals.com>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "MIME-Version": "1.0",
+        "Reply-To": "Rituals Cosmetics <reply-fec6127171620778-157_HTML-150901611-510007668-11439@c.rituals.com>",
+        "List-ID": "<500008629.xt.local>",
+        "X-SFMC-Stack": "50",
+        "x-job": "510007668_614635",
+        "Message-ID": "<f1ebee1e-1998-4f7c-93fc-7e68ab984c57@fra3s50mta523.xt.local>",
+        "Feedback-ID": "510007668:614635:161.71.75.23:sfmktgcld",
+        "Content-Type": "multipart/alternative; boundary=\"FJIKEqouK8sp=_?:\""
+    }
+}

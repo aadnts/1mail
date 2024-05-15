@@ -1,0 +1,41 @@
+{
+    "id": "18f7667a1dcb61c1",
+    "snippet": "Build a project plan in minutes with our free template that keeps your project details organized. Free project plan templete Hi there, Try our free project plan template to map your project&#39;s goals",
+    "historyId": "2154269",
+    "internalDate": "2024-05-14 11:20:53",
+    "sizeEstimate": 47768,
+    "threadId": "18f7667a1dcb61c1",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "by 172.16.28.112 with SMTP id a0b9znrox27ui2v6i37e6vgm4ksw3pkjk8kdhx606ma;        Tue, 14 May 2024 09:20:53 GMT",
+        "X-Google-Smtp-Source": "AGHT+IEhYUTiV8JQZQyHGKnBjpjHtrb36C9NcNnSvZ0lgTCQTbiJPQHeYNeDMJxlXnjLfgBiUm0n",
+        "X-Received": "by 2002:a05:6808:1a09:b0:3c9:9500:3d20 with SMTP id 5614622812f47-3c996f54592mr15311544b6e.0.1715678454052;        Tue, 14 May 2024 02:20:54 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715678454; cv=none;        d=google.com; s=arc-20160816;        b=c7lEeSMi9+V1kXxBYsmfWi8CA2fh7Nbf25rO8FajNPtSV4Xl2/us6aROE7FD41Bn9k         YgyeUS/B1IQyb+Kn+1iw5lKw3LYq0RtTdYnLcVAS9tXbNIgm135JQdvW2VlhMKMInjdO         dN2LafPdN0Ep3CLjnEcSrUUnQUyEC/0O5Agmr62d7pVyY++HHO40flUjmQdWVFKQblra         Uf6wi2ayspKdm56B7uO6nKJ62yOKNkqRBQJuIhbYdsThb1CsmowcKbaLVb3N2neM/61i         iSRWH80xhKFuEaB/4d6EgHi3Nr54vN1tI6sEwD9pcJtf5viMSruMccalQDcF3caDLHIZ         3dUw==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=feedback-id:list-unsubscribe-post:precedence:form-sub:mime-version         :subject:message-id:to:reply-to:from:date:list-unsubscribe         :dkim-signature:dkim-signature;        bh=vzdgdfaJSoAqi0Lb2IvXcMIZvdHSV44c5fQGm9PSgxE=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=xZYPD2lcERDYYxdGtltyPfblmiFh7Rowr9RqHvBSyO654W+YIG6lQZXSwkwjEyWPZS         NMl/oMRjIcYcbCPZ6LpgFhCDrWQuKTSBxynl6GnPQ/Y7FTXYzJukz0AMTZkRVLoiV9iv         jYQiiewLXB1xe9/dlCupRFgelhLtCtK7Zz/D/WkqLCN8b4Z3AyFsUvRmRThWtwHvMWCL         vUpHb3WGkmS1iBSECohoyjysjusBnQ9HivFoqvisM9AbMBOCDBZXXcOjh1vcd+610KsE         cjxRC37k+PtYK7ilP99Wjo2T3O0Z0g88ECgYJ9/U0QR/+07rmSw6nkeQLqZ9Dbq7XdKz         ARuA==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@bf03.hubspotemail.net header.s=hs1 header.b=qjZ5sWnz;       dkim=pass header.i=@projectmanager.com header.s=hs1 header.b=bxrsmABE;       spf=pass (google.com: domain of 1axbivsk09s8e3s85jhym9ce0wk1yogcgpbzp9@bf03.hubspotemail.net designates 143.244.89.245 as permitted sender) smtp.mailfrom=1axbivsk09s8e3s85jhym9ce0wk1yogcgpbzp9@bf03.hubspotemail.net;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=projectmanager.com",
+        "Return-Path": "<1axbivsk09s8e3s85jhym9ce0wk1yogcgpbzp9@bf03.hubspotemail.net>",
+        "Received-SPF": "pass (google.com: domain of 1axbivsk09s8e3s85jhym9ce0wk1yogcgpbzp9@bf03.hubspotemail.net designates 143.244.89.245 as permitted sender) client-ip=143.244.89.245;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@bf03.hubspotemail.net header.s=hs1 header.b=qjZ5sWnz;       dkim=pass header.i=@projectmanager.com header.s=hs1 header.b=bxrsmABE;       spf=pass (google.com: domain of 1axbivsk09s8e3s85jhym9ce0wk1yogcgpbzp9@bf03.hubspotemail.net designates 143.244.89.245 as permitted sender) smtp.mailfrom=1axbivsk09s8e3s85jhym9ce0wk1yogcgpbzp9@bf03.hubspotemail.net;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=projectmanager.com",
+        "DKIM-Signature": "v=1; s=hs1; d=projectmanager.com;         i=@projectmanager.com;         h=sender:from:from:reply-to:to:to:cc:cc:subject:subject:list-unsubscribe:form-sub:feedback-id:list-unsubscribe-post;         a=rsa-sha256; c=relaxed/relaxed;         bh=vzdgdfaJSoAqi0Lb2IvXcMIZvdHSV44c5fQGm9PSgxE=;         b=bxrsmABEaGE9gJRTmMaAwne5HqMrN5ZX57Y/duejkdnT9aHgI4k0QEj7Y5Oq9S         FpRJ8EvukB4F5P8+clHHdECiRaKbkufnNUDwrrHHtlRxpBAodb1n4AlwVYxP4NY         AGEvgbDkX7YvZE7Q2+pSeJ9XhzTW3MvWk3vgWQ9BN3tvB2luHvAIXedYS1/btLW         kTzrNKYduZHmZt/mY5X8S3XrRfTQrilSsgQIynjysjX7HalEuaeQbCbLSDusZIn         2uQ5dS0rDSJS+dfIZBQQVl7VDlHnpuBI+NirKwVVld26XdUQK+v+dSFzBLyTRh6         aew91MtJR0Jx99LmvDtzM+Sn9osw==; q=dns/txt; t=1715678453;         x=1715941253;",
+        "X-HS-Cid": "1axfai2c0blmlnklbbb6t2jixqyyefbcv9yjy5",
+        "List-Unsubscribe": "<mailto:1axcun172zzg5qre5gehzr0ja4bp2zcf4s4uxt@bf03.hubspotemail.net?subject=unsubscribe>, <https://hs-6111124.s.hubspotemail.net/subscription-preferences/v2/unsubscribe-all?data=W2nXS-N30h-L-W3SB7q-3SKbVqW1VpdR92HrjJqW4kx6wy2vKqC2W2WfFKS1Qrdt5W3gy99D1SlrH5W219-tx47SNVtW3SywPH1BnlF1W3gqrKw34fZBJW2s_C3g1XwGC4W1XhBRm2YLJ22W34D33x4cL576W2sQFYQ3XxKHpW4czkHk3CbCHxW2KBQGR4kKsTVW2Cv-J24chn03W2sVQNk38wGYsW1Lnp6G2WLYRwW3V-6mH1V7wqKW2sL5hJ1Z7694W3Cg0D01XtcKBW1NdfVy36pfkLW4cR3P22CKH3TW1BFyjp4kx3KbW3GS-7h32yVx-W4hMJBs2YCJfVW3btRmg2-JVzDW1YYHWj1Z5rG0W3dspgV30CfVWW1Lm78V30lrpRW3P2VPL3_YNKJW1SBSSJ2WsV9RW1NkhJ51W_nxNW2-dTFZ3NXXk-W1Q5p873QS--KW1Vb00b3STykKW36lj3V3jvNBTW3GKp_24hHy5lW2HGNVy2WhlbSW4tqj5136hNX4W4pgJJ03VPb2qW2G0gVD2FWPYrW34yjlJ3Cc4MWW4pltKT2CTCvHW4cN-Kt4ctNPhW2Y9Jhz3SL61lf4pD0ny04>",
+        "Date": "Tue, 14 May 2024 02:20:53 -0700",
+        "From": "ProjectManager <tips@projectmanager.com>",
+        "Reply-To": "tips@projectmanager.com",
+        "To": "antonioroddantas@gmail.com",
+        "Message-ID": "<1715678189274.cdbd0851-07a3-4ce0-8968-7326944f1de5@bf03.hubspotemail.net>",
+        "Subject": "Free project plan template: improve your project plans\ud83d\udcdd",
+        "MIME-Version": "1.0",
+        "Content-Type": "multipart/alternative; boundary=\"----=_Part_9051375_438691495.1715678453092\"",
+        "Form-Sub": "v=1; ip=none",
+        "Precedence": "bulk",
+        "X-Report-Abuse-To": "abuse@hubspot.com (see https://policy.hubspot.com/abuse-complaints)",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "Feedback-ID": "aedw9nq:aifcy1v5:airvv:HubSpot"
+    }
+}

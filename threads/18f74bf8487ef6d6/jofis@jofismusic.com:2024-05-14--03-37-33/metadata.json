@@ -1,0 +1,41 @@
+{
+    "id": "18f74bf8487ef6d6",
+    "snippet": "yooo Lorya i hope you&#39;re having a good week! i just made a beat i really like today. it&#39;s got kind of a sad vibe to it. but if u want to add them, i think some melodic emotional vocals could",
+    "historyId": "2153252",
+    "internalDate": "2024-05-14 03:37:33",
+    "sizeEstimate": 38542,
+    "threadId": "18f74bf8487ef6d6",
+    "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from smtp-soi-g17-150.aweber.com (smtp-soi-g17-150.aweber.com. [204.194.223.150])        by mx.google.com with ESMTPS id d75a77b69052e-43df56be258si106291561cf.611.2024.05.13.18.37.39        for <antonioroddantas@gmail.com>        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);        Mon, 13 May 2024 18:37:39 -0700 (PDT)",
+        "X-Google-Smtp-Source": "AGHT+IEVqQ4k6zDitEJNXOD8Jh6wL1gF7alPPnFOnI1xOpFTdIW65Z4TKPyIwJhS4uBNgm4YdATD",
+        "X-Received": "by 2002:a05:622a:19a2:b0:437:9744:783e with SMTP id d75a77b69052e-43dfdabaf19mr136129231cf.2.1715650659471;        Mon, 13 May 2024 18:37:39 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715650659; cv=none;        d=google.com; s=arc-20160816;        b=BRQD3YjcOFZ+IqZhy4+UdrisWBllFOLXyZ5cKqprHem+TaLxd54GXtzpQrmje2fPEb         qppgqixZGcEFP0y5FjoeH45ay893fqgxTRALC/XSt4q3crPh4cTK+Nw+LH2jx8z4vF0y         3JV5u9Qc4M26RaMP6/t7X8ZgN9pnAGwzMiPporqKuREX2uBENZScsK3XRz3xh044Skb+         k+WWubwcNmuY18+wDLiCrGoUHS3+kCr7n+qGam3kEzwp8n2hjyNaJNaSpAbsgJdFOLal         AwOodQXs4aJmMe8uqvg43AsZlKO+R+9pHuIg0pZlXxDIqwi/5lKmHqliMoQFSTaJT2vx         Gv7w==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=list-unsubscribe-post:list-unsubscribe         :require-recipient-valid-since:feedback-id:x_id:subject:to:from         :mime-version:message-id:date:dkim-signature:dkim-signature         :dkim-signature:dkim-signature;        bh=Jo2+K5g65ekp7FDhqu92XmaAknlDT3QG2LUfa2HdJ7o=;        fh=hmEJl8RcTnQ8ZZ6lb6M4LcI3LNP4p+U0gfS2Fusixik=;        b=jbMqtdWLkUODLjU9XbGlkgf/ZMD02q2JxtIRNb9D7NUDL2I9X75NfigTommrPhVEYD         HNkn8taE2AFBn3U04bo31tIXPtAwghe2oD/RQ+iRgJgq8ia97HNhrwzBq2PldyPqrYdk         e29z8oDxZKhvtBHjXruNl/t5q/nfoCbT2oO/Fy/40/Af1D3g9C32lwqIFI6uJ5zvOAaW         RdsiAAttUgkeEYNIQ+1Z0fRhdmmkDSj9y7Gl9oSvrG/7JEW40FN2IAuSyIYlZG0wlGlr         jOcbdfZPktaHAdBmbxLS8DPwFatDd2PpfHZI9VRS1FkHoLW257zxawO+aSeJyaIPoO8t         IA7g==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@jofismusic.com header.s=aweber_key_b header.b=6z3+64hY;       dkim=pass header.i=@aweber.com header.s=aweber_key_b header.b=ZEl6u1M0;       dkim=pass header.i=@jofisbeats.optin.com header.s=k2 header.b=\"4DKknLf/\";       dkim=pass header.i=@optin.com header.s=k2 header.b=HseFKmdY;       spf=pass (google.com: domain of bcycjczs7lrmjcwstoxmhjyctea0rozsnexsbmw=@smtp-soi-g17-150.aweber.com designates 204.194.223.150 as permitted sender) smtp.mailfrom=\"bCycjCzs7LRMjCwsTOxMHJyctEa0rOzsnExsbMw=@smtp-soi-g17-150.aweber.com\";       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=jofismusic.com",
+        "Return-Path": "<bCycjCzs7LRMjCwsTOxMHJyctEa0rOzsnExsbMw=@smtp-soi-g17-150.aweber.com>",
+        "Received-SPF": "pass (google.com: domain of bcycjczs7lrmjcwstoxmhjyctea0rozsnexsbmw=@smtp-soi-g17-150.aweber.com designates 204.194.223.150 as permitted sender) client-ip=204.194.223.150;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@jofismusic.com header.s=aweber_key_b header.b=6z3+64hY;       dkim=pass header.i=@aweber.com header.s=aweber_key_b header.b=ZEl6u1M0;       dkim=pass header.i=@jofisbeats.optin.com header.s=k2 header.b=\"4DKknLf/\";       dkim=pass header.i=@optin.com header.s=k2 header.b=HseFKmdY;       spf=pass (google.com: domain of bcycjczs7lrmjcwstoxmhjyctea0rozsnexsbmw=@smtp-soi-g17-150.aweber.com designates 204.194.223.150 as permitted sender) smtp.mailfrom=\"bCycjCzs7LRMjCwsTOxMHJyctEa0rOzsnExsbMw=@smtp-soi-g17-150.aweber.com\";       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=jofismusic.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=optin.com; s=k2; t=1715650653; x=1716601053; bh=Jo2+K5g65ekp7FDhqu92XmaAknlDT3QG2LUfa2HdJ7o=; h=Date:Message-ID:Content-Type:MIME-Version:From:To:Subject:\t X-AWMessage:X_Id:Feedback-ID:Require-Recipient-Valid-Since:\t X-Subscription:List-Unsubscribe:List-Unsubscribe-Post:X-Mailer:CC; b=HseFKmdYg0ZP1ssxoNUleBEDUMX3U7QY1iB7fGCSl43pRhL/RPpXXQkeL270qJr9R\t IVMO10hXBbTfQebowy86RXuDSmk2+6ajIEj6ROkyZkFPQp7wh3NHZdPwnU4BiDgQMf\t wqJlfMu0DXHLbiyMiJpOJ1rbt7MDobVuiONMN8ZwAca5ZgfMIP0Y1VNVRRGE580II4\t Xvc/bO3WkAh0K4NvJEp7OnLnyq2dnpqvhMpceW+khIj0NtGCjGpgbXaLUHreskGEU3\t A0e5liJXz36zHbXADSM4WQXZNQ2U36dK+r2uDhJistZy9N07RyjE8bPk/oi4iiaUyI\t wDOTyiKPA1+aw==",
+        "Date": "Tue, 14 May 2024 01:37:33 +0000",
+        "Message-ID": "<38.33.20649.D50C2466@momentum-soi-mta3.aweber.com>",
+        "Content-Type": "multipart/alternative; boundary=\"===============7253064721166584703==\"",
+        "MIME-Version": "1.0",
+        "From": "Jofis Music <jofis@jofismusic.com>",
+        "To": "lorya <antonioroddantas@gmail.com>",
+        "Subject": "a free sza x kehlani guitar beat i think u'll like",
+        "X-AWMessage": "da50d2a4-de81-4100-80cf-2ea3fb081f49",
+        "X_Id": "6491477:05-13-2024-21-35-21:antonioroddantas@gmail.com",
+        "Feedback-ID": "A2077057:L6491477:M05-13-2024-21-35-21:AWeber",
+        "Require-Recipient-Valid-Since": "antonioroddantas@gmail.com; Mon, 26 Feb 2024 16:47:40 +0000",
+        "X-Subscription": "Subscribed on 02/26/2024, via API, by 31.164.90.41",
+        "List-Unsubscribe": "<https://www.aweber.com/z/r/?bCycjCzs7LRMjCwsTOxMHJyctEa0rOzsnExsbMw=>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "X-Mailer": "AWeber Composer 2.82.0"
+    }
+}

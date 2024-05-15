@@ -1,0 +1,36 @@
+{
+    "id": "18f78020d1e412e1",
+    "snippet": "Steam 1 JEU DE VOTRE LISTE DE SOUHAITS EST EN SOLDE ! Valheim -50% CHF 19.50 CHF 9.75 OFFRE SP\u00c9CIALE ! La promotion prend fin le 28 mai 1:00pm CEST Un jeu multijoueur brutal d&#39;exploration et de",
+    "historyId": "2153654",
+    "internalDate": "2024-05-14 18:49:11",
+    "sizeEstimate": 38785,
+    "threadId": "18f78020d1e412e1",
+    "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from [208.78.167.70] (helo=valvesoftware.com) by smtp-09-tuk1.steampowered.com with smtp (Exim 4.93) (envelope-from <noreply@steampowered.com>) id 1s6vKx-00HLes-5k for antonioroddantas@gmail.com; Tue, 14 May 2024 09:49:11 -0700",
+        "X-Google-Smtp-Source": "AGHT+IEOw8NmatBlJJvfISALjQpRqEHt2nqvknfuvTXvz5pvQ9Uwa68JPwgRlZFF3rlhwjQEL7Nl",
+        "X-Received": "by 2002:a17:90b:2292:b0:2b2:b080:dd35 with SMTP id 98e67ed59e1d1-2b6cb6c8136mr12375324a91.0.1715705351408;        Tue, 14 May 2024 09:49:11 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715705351; cv=none;        d=google.com; s=arc-20160816;        b=DUYmpz/d14tTWZkQ75Nwu0/vHTzuEzj4RQR7Nj98i99KNzSgZttGIRUTuaV0Kqbj06         sOHCdQyla6hGLAdk2QYIPVKicfRRK2p5Ukvt3IMLumR6t7MqWOU+QwbdRVm44oAg3IwZ         cJz7bXzDFW2xv2Ed/M4TsjreB7FXF9XZKri3lUwn/Ek0Z6d5DsH6b6GZpmSZoVMbC9OG         tSZUuGQcYw0M7fKWoT9I5ioeNmTfnn2MqNGENFbYm9HvLl2C8L1ZFD8KGvGV5mZIEOZX         HOi/zQ91BXEVy1wlgUlVcMJFVNGQ6kAhkRLnvC3as5y7Bs8RdKBQcRXJ+Ll1EfMOr5sr         aK5A==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=date:message-id:subject:mime-version:errors-to:reply-to:from:to         :dkim-signature;        bh=G2cjYyEDPoO8/jg/5sW1Gl4dao8xy1MyGaOkNU1qXHU=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=GgWuV4y45tSh6Q/JBxV2vjL9Fsxy7mhOTdmDCXxmcRFITsyoeyuOJY4jPhFJ/+6mb8         Hfz5KCtjjid3LXSF4C+Iy1S2qN0RAZn1lL8ZwpI4jtY/U/mfr2A+hBAlv+CBhzFBJCzz         5dyAqMLP1gzDwh7Xcpi0MLquZ1OrioEt72owxHY5Uv2VIhYIwJrAkxa6hJteptugKkH6         O6ZFmHuU7KJjTSKtjKPMDsB3wBe7fROlSxDVb57jnwyD+Hp2kqt0iMnTY/9C1C6EA+WC         XJV7o87viM6zF0ckY1jGxvjVimpbosD1jKeIxMwzEQAAh7fKMhyysmA1N3ZkhXTNUcuO         mvbA==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@steampowered.com header.s=smtp header.b=I29hTaMb;       spf=pass (google.com: domain of noreply@steampowered.com designates 208.64.202.51 as permitted sender) smtp.mailfrom=noreply@steampowered.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=steampowered.com",
+        "Return-Path": "<noreply@steampowered.com>",
+        "Received-SPF": "pass (google.com: domain of noreply@steampowered.com designates 208.64.202.51 as permitted sender) client-ip=208.64.202.51;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@steampowered.com header.s=smtp header.b=I29hTaMb;       spf=pass (google.com: domain of noreply@steampowered.com designates 208.64.202.51 as permitted sender) smtp.mailfrom=noreply@steampowered.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=steampowered.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=steampowered.com; s=smtp; h=Date:Message-Id:Content-Type:Subject: MIME-Version:Reply-To:From:To:Sender:Cc:Content-Transfer-Encoding:Content-ID: Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc :Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe: List-Subscribe:List-Post:List-Owner:List-Archive; bh=G2cjYyEDPoO8/jg/5sW1Gl4dao8xy1MyGaOkNU1qXHU=; b=I29hTaMbfzUnayu4EZvOJEHC7o i3HT6Y29Jw4OIhuN7aA2EyEBOfIKgAzPnc1L5OfXQFE8VFxNl32qI/FHHxGvDIfYEQDgnxiCzbumf vu63MVxLfVkuZBFY+MbJFB7CXD6/Q9p5Qwt6W6ppmwRG//HYAzwoKhMzmFdIy6JNpTh8=;",
+        "To": "antonioroddantas@gmail.com",
+        "From": "Steam <noreply@steampowered.com>",
+        "Reply-To": "<noreply@steampowered.com>",
+        "Errors-To": "<noreply@steampowered.com>",
+        "X-Steam-Message-Type": "CEmailWishlistItemOnSale",
+        "MIME-Version": "1.0",
+        "Subject": "Valheim (dans votre liste de souhaits Steam) est en solde\u00a0!",
+        "Content-Type": "multipart/alternative; boundary=\"np66439606e83e1\"",
+        "Message-Id": "<E1s6vKx-00HLes-5k@smtp-09-tuk1.steampowered.com>",
+        "Date": "Tue, 14 May 2024 09:49:11 -0700"
+    }
+}

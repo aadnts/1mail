@@ -1,0 +1,41 @@
+{
+    "id": "18f778379575e09e",
+    "snippet": "Cher Monsieur Rodrigues Dantas Filho Sur la base de votre exp\u00e9rience avec &quot;My Sunrise&quot;, recommanderiez-vous Sunrise \u00e0 des amis ou \u00e0 des coll\u00e8gues? Pas du tout probable Tr\u00e8s probable 0 1 2 3 4",
+    "historyId": "2153604",
+    "internalDate": "2024-05-14 16:30:53",
+    "sizeEstimate": 24381,
+    "threadId": "18f778379575e09e",
+    "labelIds": [
+        "CATEGORY_PERSONAL",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from express.ger.medallia.eu (brcastmx.fra1.medallia.eu [10.42.31.192]) by mx.medallia.com (SMTP) with ESMTP id 07E4A4042599 for <antonioroddantas@gmail.com>; Tue, 14 May 2024 14:30:55 +0000 (UTC)",
+        "X-Google-Smtp-Source": "AGHT+IFdrajdqysK2QZgnvGaX7/bDh0N5HT7h60pn598AEPtc1SscXUlA0RFYCzugTExzvu88GyI",
+        "X-Received": "by 2002:a17:906:234d:b0:a5a:f4f:8214 with SMTP id a640c23a62f3a-a5a2d6286b6mr856028666b.6.1715697055877;        Tue, 14 May 2024 07:30:55 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715697055; cv=none;        d=google.com; s=arc-20160816;        b=r36GPVz5gc+tYGQ1srG4C8bWed5ICr+maJanGKh8jR+iXAEOIxQnKtck6T/SWT8PQ9         8U+KMpCjc0A17Dyq0FnJT507Z+1UXKWvKDVr4aRWysylcmoRsymd7GU7dZraJAgqRbqD         uoXXAk302YJjKNMYinvvAlZdcDIrhyV3KnkKmQEDjm8rGbJnHaJ8t6urYN8Mg0A2BX9C         4Px81QB7gijLM+v29vMKm5f1DOFhunwptVoi4uDcbL9wMo+OkN901goXLuJrA641Z8Lm         NJlrgrbuy1iIsPinBSQcs2ja7K4xJ3p/O3lnVfwSCiHxLSiHnJPvxux9XQx+ywlO9kM8         7WFA==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=list-unsubscribe-post:list-unsubscribe:feedback-id:mime-version         :subject:message-id:to:from:date:dkim-signature:dkim-filter;        bh=GZMClbWWw4Fh8UwZVbk0GlJDXD20VvJCw+dGdqztHXw=;        fh=o/bOdEcFtUzXzRD8Goi+bYhR4YxWAqVoAktnftZT66Q=;        b=nB3qAK7tT0VP9b0Nct1XVvRpAcjZG/VcPcmUmUxfJAvN20x/yYGDzgwmu3CXkl2jK3         PNfZrZf0eHaSHSl0Ly8SrBqybywhTcC+P73bW2GmEpxrD+xd3kRQ8IOaD9AcHY8uKGYe         DrLorDSVvQqONAmGS8n7475wnKxhXoY6jMkUCwrZhBLVf/lbOoldzZyyMzHvuJGnQhS7         ASKmE6/7/4ijOUnniUx15FgEJoXRghuApABYBvuSf7pY3p/QReKEoZprtnEUOv9llvwj         WmRvJIxgsyE7FJA/n5UhHF50ngBxQ5lkhF6CfsFn2aP9yLFkIR9UfgxB42T1A7MTRfAQ         2QOQ==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@express.fra1.medallia.eu header.s=medallia1 header.b=w0XQJCb1;       spf=pass (google.com: domain of void-bounce-antonioroddantas=gmail.com@express.fra1.medallia.eu designates 147.75.180.23 as permitted sender) smtp.mailfrom=\"void-bounce-antonioroddantas=gmail.com@express.fra1.medallia.eu\";       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=express.fra1.medallia.eu",
+        "Return-Path": "<void-bounce-antonioroddantas=gmail.com@express.fra1.medallia.eu>",
+        "Received-SPF": "pass (google.com: domain of void-bounce-antonioroddantas=gmail.com@express.fra1.medallia.eu designates 147.75.180.23 as permitted sender) client-ip=147.75.180.23;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@express.fra1.medallia.eu header.s=medallia1 header.b=w0XQJCb1;       spf=pass (google.com: domain of void-bounce-antonioroddantas=gmail.com@express.fra1.medallia.eu designates 147.75.180.23 as permitted sender) smtp.mailfrom=\"void-bounce-antonioroddantas=gmail.com@express.fra1.medallia.eu\";       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=express.fra1.medallia.eu",
+        "X-Virus-Status": "Clean",
+        "X-Virus-Scanned": "clamav-milter 0.103.7 at mx.medallia.com",
+        "DKIM-Filter": "OpenDKIM Filter v2.11.0 mx.medallia.com 07E4A4042599",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=express.fra1.medallia.eu; s=medallia1; t=1715697055; bh=GZMClbWWw4Fh8UwZVbk0GlJDXD20VvJCw+dGdqztHXw=; h=Date:From:To:Subject:List-Unsubscribe:From; b=w0XQJCb1LUEqoQmk3EwEBYNjXpd5Atjw5DZsjrMveBS88txGL9MtMHd4fVP3ihQQ7\t yw7EnTC0O4MtvdFnITtK/eTJSB0i+g1lMb46Tl/LF16+JTxuFbqL7BImKnb+/q3g4G\t 460+9yKs/RRWKQcj1rLEF4U0T9/5hMZLKCJBxv6AT4xSGbdr2K3nnH3MjY9do/j41L\t Dy0yM957P18NlFb/pBgnUfSc8XemS8UzUQHU+HrJMaJUV37G+anV6MxJSSc5qBgYC5\t KVIjrBZ6ntGpCKZU7daZgEeUFy1jXwQkzvmqtArUZ7l9SObHHqasI3M2VyVQZn/UJS\t LafhRro+xbxjQ==",
+        "Date": "Tue, 14 May 2024 07:30:53 -0700 (PDT)",
+        "From": "Sunrise <Sunrise@express.fra1.medallia.eu>",
+        "To": "Antoni Rodrigues Dantas Filho <antonioroddantas@gmail.com>",
+        "Message-ID": "<lw6hq860.181by5wyflidw@express.ger.medallia.eu>",
+        "Subject": "Sunrise - Sondage 2 minutes - Votre exp\u00e9rience avec \"My Sunrise\"",
+        "MIME-Version": "1.0",
+        "Content-Type": "multipart/alternative; boundary=\"----=_Part_107291_861131465.1715697053878\"",
+        "Feedback-ID": "cex-5b367b25-9fe5-4bb6-a043-30a00938a165:cex.medallia.eu-cex:MedalliaInc",
+        "List-Unsubscribe": "<mailto:opt-out-1458.eh3nfh3ftr6b9bhdczd@express.fra1.medallia.eu?subject=unsubscribe>, <https://survey2.medallia.eu/?evs8s3kmm4r3r3c3kvb9&reject=yes>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "X-Medallia-Company-Name": "Sunrise Communications AG",
+        "X-Medallia-Company-URL-Name": "cex",
+        "X-Mail-Sequence": "50594047"
+    }
+}

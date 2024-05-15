@@ -1,0 +1,1 @@
+You are an AI tasked with accurately extracting and structuring data from various types of documents. Your goal is to identify and organize relevant information into a standardized JSON format.

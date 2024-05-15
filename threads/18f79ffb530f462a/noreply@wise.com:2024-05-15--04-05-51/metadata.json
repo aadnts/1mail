@@ -1,0 +1,36 @@
+{
+    "id": "18f79ffb530f462a",
+    "snippet": "There&#39;s a cheaper option available \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+    "historyId": "2154700",
+    "internalDate": "2024-05-15 04:05:51",
+    "sizeEstimate": 58107,
+    "threadId": "18f79ffb530f462a",
+    "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from a56-75.smtp-out.eu-west-1.amazonses.com (a56-75.smtp-out.eu-west-1.amazonses.com. [54.240.56.75])        by mx.google.com with ESMTPS id ffacd0b85a97d-3502bd124afsi7417163f8f.718.2024.05.14.19.05.51        for <antonioroddantas@gmail.com>        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);        Tue, 14 May 2024 19:05:52 -0700 (PDT)",
+        "X-Google-Smtp-Source": "AGHT+IGgEoacC4632EGgKvugqKKAVb3JIu8wv8vLmDU9Ma9DxG2fiJ2W8Mmu+KxoJHGPDdSxpFS0",
+        "X-Received": "by 2002:a5d:5490:0:b0:34a:a754:eb51 with SMTP id ffacd0b85a97d-3504a957943mr9807311f8f.3.1715738752119;        Tue, 14 May 2024 19:05:52 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715738752; cv=none;        d=google.com; s=arc-20160816;        b=UMFDJ6zvXWKkqWduqBdMt0LXFx4/bf3LQHcqFr8e1bxN/LaJMEszKUm5y8qC4nOEDM         KYCCGCYAnh6Y5jSSZziNrgQsMTCOJuuiOzFx1o2oRkUjhpi4vQkfnK7FVy3jj8AjHWGb         CtWiC2g4zWxx5kRP5/bbHXsQKjXuJnkFtY/3Hmx6TkH9T5CyTVaeYrHTEk62K7Uww1VI         6h7R03/KOdHm9UgKxtsB2Mxjm0YOTNCMdrdURRb2UDl+o7VtrdxFRtLYMfsy35T26EjB         YlwxZpsTkc8v2iVr0yoi+iMRX6EQhQUT/rg5fdegpAJ8atNMvy/HgkS/kQRA/JnBp+qm         IrQg==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=feedback-id:date:message-id:content-transfer-encoding:mime-version         :subject:to:from:dkim-signature:dkim-signature;        bh=SFoUu7t5go4akKAj8a12qi8Kfgjo/phugYrDRAPq55w=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=UJuoI7ymtdEhDbmyNWgxPaAehy/XyL13Y3sEb6rLATiYZIb8WqFu0PF+tFuBw3gF2A         rS4GAGZm2utAbDo1yRnV3AY37Gpgf5KqTnAZOHiiZSAhfbK9u5PioUrdqwGCQBLwA8Qp         r9UeVZGq9Ws4zyw8+Crbb/PrztoTWVuFp+xQ2rpFHaS+hdNnVCdBX4Y7KbaaPDRo/ybr         uHFQOStprAlMBkgYr1odoGCgOjyz51bnFZW0hlHFgPf0pmyqacwUp9u0mb24IfFpp3rZ         qAlo+C1Db+Twd/7yJbQRhS10k4eQtiV5tF8M5hL+U8M81POkBs0rwZ8teDITerjjdM0n         kG6A==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@wise.com header.s=myqsleefrxw2wtvi76ybsyfj2ecjv66o header.b=k0QRlzuc;       dkim=pass header.i=@amazonses.com header.s=uku4taia5b5tsbglxyj6zym32efj7xqv header.b=dONnpqaJ;       spf=pass (google.com: domain of 0102018f79ffb277-a014caac-677a-4378-9ddc-0206b4a80f38-000000@mail.wise.com designates 54.240.56.75 as permitted sender) smtp.mailfrom=0102018f79ffb277-a014caac-677a-4378-9ddc-0206b4a80f38-000000@mail.wise.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=wise.com",
+        "Return-Path": "<0102018f79ffb277-a014caac-677a-4378-9ddc-0206b4a80f38-000000@mail.wise.com>",
+        "Received-SPF": "pass (google.com: domain of 0102018f79ffb277-a014caac-677a-4378-9ddc-0206b4a80f38-000000@mail.wise.com designates 54.240.56.75 as permitted sender) client-ip=54.240.56.75;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@wise.com header.s=myqsleefrxw2wtvi76ybsyfj2ecjv66o header.b=k0QRlzuc;       dkim=pass header.i=@amazonses.com header.s=uku4taia5b5tsbglxyj6zym32efj7xqv header.b=dONnpqaJ;       spf=pass (google.com: domain of 0102018f79ffb277-a014caac-677a-4378-9ddc-0206b4a80f38-000000@mail.wise.com designates 54.240.56.75 as permitted sender) smtp.mailfrom=0102018f79ffb277-a014caac-677a-4378-9ddc-0206b4a80f38-000000@mail.wise.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=wise.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1715738751; h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID; bh=uEbDcE0vqzUw7KdR7m4jQuHA0gSfWwLeH4f540OuQzE=; b=dONnpqaJPMu0hrzmcJjOX0wWwB3jJdR1dmsmFAB7vYrSdKbPzhDAYMSDp6B05/di 6j2JsLvCuLYb5+hJNPNpfloVsZD/30PZxyiuxXwo/7vBI0foykUOl0m5x8xe+o5zdLS mY0R8vJ4KH4k/ge3KJGhG7CAVL4xzh2hCzOsgcT8=",
+        "From": "Wise <noreply@wise.com>",
+        "To": "antonioroddantas@gmail.com",
+        "Subject": "Fees are changing",
+        "MIME-Version": "1.0",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Transfer-Encoding": "quoted-printable",
+        "Message-ID": "<0102018f79ffb277-a014caac-677a-4378-9ddc-0206b4a80f38-000000@eu-west-1.amazonses.com>",
+        "Date": "Wed, 15 May 2024 02:05:51 +0000",
+        "Feedback-ID": "1.eu-west-1.mm5NPSHhtqGV8xmTc+H48ekbFiBo7YChlSZtE09syLc=:AmazonSES",
+        "X-SES-Outgoing": "2024.05.15-54.240.56.75"
+    }
+}

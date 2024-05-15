@@ -1,0 +1,40 @@
+{
+    "id": "18f70b81dc6f47a5",
+    "snippet": "Vos produits pr\u00e9f\u00e9r\u00e9s pour le corps et la maison \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c",
+    "historyId": "2154263",
+    "internalDate": "2024-05-13 08:50:59",
+    "sizeEstimate": 80439,
+    "threadId": "18f70b81dc6f47a5",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "by mta15.c.rituals.com id h86s5g2fmd44 for <antonioroddantas@gmail.com>; Mon, 13 May 2024 06:51:00 +0000 (envelope-from <bounce-157_HTML-150901611-613155-510007668-17399@bounce.c.rituals.com>)",
+        "X-Google-Smtp-Source": "AGHT+IE8Tv2yrqfDcpfrGOwkFnH/mbg2hN1CbEvJuEPfYR44lbeas+H5+Fvu8hKl17Pl6ry0DtAV",
+        "X-Received": "by 2002:a05:622a:1344:b0:43a:698a:b15e with SMTP id d75a77b69052e-43dfdfc5febmr120754991cf.5.1715583065167;        Sun, 12 May 2024 23:51:05 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715583065; cv=none;        d=google.com; s=arc-20160816;        b=beAEH13QPhLk+rp9w12FeYJADFesCa1TH/abyagfF49sw0zhBgaLc1N3WQXH+FI+Ou         tsXxsI3SvqceKpQhSagXeWhJ2XQ8bf7ZXxZObXWlwBsjaAPnMEnIRdphCIOtKmvs5jW1         ML0cKtFDxEvYRO7S0n9ZihtryKzoLviN7OevhXf8q7JeeRIeK+LpolH46+90sVFILYGE         1iG73ZqM7gp4Lm1OA0ey352gpOuRGGTOWCXXG4sTkyZK0Kv4HLwuAUvA537TE/c+8bJP         gYPXcPrl7NQPQ6JFmuqaymiTaL1VrcslIIiG8YarTaQTa2sm8t/u9FeJXL8hF6nZpcw0         /hGA==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=feedback-id:message-id:list-id:reply-to:mime-version         :list-unsubscribe-post:list-unsubscribe:date:subject:to:from         :dkim-signature;        bh=MaLHax7ftsV+wCZc7CTsW0hGQGGjjPempcuTHmElIrA=;        fh=EMXkCWDI4uMhq7QwhuWzOsfzOF6vZQ2dloc9VHbajx8=;        b=vSfPpxoWLy49aRPeoZ8rkTeX8M334FjG/+s75O6pmbcAFyqw/mcAJkuzBAvly8ytHY         tTbphfauK1TP3crCpY9tiIKtQZSm5/AhbhxcOpw2xk5bSbA1R5e21k8K2wemcYBFmMif         F5bGZC7K6749pBETOetVNx3wneFQAJiIi80BATBTRbEcvHe6m4av5qCdYHKmRRO5dp9Y         KVQyBn4Ik0XpXyUpVi+K396srTMEa2SHqy5XF15EMVHdd0KJkyNo2rfgkWpEd2jliGbL         NDyR2+x3nqF27mZCZuYpMr9FIUhNuGZVSleOcNnVGdQw28Ifybm2xZ1HNh8TmWrcBRtb         RXJA==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@c.rituals.com header.s=50dkim1 header.b=PLv993ep;       spf=pass (google.com: domain of bounce-157_html-150901611-613155-510007668-17399@bounce.c.rituals.com designates 161.71.75.28 as permitted sender) smtp.mailfrom=bounce-157_HTML-150901611-613155-510007668-17399@bounce.c.rituals.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=c.rituals.com",
+        "Return-Path": "<bounce-157_HTML-150901611-613155-510007668-17399@bounce.c.rituals.com>",
+        "Received-SPF": "pass (google.com: domain of bounce-157_html-150901611-613155-510007668-17399@bounce.c.rituals.com designates 161.71.75.28 as permitted sender) client-ip=161.71.75.28;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@c.rituals.com header.s=50dkim1 header.b=PLv993ep;       spf=pass (google.com: domain of bounce-157_html-150901611-613155-510007668-17399@bounce.c.rituals.com designates 161.71.75.28 as permitted sender) smtp.mailfrom=bounce-157_HTML-150901611-613155-510007668-17399@bounce.c.rituals.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=c.rituals.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; s=50dkim1; d=c.rituals.com; h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version: Reply-To:List-ID:Message-ID:Content-Type; i=newsletter@c.rituals.com; bh=MaLHax7ftsV+wCZc7CTsW0hGQGGjjPempcuTHmElIrA=; b=PLv993epbqivM1RnOJRzTNho5QrKRLZWSkqDaxg3SYjmEG8Y1fVkIl7xTqRq1hLlz8/CkL/7Tz5D   bRe5xoGThmzUB7rjzDEiBV0FNr5AZZIGFM4kDMkBso7UuLqykDUIgjxi14CzkfLiDltF2CEx/Dxe   JeOw7m310fGiYTnEyXPX0U/77Cr43xGJ/jkJCJsWmlkqHfutK3lPuKB7PBRc/Hjd6+FOO41lVKWy   tKF82KJgF39BN3/JMssdgp3bEjqIQUeHer+5IByKJirg6PPN0nTSYTrwx1EApWCtJt5YC5x0CeI/   ylF/yQ77dUEOFCiPs7SgyyLRQBhJxDqa8MofPw==",
+        "From": "Rituals Cosmetics <newsletter@c.rituals.com>",
+        "To": "<antonioroddantas@gmail.com>",
+        "Subject": "Offrez-vous un moment de bien-\u00eatre",
+        "Date": "Mon, 13 May 2024 00:50:59 -0600",
+        "List-Unsubscribe": "<https://click.c.rituals.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI1MTAwMDc2NjgiLCJzIjoiMTUwOTAxNjExIiwibGlkIjoiMTU3IiwiaiI6IjYxMzE1NSIsImpiIjoiMTczOTkiLCJkIjoiNTAwMDA5In0.lKNpDyS2-78HRN0i64p3v6FpLMbDiPhWjFxDuWzSRXE>, <mailto:leave-fd4e1575720b5c392848-fe371575756d047c731571-feca127176650178-fe2e11717564047a731278-fef21577766d0d@leave.c.rituals.com>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "MIME-Version": "1.0",
+        "Reply-To": "Rituals Cosmetics <service@rituals.com>",
+        "List-ID": "<500008629.xt.local>",
+        "X-SFMC-Stack": "50",
+        "x-job": "510007668_613155",
+        "Message-ID": "<166dc3d1-66e1-4a91-9778-d186cc53547b@fra3s50mta523.xt.local>",
+        "Feedback-ID": "510007668:613155:161.71.75.28:sfmktgcld",
+        "Content-Type": "multipart/alternative; boundary=\"9m88UaWrSlNB=_?:\""
+    }
+}

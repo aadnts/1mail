@@ -1,0 +1,36 @@
+{
+    "documents": [
+        {
+            "document_id": "TR-2020-001",
+            "document_type": "employment_contract",
+            "date": "2020-10-27",
+            "sender": {
+                "name": "Todan Relocation Sàrl",
+                "address": "Chemin des Palettes 26, CH-1212 Grand Lancy",
+                "phone_number": "022/738.38.38",
+                "email": ""
+            },
+            "company": {
+                "name": "Todan Relocation Sàrl",
+                "address": "Chemin des Palettes 26, CH-1212 Grand Lancy",
+                "phone_number": "022/738.38.38",
+                "field": "Relocation Services"
+            },
+            "person": {
+                "name": "Rodrigues Dantas Filho Antonio Aparecido",
+                "address": "Rue de la Prulay 9, CH-1217 Meyrin",
+                "phone_number": "",
+                "role": "Employee"
+            },
+            "contract_details": {
+                "start_date": "2020-11-01",
+                "end_date": "2021-08-31",
+                "position": "Administrative Manager",
+                "working_hours": "42 hours per week",
+                "monthly_gross_salary": "CHF 5000.00",
+                "termination_notice_period": "1 month during the first year, 2 months from the second year, 3 months after five years",
+                "additional_terms": "Employee must maintain absolute discretion and not disclose any information related to their work."
+            }
+        }
+    ]
+}

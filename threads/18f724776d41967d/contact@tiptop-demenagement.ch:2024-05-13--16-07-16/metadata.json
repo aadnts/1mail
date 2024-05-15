@@ -1,0 +1,35 @@
+{
+    "id": "18f724776d41967d",
+    "snippet": "Hi there! Here&#39;s a quick overview of your backups in the past week. Did you know? With Duplicator Pro you can store backups in Google Drive, Amazon S3, OneDrive, Dropbox, or any SFTP/FTP server for",
+    "historyId": "2153832",
+    "internalDate": "2024-05-13 16:07:16",
+    "sizeEstimate": 20460,
+    "threadId": "18f724776d41967d",
+    "labelIds": [
+        "CATEGORY_PERSONAL",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from unknown by smtp-4-0001.mail.infomaniak.ch (Postfix) with ESMTPA id 4VdLsJ4CZjzb1s; Mon, 13 May 2024 16:07:16 +0200 (CEST)",
+        "X-Google-Smtp-Source": "AGHT+IH+TmqxSkkFqWeW9Kdx38x2/El/fFKvyRDcIqq2fQ+Cher0x25z9eolNSGzfT5MP4Kj8x+R",
+        "X-Received": "by 2002:adf:e844:0:b0:34d:9d4c:53ec with SMTP id ffacd0b85a97d-3504aa631e5mr7827722f8f.5.1715609237468;        Mon, 13 May 2024 07:07:17 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715609237; cv=none;        d=google.com; s=arc-20160816;        b=goT8Y5hxQkwPHxCFY8aRVBG8Swsyu1shWVkNKy/ZS6K+zSnpOBTZLJLIRWMcWSiJJ5         ZsI5y+4Pft5pnW8f+jyGdXekw9zM95d92ubWDTyYiLkyEl+PzQKvk1EG3a+5FlH7W4lv         94KkRfy7r0RQ5thKLLl9ulrlNEWTHwAzwr7t5X0c488Bww+Qx2cHKzvPHqXxi+MtStpn         R59/VCON3pX8fJWxMEJZgvpF832gI1AKY7G06vn3Y7+Z5qIzrgEfsL3MEjKBg7/Xl5cH         KbEDkPfTQye30Ots7y3DHlGKNRAayqJ1gLOmP9mkvll41e1jiQ2s2Yx9WIv/hVY7hOIo         kROA==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=content-transfer-encoding:mime-version:message-id:subject:from:to         :date:dkim-signature;        bh=PxwR3ZW9Cb6ZYkrWP2Z6tCxlLVypizeLABNPkEbJEtI=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=C+SuPEGGCqu4VFXBHGmTGjPYh6Iloj5RM7BnZu+4XnLOANN+SceJXDtU8sRFqISb11         WM5HFbBD+TnXq3KysbK7hEt+P5/Rsew+FS3XNmq/FDJ3PzSO7/5a6zNIBDOI8AqUsJ9S         +2Rn5A7KLulmmgfO6/OCQSmQedNf1RI+CCGyMpMOjAmnoRdVyRZ/8yNLmVlcn5V4iwCX         64bB8C66tRXMCv2nOsI0w/S88YBW3DM2UxMtmQ3nkRCohPeqWmB/icJXCStQgJX5m5eO         vOhbYJwd/SPSfm7TEMG/Aqj3MDyG/+GzAKI/YwpZvjAUUcnU8fKmprR9M/jKgYNwjI+h         nBHQ==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@tiptop-demenagement.ch header.s=20191113 header.b=GCuyxNjZ;       spf=pass (google.com: domain of contact@tiptop-demenagement.ch designates 185.125.25.15 as permitted sender) smtp.mailfrom=contact@tiptop-demenagement.ch;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=tiptop-demenagement.ch",
+        "Return-Path": "<contact@tiptop-demenagement.ch>",
+        "Received-SPF": "pass (google.com: domain of contact@tiptop-demenagement.ch designates 185.125.25.15 as permitted sender) client-ip=185.125.25.15;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@tiptop-demenagement.ch header.s=20191113 header.b=GCuyxNjZ;       spf=pass (google.com: domain of contact@tiptop-demenagement.ch designates 185.125.25.15 as permitted sender) smtp.mailfrom=contact@tiptop-demenagement.ch;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=tiptop-demenagement.ch",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=tiptop-demenagement.ch; s=20191113; t=1715609236; bh=PxwR3ZW9Cb6ZYkrWP2Z6tCxlLVypizeLABNPkEbJEtI=; h=Date:To:From:Subject:From; b=GCuyxNjZW4pTMXqgQ9n0mmfC9qbKdzgm0RFC8jzuV+N7TenLSQNcWZWONF6PIWzkq\t 9dJ0s/CtQWlpo7oUT6RBeS0MlOpZpsK8qDPiCTVoOjy+oY6tqjZ+eM/V3Z2pH++LBs\t 6zwiKqUTj2NTb4k34Qthf/lWLU9NN80b1OQgpVx4=",
+        "Date": "Mon, 13 May 2024 14:07:16 +0000",
+        "To": "antonioroddantas@gmail.com",
+        "From": "WordPress <contact@tiptop-demenagement.ch>",
+        "Subject": "Your Weekly Duplicator Summary for www.tiptop-demenagement.ch",
+        "Message-ID": "<NKW36sflhmgcClx2qlNPzBCxmPyzxi1Nx1a90pU0@www.tiptop-demenagement.ch>",
+        "X-Mailer": "EasyWPSMTP/Mailer/smtp 2.3.0",
+        "MIME-Version": "1.0",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Transfer-Encoding": "8bit",
+        "X-Infomaniak-Routing": "alpha"
+    }
+}

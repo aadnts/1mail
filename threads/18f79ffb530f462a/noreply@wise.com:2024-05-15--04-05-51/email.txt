@@ -1,0 +1,774 @@
+<!doctype html>
+<html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" style="font-family: Inter, Averta, Helvetica, Arial; font-weight: 400; color: #454745; font-size: 16px;">
+
+<head>
+  <title></title>
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+      display: block;
+      margin: 13px 0;
+    }
+
+  </style>
+  <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+  <!--[if lte mso 11]>
+    <style type="text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+  <!--[if !mso]><!-->
+  <link href="https://wise.com/public-resources/assets/notification-service/fonts/inter-latin.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    @import url(https://wise.com/public-resources/assets/notification-service/fonts/inter-latin.css);
+
+  </style>
+  <!--<![endif]-->
+  <style type="text/css">
+    @media only screen and (min-width:480px) {
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-per-25 {
+        width: 25% !important;
+        max-width: 25%;
+      }
+
+      .mj-column-per-20 {
+        width: 20% !important;
+        max-width: 20%;
+      }
+
+      .mj-column-per-30 {
+        width: 30% !important;
+        max-width: 30%;
+      }
+    }
+
+  </style>
+  <style media="screen and (min-width:480px)">
+    .moz-text-html .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+    }
+
+    .moz-text-html .mj-column-per-25 {
+      width: 25% !important;
+      max-width: 25%;
+    }
+
+    .moz-text-html .mj-column-per-20 {
+      width: 20% !important;
+      max-width: 20%;
+    }
+
+    .moz-text-html .mj-column-per-30 {
+      width: 30% !important;
+      max-width: 30%;
+    }
+
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width:479px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+    }
+
+  </style>
+  <style type="text/css">
+    body,
+    html {
+      font-family: Inter, Averta, Helvetica, Arial !important;
+      font-weight: 400;
+      font-size: 14px !important;
+      color: #454745;
+    }
+
+    a {
+      color: #163300 !important;
+      font-weight: 600;
+    }
+
+    a.text-slimmer {
+      font-weight: 400;
+    }
+
+    a.text-inverse {
+      color: #9FE870 !important;
+    }
+
+    a:hover,
+    a:focus {
+      color: #0d1f00;
+    }
+
+    a:active {
+      color: #0e0f0c;
+    }
+
+    a.text-inverse:hover,
+    a.text-inverse:focus {
+      color: #80e142;
+    }
+
+    a.text-inverse:active {
+      color: #65cf21;
+    }
+
+    span.text-underline {
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
+    span.text-body-bold {
+      font-size: 16px !important;
+      line-height: 24px !important;
+      color: #454745 !important;
+      font-weight: 600;
+    }
+
+    .btn-primary:hover {
+      background-color: #80e142 !important;
+      border-color: #80e142 !important;
+      color: #0d1f00 !important;
+    }
+
+    .btn-primary:focus {
+      background-color: #80e142 !important;
+      border-color: #80e142 !important;
+      color: #0d1f00 !important;
+    }
+
+    .btn-primary:active {
+      background-color: #65cf21 !important;
+      border-color: #65cf21 !important;
+      color: #0e0f0c !important;
+    }
+
+    .btn-accent:hover {
+      background-color: #80e142 !important;
+      color: #0d1f00 !important;
+    }
+
+    .btn-accent:focus {
+      background-color: #80e142 !important;
+      border-color: #80e142 !important;
+      color: #0d1f00 !important;
+    }
+
+    .btn-accent:active {
+      background-color: #65cf21 !important;
+      border-color: #9fe870 !important;
+      color: #0e0f0c !important;
+    }
+
+    .btn-negative {
+      background-color: #a8200d !important;
+      border-color: #a8200d !important;
+      color: #fff !important;
+      transition: all .15s ease-in-out;
+    }
+
+    .btn-negative:active {
+      background-color: #761709 !important;
+      border-color: #761709 !important;
+      color: #fff !important;
+    }
+
+    .btn-negative:focus {
+      background-color: #8e1b0b !important;
+      border-color: #8e1b0b !important;
+      color: #fff !important;
+    }
+
+    .btn-negative:hover {
+      background-color: #8e1b0b !important;
+      border-color: #8e1b0b !important;
+      color: #fff !important;
+    }
+
+    .btn-secondary-negative {
+      background-color: #fff !important;
+      border-color: #a8200d !important;
+      color: #a8200d !important;
+      transition: all .15s ease-in-out;
+    }
+
+    .btn-secondary-negative:active {
+      background-color: #761709 !important;
+      border-color: #761709 !important;
+      color: #fff !important;
+    }
+
+    .btn-secondary-negative:focus {
+      background-color: #8e1b0b !important;
+      border-color: #8e1b0b !important;
+      color: #fff !important;
+    }
+
+    .btn-secondary-negative:hover {
+      background-color: #8e1b0b !important;
+      border-color: #8e1b0b !important;
+      color: #fff !important;
+    }
+
+    .btn-neutral:hover {
+      background-color: #16330037 !important;
+    }
+
+    .btn:active,
+    .btn:focus {
+      outline: 3px solid #163300;
+      outline-offset: 2px;
+    }
+
+    @media only screen and (max-width: 576px) {
+      .logo-img>table {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      .logo-img {
+        text-align: center;
+        text-align: -webkit-center;
+      }
+
+      .nav-image {
+        padding-top: 48px !important;
+        padding-bottom: 0px !important;
+      }
+
+      .code-text {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+      }
+
+      .code-text div {
+        font-size: 36px !important;
+        letter-spacing: 5px;
+      }
+
+      .text-footer div {
+        font-size: 12px !important;
+        line-height: 20px !important;
+      }
+
+      .hidden-xs {
+        display: none !important;
+      }
+
+      .location-image img {
+        width: 150px !important;
+        height: 150px !important;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .center-xs>div {
+        text-align: center !important;
+      }
+
+      .text-subheading>div {
+        font-size: 18px !important;
+      }
+
+      .left-edge.max221 img {
+        width: 111px !important;
+        height: 63px !important;
+      }
+
+      .icon-img>table {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      .icon-img img {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+    }
+
+  </style>
+</head>
+
+<body style="font-family: Inter, Averta, Helvetica, Arial; font-weight: 400; color: #454745; word-spacing: normal; font-size: 16px;">
+  <div class="body-wrapper" style lang="und" dir="auto"><div style="display: none"> There’s a cheaper option available </div>
+    <div style="display: none"> &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &nbsp; </div>
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="main-container-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#F2F2F2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="main-container" style="background:#F2F2F2;background-color:#F2F2F2;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background: #F2F2F2; background-color: #F2F2F2; width: 100%; font-family: Inter, Averta, Helvetica, Arial;" width="100%" bgcolor="#F2F2F2">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="section-container-light-outlook nav-header-emails-outlook p-b-4-outlook" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="section-container-light-outlook nav-header-emails-outlook p-b-4-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <div class="section-container-light nav-header-emails p-b-4" style="background-color: #ffffff; margin: 0px auto; max-width: 600px; padding-bottom: 32px; font-family: Inter, Averta, Helvetica, Arial; font-size: 16px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="height: 70px; width: 100%; font-family: Inter, Averta, Helvetica, Arial;" width="100%" height="70">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:middle;width:150px;" ><![endif]-->
+                        <div class="mj-column-per-25 mj-outlook-group-fix" style="text-align: left; direction: ltr; display: inline-block; vertical-align: middle; width: 100%; font-family: Inter, Averta, Helvetica, Arial; font-size: 16px;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="font-family: Inter, Averta, Helvetica, Arial;">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:middle;padding:4px 0px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Inter, Averta, Helvetica, Arial;" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" class="logo-img" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: collapse; border-spacing: 0px; font-family: Inter, Averta, Helvetica, Arial; margin-left: 40px;">
+                                            <tbody>
+                                              <tr>
+                                                <td style="width:93px;">
+                                                  <img alt src="https://wise.com/public-resources/assets/logos/wise-personal/logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:21px;width:100%;font-size:13px;" width="93" height="21">
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td><td class="hidden-xs-outlook" style="vertical-align:middle;width:120px;" ><![endif]-->
+                        <div class="mj-column-per-20 mj-outlook-group-fix hidden-xs" style="text-align: left; direction: ltr; display: inline-block; vertical-align: middle; width: 100%; font-family: Inter, Averta, Helvetica, Arial; font-size: 16px;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="font-family: Inter, Averta, Helvetica, Arial;">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:middle;padding:4px 0px 4px 0px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Inter, Averta, Helvetica, Arial;" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+                                          <div style="line-height: 24px; text-align: center; color: #454745; font-family: Inter, Averta, Helvetica, Arial; font-size: 16px;"><a class="nav-link" href="https://wise.com/send-money" style="color: #163300; text-decoration: none; font-size: 12px; font-weight: 500; letter-spacing: 0.02em; line-height: 28px; font-family: Inter, Averta, Helvetica, Arial;">Money transfer</a></div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td><td class="hidden-xs-outlook" style="vertical-align:middle;width:150px;" ><![endif]-->
+                        <div class="mj-column-per-25 mj-outlook-group-fix hidden-xs" style="text-align: left; direction: ltr; display: inline-block; vertical-align: middle; width: 100%; font-family: Inter, Averta, Helvetica, Arial; font-size: 16px;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="font-family: Inter, Averta, Helvetica, Arial;">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:middle;padding:4px 0px 4px 0px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Inter, Averta, Helvetica, Arial;" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+                                          <div style="line-height: 24px; text-align: center; color: #454745; font-family: Inter, Averta, Helvetica, Arial; font-size: 16px;"><a class="nav-link" href="https://wise.com/multi-currency-account" style="color: #163300; text-decoration: none; font-size: 12px; font-weight: 500; letter-spacing: 0.02em; line-height: 28px; font-family: Inter, Averta, Helvetica, Arial;">Multi-currency account</a></div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td><td class="hidden-xs-outlook" style="vertical-align:middle;width:180px;" ><![endif]-->
+                        <div class="mj-column-per-30 mj-outlook-group-fix hidden-xs" style="text-align: left; direction: ltr; display: inline-block; vertical-align: middle; width: 100%; font-family: Inter, Averta, Helvetica, Arial; font-size: 16px;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="font-family: Inter, Averta, Helvetica, Arial;">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:middle;padding:4px 0px 4px 0px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Inter, Averta, Helvetica, Arial;" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="right" class="nav-btn" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+                                          <div style="margin-right: 40px; line-height: 24px; text-align: right; color: #454745; font-family: Inter, Averta, Helvetica, Arial; font-size: 16px;"><a class="btn btn-primary btn-nav-a btn-border" href="https://wise.com" style="font-weight: 600; border-radius: 9999px; border: 1px solid transparent; text-align: center; touch-action: manipulation; -webkit-user-select: none; -ms-user-select: none; user-select: none; vertical-align: middle; background-image: none; border: 1px solid transparent; border-radius: 9999px; cursor: pointer; letter-spacing: .005em; margin-bottom: 0; box-sizing: border-box; border-color: #163300; background-color: #fff; color: #163300; transition: all .15s ease-in-out; font-size: 14px; line-height: 30px; max-height: 48px; min-height: 32px; padding: 8px 16px; text-decoration: none; width: 100%; word-wrap: break-word; display: block; line-height: 14px; margin: 0px; white-space: normal; font-family: Inter, Averta, Helvetica, Arial;">Log in</a></div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table></td></tr><![endif]--> <mj-section css-class="p-y-0">
+                <mj-column>
+                  <mj-spacer height="48px">
+                  </mj-spacer></mj-column>
+              </mj-section> <!--[if mso | IE]></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="section-container-light-outlook section-container-content-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="section-container-light section-container-content" style="background-color: #ffffff; margin: 0px auto; max-width: 600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction: ltr; font-size: 0px; text-align: center; padding: 0px 40px;" align="center">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="left" class="text-body" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;"> Hello Antonio,</div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="section-container-content-outlook section-container-light-outlook p-b-4-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="section-container-content section-container-light p-b-4" style="background-color: #ffffff; margin: 0px auto; max-width: 600px; padding-bottom: 32px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction: ltr; font-size: 0px; text-align: center; padding: 0px 40px;" align="center">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <tbody>
+                            <!-- Headers with cheaper alternative --> <tr>
+                              <td align="left" class="text-title p-t-3 p-b-1" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-bottom: 8px; padding-top: 24px;">
+                                <div style="font-weight: 600; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 30px; line-height: 34px; color: #0E0F0C;">Fees for funding a transfer with your Visa debit card are changing, but there's a cheaper option.</div>
+                              </td>
+                            </tr><!-- headers no cheaper alternative --><!-- All emails -->
+                            <tr>
+                              <td align="left" class="text-body p-t-2" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-top: 16px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;">We regularly review our fees to reflect the real cost — so you never pay more than you need to.</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" class="text-body p-t-2" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-top: 16px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;">After the latest review, fees for some routes got more expensive and others got cheaper. </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" class="text-body p-t-2" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-top: 16px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;">You can find a <a href='https://api.transferwise.com/v1/notification-flow/messages/340b046f-4496-3569-bac8-875055df5249/deliveries/db590730-620f-457a-95fb-13424f8d8781/linkClicks?name=blogPost&link=aHR0cHM6Ly93aXNlLmNvbS9nYi9ibG9nL3dlcmUtdXBkYXRpbmctb3VyLWZlZXM&hash=dd50b09b8ad139012c1a5efd62de4771'>full list of updated fees and when they apply here</a>.</div>
+                              </td>
+                            </tr> <tr>
+                              <td align="left" class="text-body p-t-2" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-top: 16px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;">Our <a href='https://api.transferwise.com/v1/notification-flow/messages/340b046f-4496-3569-bac8-875055df5249/deliveries/db590730-620f-457a-95fb-13424f8d8781/linkClicks?name=pricingPage&link=aHR0cHM6Ly93aXNlLmNvbS9wcmljZS1jaGFuZ2Uvc2VuZC1tb25leT9zb3VyY2U9Q0hGJnRhcmdldD1CUkwmcGF5SW5NZXRob2Q9VklTQV9ERUJJVF9PUl9QUkVQQUlEJnByaWNlQ2hhbmdlPWdsb2JhbC1yZXByaWNlLW1heS0yMDI0JnNvdXJjZUFtb3VudD00MDAmcGF5T3V0TWV0aG9kPUJBTktfVFJBTlNGRVI&hash=b4c2dc0a9947117fdee8e0853d3a9650'>fees calculator</a> will tell you if your route was impacted by this change and how much your next transfer will cost. Here's one example based on your recent transfer: </div>
+                              </td>
+                            </tr><!-- Examples No-gEUR --> <tr>
+                              <td align="left" class="text-body p-t-2" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-top: 16px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;">You previously sent 400 from CHF to BRL using your Visa debit card. It cost 12.36 CHF and will now cost 15.95 CHF.*</div>
+                              </td>
+                            </tr> <tr>
+                              <td align="left" class="text-body p-t-2" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-top: 16px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;">This is because the fee for sending CHF to BRL using your Visa debit card has gone from 0.66 CHF + 2.99% to 1.17 CHF + 3.81%.</div>
+                              </td>
+                            </tr><!-- Examples gEUR --><!-- Cheaper Alternative --> <tr>
+                              <td align="left" class="text-body p-t-2" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-top: 16px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;">Using another method to fund this transfer will be cheaper — it would cost 4.98 CHF if you <a href='https://wise.com/price-change/send-money?source=CHF&target=BRL&payInMethod=BANK_TRANSFER&priceChange=global-reprice-may-2024&sourceAmount=400&payOutMethod=BANK_TRANSFER'>used a bank transfer</a> instead.</div>
+                              </td>
+                            </tr><!-- Ending all --> <tr>
+                              <td align="left" class="text-body p-t-2" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-top: 16px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;">We’re upfront about what it costs to use your card abroad or send money internationally. We don’t talk about low fees or "no fees", and hide the real price in inflated exchange rates. We believe in total fee transparency. <a href='https://api.transferwise.com/v1/notification-flow/messages/340b046f-4496-3569-bac8-875055df5249/deliveries/db590730-620f-457a-95fb-13424f8d8781/linkClicks?name=tellAuthorities&link=aHR0cHM6Ly93aXNlLmNvbS9nYi9ibG9nL3RlbGwtdGhlLWF1dGhvcml0aWVz&hash=b7c370832fc936cc6681bbc3a76cc801'>Find out more here</a>.</div>
+                              </td>
+                            </tr> <tr>
+                              <td align="center" class="text-body p-t-2  p-b-2" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-top: 16px; padding-bottom: 16px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: center; font-size: 16px; line-height: 24px; color: #454745;"><a href="https://api.transferwise.com/v1/notification-flow/messages/340b046f-4496-3569-bac8-875055df5249/deliveries/db590730-620f-457a-95fb-13424f8d8781/linkClicks?name=pricingPageCTA&link=aHR0cHM6Ly93aXNlLmNvbS9wcmljZS1jaGFuZ2Uvc2VuZC1tb25leT9zb3VyY2U9Q0hGJnRhcmdldD1CUkwmcGF5SW5NZXRob2Q9VklTQV9ERUJJVF9PUl9QUkVQQUlEJnByaWNlQ2hhbmdlPWdsb2JhbC1yZXByaWNlLW1heS0yMDI0JnNvdXJjZUFtb3VudD00MDAmcGF5T3V0TWV0aG9kPUJBTktfVFJBTlNGRVI&hash=ffaab77c03130dfd43fb4bd229279583" class="btn btn-accent btn-full btn-lg-a" style="font-weight: 600; border-radius: 9999px; border: 1px solid transparent; text-align: center; touch-action: manipulation; -webkit-user-select: none; -ms-user-select: none; user-select: none; vertical-align: middle; white-space: nowrap; background-image: none; border: 1px solid transparent; border-radius: 9999px; cursor: pointer; letter-spacing: .005em; margin-bottom: 0; box-sizing: border-box; display: inline-block; background-color: #9fe870; transition: all .15s ease-in-out; font-size: 16px; line-height: 48px; max-height: 48px; min-height: 48px; height: 48px; padding: 0px 48px; text-decoration: none; color: #163300; width: 100%;">
+                                    Check our new fees
+                                  </a></div>
+                              </td>
+                            </tr> <tr>
+                              <td align="left" class="text p-t-4" style="font-size: 0px; padding: 0; word-break: break-word; padding-top: 32px;">
+                                <div style="font-family:Inter, Averta, Helvetica, Arial;font-size:14px;line-height:24px;text-align:left;color:#454745;">*Example is based on a similar transaction to one you made over the past 12 months. </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="section-container-content-outlook section-container-light-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="section-container-content section-container-light" style="background-color: #ffffff; margin: 0px auto; max-width: 600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction: ltr; font-size: 0px; text-align: center; padding: 0px 40px;" align="center">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="left" class="text-body p-b-0" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-bottom: 0px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;">Thanks,</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" class="text-body p-t-3-px p-b-4" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-bottom: 32px; padding-top: 3px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: left; font-size: 16px; line-height: 24px; color: #454745;">The Wise team</div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="section-container-outlook section-container-content-outlook p-t-4-outlook p-b-4-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="section-container section-container-content p-t-4 p-b-4" style="background-color: #163300; margin: 0px auto; max-width: 600px; padding-top: 32px; padding-bottom: 32px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction: ltr; font-size: 0px; text-align: center; padding: 0px 40px;" align="center">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="p-y-0-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix p-y-0" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%; padding-top: 0px; padding-bottom: 0px;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" class="text-footer text-white p-b-2" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px; padding-bottom: 16px;">
+                                <div style="font-weight: 400; font-family: Inter, Averta, Helvetica, Arial; text-align: center; font-size: 14px; line-height: 20px; color: #fff;">Want to change what we get in touch about? Go to your <a class="text-inverse text-slimmer" href="https://api.transferwise.com/v1/notification-flow/messages/340b046f-4496-3569-bac8-875055df5249/deliveries/db590730-620f-457a-95fb-13424f8d8781/linkClicks?name=notificationPreferences&link=aHR0cDovL3dpc2UuY29tL3NldHRpbmdzL25vdGlmaWNhdGlvbi1wcmVmZXJlbmNlcyNwcmVmZXJlbmNlcy10b2tlbj1leUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKbFpHbDBZV0pzWlVOaGRHVm5iM0pwWlhNaU9sc2lWRkpCVGxOR1JWSlRJaXdpUWtGTVFVNURSVk5mUVU1RVgwTkJVa1JUSWl3aVVGSlBUVTlVU1U5T1FVd2lMQ0pUVlZKV1JWbFRJaXdpUTBGTlVFRkpSMDVUSWwwc0ltbHpjeUk2SW5kcGMyVXRibTkwYVdacFkyRjBhVzl1SWl3aVpYaHdJam94TnpFNE5ERTNNVFV4TENKMWMyVnlTV1FpT2lKVVZ6bzZNak16TlRVMk5URWlmUS5Yd2Q1Zk04NzBoZkF0d1Y4RVJJT2psRm9VcWs5RkZULTJuSENsTTJjb3pB&hash=5a18819f1f5c27ab0a7d8017ef41d30f">Notification Settings</a>. We can’t receive replies to this email address. But if you’d like some support, please visit our <a class="text-inverse text-slimmer" href="https://api.transferwise.com/v1/notification-flow/messages/340b046f-4496-3569-bac8-875055df5249/deliveries/db590730-620f-457a-95fb-13424f8d8781/linkClicks?name=helpCentre&link=aHR0cHM6Ly93aXNlLmNvbS9oZWxw&hash=3168b3b1e92e6c59ec4f37927a9b1ac2">Help Centre</a>.</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" class="text-small text-white" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px;">
+                                <div style="font-family: Inter, Averta, Helvetica, Arial; text-align: center; color: #fff; font-size: 10px; line-height: 18px;"><mj-raw></mj-raw>
+                                  This email was sent to you by Wise. By using our services, you agree to our <a href="https://api.transferwise.com/v1/notification-flow/messages/340b046f-4496-3569-bac8-875055df5249/deliveries/db590730-620f-457a-95fb-13424f8d8781/linkClicks?name=customerAgreements&link=aHR0cHM6Ly93aXNlLmNvbS90ZXJtcy1hbmQtY29uZGl0aW9ucw&hash=536fa978ae56c9f7288d873a43f33626" class="text-inverse text-slimmer">customer agreements</a>. <mj-raw> </mj-raw>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" class="text-small text-white" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px;">
+                                <div style="font-family: Inter, Averta, Helvetica, Arial; text-align: center; color: #fff; font-size: 10px; line-height: 18px;"><mj-raw> </mj-raw>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" class="text-small text-white" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px;">
+                                <div style="font-family: Inter, Averta, Helvetica, Arial; text-align: center; color: #fff; font-size: 10px; line-height: 18px;"></div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" class="text-small text-white" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px;">
+                                <div style="font-family: Inter, Averta, Helvetica, Arial; text-align: center; color: #fff; font-size: 10px; line-height: 18px;"></div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" class="text-small text-white" style="font-size: 0px; padding: 0; word-break: break-word; padding-left: 0px; padding-right: 0px;">
+                                <div style="font-family: Inter, Averta, Helvetica, Arial; text-align: center; color: #fff; font-size: 10px; line-height: 18px;">© Wise 2024. All rights reserved.</div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <tbody>
+                            <tr>
+                              <td style="font-size:0px;padding:0;word-break:break-word;">
+                                <div style="height:24px;line-height:24px;">&#8202;</div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="transparent" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="background:transparent;background-color:transparent;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;background-color:transparent;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="left" class="zendesk-tag" style="font-size:0px;padding:0;word-break:break-word;">
+                                <div style="font-family:Inter, Averta, Helvetica, Arial;font-size:1px;line-height:24px;text-align:left;color:#f2f5f7;">zdtag-nr-contact-form-sent</div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="transparent" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="background:transparent;background-color:transparent;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;background-color:transparent;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                  <tbody>
+                                    <tr>
+                                      <td style="width:1px;">
+                                        <img alt src="https://api.transferwise.com/v1/notification-flow/messages/340b046f-4496-3569-bac8-875055df5249/deliveries/db590730-620f-457a-95fb-13424f8d8781/open.gif" style="border:0;display:block;outline:none;text-decoration:none;height:1;width:100%;font-size:13px;" width="1" height="1">
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+  </div>
+</body>
+
+</html>

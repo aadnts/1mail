@@ -1,0 +1,42 @@
+{
+    "id": "18f7229e2f7bc93e",
+    "snippet": "Discover the most popular searches happening right now... Envato Elements Explore These Trending Searches Trending Graduation Trending Beach Trending Summer Trending Travel Opener Trending Modern",
+    "historyId": "2154266",
+    "internalDate": "2024-05-13 15:34:58",
+    "sizeEstimate": 64157,
+    "threadId": "18f7229e2f7bc93e",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from mta-219-146.sparkpostmail.com (mta-219-146.sparkpostmail.com. [147.253.219.146])        by mx.google.com with ESMTPS id 41be03b00d2f7-63413d72cb6si8989782a12.834.2024.05.13.06.34.58        for <antonioroddantas@gmail.com>        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);        Mon, 13 May 2024 06:34:58 -0700 (PDT)",
+        "X-Google-Smtp-Source": "AGHT+IG/1xTpZYmkPPqkJUAySX55GhZoMBwT9biy/ndDKRo/VzCyjSLrmY26PuNwCxqW13zq9PEs",
+        "X-Received": "by 2002:a5d:8c8e:0:b0:7de:f48e:36c3 with SMTP id ca18e2360f4ac-7e1b500fbb0mr1027606839f.0.1715607298675;        Mon, 13 May 2024 06:34:58 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715607298; cv=none;        d=google.com; s=arc-20160816;        b=NUyfHHB2u9o18bniPHWVtB80Ip//TYV75B4iczRI09n7S06rJX9pUYuDC6BdeNbJB/         x8o9SbMfVxsFpcmVZZqeKc8kSxkg52ZJ9NuN2biaWhOAQUjv/Zfw6AYPIDb3xr0StTqK         fn1HKZgWY0pqr4WhK9QMVVe3stVSxPqDm30HT4LNK66BdsKNgBHHHeIjoG043U5ygKuk         5pP6Y0aFXLkCFf2tsjQhl4vdH2fHvhYmV+lNPEZ4qyv+Nr7nxJJyCxwzYYOqUa0eAY30         jeKdaytItUr+1EgEM6wAlH1VevEknH3CMDq2ZxmDPHPCfJD6ZURJY/Wf1f2f38r1BDFj         vlSw==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=list-id:list-unsubscribe-post:list-unsubscribe:feedback-id:from         :subject:reply-to:mime-version:date:message-id:to:dkim-signature;        bh=MwPf+paDLpq7pV9Cmb7sRjPc4UoGmMHRfc12hKYAsdI=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=DtfzvW1KisX6GKgq53El5HzlNkEe9rPcT8UQCncyAmk9sAKpCc8O1CfZUeT0VTFW6t         juiYQbYXzE/zF94b1MQ/2vhep+42xGhVQqNWO4dWNno3/MQ7+LATrCaey8kGyErJ9Gpy         O7IXd/YC+Hg/cnBOah2zrPnjMKCMllPJWjYOpDyT4y8j6OUY/TwptSeZUB58MZH/Pj1B         k3kGf3I8a67J4GU19nlhvgc8Jqh6Qu8cPxgYos+uTUofPLzm99RsaXmOm5lXIp9fsQ7C         piJgVkohpgbMIxiUchs9l/Bfauo+mr0l9NRWMtnkggimBEtvZGW3Do1CSJEKzGsB91nI         syaQ==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@m.elements.envato.com header.s=scph0220 header.b=uL0Blpkm;       spf=pass (google.com: domain of msprvs1=198632y7mbogo=bounces-279114-1@bounce.m.elements.envato.com designates 147.253.219.146 as permitted sender) smtp.mailfrom=\"msprvs1=198632y7MBoGO=bounces-279114-1@bounce.m.elements.envato.com\";       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=m.elements.envato.com",
+        "Return-Path": "<msprvs1=198632y7MBoGO=bounces-279114-1@bounce.m.elements.envato.com>",
+        "Received-SPF": "pass (google.com: domain of msprvs1=198632y7mbogo=bounces-279114-1@bounce.m.elements.envato.com designates 147.253.219.146 as permitted sender) client-ip=147.253.219.146;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@m.elements.envato.com header.s=scph0220 header.b=uL0Blpkm;       spf=pass (google.com: domain of msprvs1=198632y7mbogo=bounces-279114-1@bounce.m.elements.envato.com designates 147.253.219.146 as permitted sender) smtp.mailfrom=\"msprvs1=198632y7MBoGO=bounces-279114-1@bounce.m.elements.envato.com\";       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=m.elements.envato.com",
+        "X-MSFBL": "Nkm1oKplHturt6nF8lbJ3Bi1o12xQpstTvADNB2YrVs=|eyJtZXNzYWdlX2lkIjo iNjYzMzAyMTc0MjY2YzBhMzJiMmIiLCJzdWJhY2NvdW50X2lkIjoiMSIsInIiOiJ hbnRvbmlvcm9kZGFudGFzQGdtYWlsLmNvbSIsImN1c3RvbWVyX2lkIjoiMjc5MTE 0IiwidGVuYW50X2lkIjoic3BjIn0=",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=m.elements.envato.com; s=scph0220; t=1715607298; i=@m.elements.envato.com; bh=MwPf+paDLpq7pV9Cmb7sRjPc4UoGmMHRfc12hKYAsdI=; h=To:Message-ID:Date:Content-Type:Subject:From:List-Unsubscribe:\t List-Unsubscribe-Post:From:To:Cc:Subject; b=uL0Blpkm88Bp1Zoqg8dna0MqxcTJ5+hcgzauXk5y3MaR3dCvvC9kitI4tacVmXFV1\t qLmiCsvU9W2Y51RuhuE8+4fAHK7quccAJ+XUsRX5ThqlUT/uPzUjz5TlfmmpoxtSVM\t tq1zELPADmWOcjc45fCNNser12a/HoMby8lWNlGw=",
+        "To": "antonioroddantas@gmail.com",
+        "Message-ID": "<B2.BA.15473.20712466@gv.mta1vrest.cc.prd.sparkpost>",
+        "Date": "Mon, 13 May 2024 13:34:58 +0000",
+        "Content-Type": "multipart/alternative; boundary=\"_----gYsjKYr+e19FIjaOhSMi5w===_72/BA-15473-20712466\"",
+        "MIME-Version": "1.0",
+        "Reply-To": "get-help@envato.com",
+        "Subject": "Latest Search Trends: Summer, Travel, Graduation, and More",
+        "X-Campaign-ID": "9834039",
+        "From": "Envato Elements <news@m.elements.envato.com>",
+        "X-Message-ID": "3e3c57779fd440c4992b9e04680596f7",
+        "X-Feedback-ID": "12983779:9834039:29132:iterable",
+        "Feedback-ID": "12983779:9834039:29132:iterable",
+        "List-Unsubscribe": "<mailto:unsubscribe@unsub.spmta.com?subject=unsubscribe:QIITekIsYvvaKyLLlKu-RrfzwLKKEZuzRX-Viz_oziU~|eyAicmNwdF90byI6ICJhbnRvbmlvcm9kZGFudGFzQGdtYWlsLmNvbSIsICJ0ZW5hbnRfaWQiOiAic3BjIiwgImN1c3RvbWVyX2lkIjogIjI3OTExNCIsICJzdWJhY2NvdW50X2lkIjogIjEiLCAibWVzc2FnZV9pZCI6ICI2NjMzMDIxNzQyNjZjMGEzMmIyYiIgfQ~~>,<https://unsubscribe.spmta.com/u/uSh2BtKamFAAv4oqCLkv5Q~~/AARCSgA~/RgRoJJwCPFcDc3BjQgpmMwIXQmbAoysrUhphbnRvbmlvcm9kZGFudGFzQGdtYWlsLmNvbVgEAAAAAQ~~>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "List-Id": "<spc.279114.1.sparkpostmail.com>"
+    }
+}

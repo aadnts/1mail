@@ -1,0 +1,41 @@
+{
+    "id": "18f720409ec6c965",
+    "snippet": "Your skills seem to match this job \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+    "historyId": "2152003",
+    "internalDate": "2024-05-13 14:53:22",
+    "sizeEstimate": 171499,
+    "threadId": "18f720409ec6c965",
+    "labelIds": [
+        "UNREAD",
+        "CATEGORY_SOCIAL",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from mailb-ce.linkedin.com (mailb-ce.linkedin.com. [108.174.6.149])        by mx.google.com with ESMTPS id 41be03b00d2f7-6341134733csi9565364a12.430.2024.05.13.05.53.35        for <antonioroddantas@gmail.com>        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);        Mon, 13 May 2024 05:53:38 -0700 (PDT)",
+        "X-Google-Smtp-Source": "AGHT+IG//HMpA61RZ/5v1l+DobVUoyngIAhFAICNCVcx5Vh2h8ptTp+ap2/uOh7HAR2yYFl0VSJy",
+        "X-Received": "by 2002:a05:6359:4c98:b0:192:2980:ddf1 with SMTP id e5c5f4694b2df-193bb50c7bemr686674855d.1.1715604818083;        Mon, 13 May 2024 05:53:38 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715604818; cv=none;        d=google.com; s=arc-20160816;        b=DF7EfLyle+jtBzNCCWy1PDoJoIGfRlVPXjtFy4qs/o5+O+P7UqTrigxzPR6+7JiNw9         UhhNBa2MswoLezEUbKC5aWwJNgIzdIkE8BrAM8Y3PomhWxc6IGwN+rfVAXju0umC7kcG         ra986J3qTtaQGNlcR0PioAIsJm3dEsk45/DAuqjbn6ZVJldeFsUc8m7iv5MYFEurJPOS         S3g5nO7WvYPIvoXL+NNCJ7wxe4GXqYVhwyfIIgDWvg/A7zZ0HGDAQGAFp9ecbuNylM6T         YVbmkWXH6cRNhLwd06CJiYRVuLq45FZ1rNyJrYDiRFQ0G3sLg9XNE2mkLD+5sL46dxMv         ztcw==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post         :list-unsubscribe:date:to:mime-version:subject:message-id:from         :dkim-signature:dkim-signature;        bh=yDuPmDEusUYnUaTpG7j1nkd3Ri0nIfZ+UCDn5tgjEZY=;        fh=R5zNtgpvXLarQmGHRZGw+d2ABh62fDtcJh3ejMGPpvE=;        b=OV91EquC10f/tObAbPhNmULslKThUksNtgUaR2zJ+SB76/cjeEkjrCUALf9W8Rgh00         W2Z6FkO5ESyVBrwqLeW9Yv0pUTmEvcZcUbR2boLWIb6UpQAZVoNBgAvm/LZ5hhymvVDG         5THP9a9eDmO754PuuS8l8KSXa/CU8s/yzXwWqHT35K6E+JiiTTpWC/t9l1iG5A04RC6n         FWhLBybcQ7E2I/AF77CKIL7OeQ3nrUI8JN5Jlk/2h1ItFh2ku0BL1ss9iHIIM5DRElkX         2h0PNi462pTfbmuN8XraUlFbS24enZknA22X5VCa92d6XDTQwo6p7B6e4cIFBkRD6Fpq         CI3Q==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@mailb.linkedin.com header.s=d2048-202308-0b header.b=HOM8Iiz4;       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=ca+lIUuf;       spf=pass (google.com: domain of s-4sets9kvsbvka7aofkantdqzihfoal9bqo726ljfiwv7b5xt08xy1opy@bounce.linkedin.com designates 108.174.6.149 as permitted sender) smtp.mailfrom=s-4sets9kvsbvka7aofkantdqzihfoal9bqo726ljfiwv7b5xt08xy1opy@bounce.linkedin.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com",
+        "Return-Path": "<s-4sets9kvsbvka7aofkantdqzihfoal9bqo726ljfiwv7b5xt08xy1opy@bounce.linkedin.com>",
+        "Received-SPF": "pass (google.com: domain of s-4sets9kvsbvka7aofkantdqzihfoal9bqo726ljfiwv7b5xt08xy1opy@bounce.linkedin.com designates 108.174.6.149 as permitted sender) client-ip=108.174.6.149;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@mailb.linkedin.com header.s=d2048-202308-0b header.b=HOM8Iiz4;       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=ca+lIUuf;       spf=pass (google.com: domain of s-4sets9kvsbvka7aofkantdqzihfoal9bqo726ljfiwv7b5xt08xy1opy@bounce.linkedin.com designates 108.174.6.149 as permitted sender) smtp.mailfrom=s-4sets9kvsbvka7aofkantdqzihfoal9bqo726ljfiwv7b5xt08xy1opy@bounce.linkedin.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com; s=d2048-202308-00; t=1715604803; bh=yDuPmDEusUYnUaTpG7j1nkd3Ri0nIfZ+UCDn5tgjEZY=; h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:\t X-LinkedIn-Template:X-LinkedIn-fbl; b=ca+lIUufQCdpNBFUf3iMJ7cZAxV+cJ5knmXBCDdOXzXnrQcLiUbdV17qattulvL+l\t iO628MzwRIlyWM/VN9zn1+irn+LvQV5ejSzIgU8SW1LlT1CUP4dm775hkn54sycNcN\t LEjyi/Z1XzVOYQWj8ivd3rXisEIcX0jMwgbf54jEBpvCqsl08j+JDXdR6EmG2bVqjo\t kg3HjRF9hlRBOi+3+1adBFqOAkMDVos/9jOmY3j4zjjIPN36LtYwrxDAtqV0Lan2oT\t cuO6iA8fHHdD6GYimlYssLAl3s4Bo0g7l6JqSHgQhYWUwUTpbR60yPcgrvBsgyQFQj\t z/aLyqz5P6oOQ==",
+        "From": "LinkedIn <jobs-listings@linkedin.com>",
+        "Message-ID": "<340009950.12660545.1715604802667@lva1-app87132.prod.linkedin.com>",
+        "Subject": "Collaborateur-trice scientifique role at The International Commission for the Protection of the Waters of Lake Geneva - CIPEL: 1 school alum",
+        "MIME-Version": "1.0",
+        "Content-Type": "multipart/alternative; boundary=\"----=_Part_12660543_1471468678.1715604802663\"",
+        "To": "Antonio Dantas <antonioroddantas@gmail.com>",
+        "Date": "Mon, 13 May 2024 12:53:22 +0000 (UTC)",
+        "X-LinkedIn-Class": "JOBS-TO-MBR",
+        "X-LinkedIn-Template": "jobs_jymbii_digest",
+        "X-LinkedIn-fbl": "m2-aszun3xzf2xzr6banwfq5m9gtmcy579snth11eg29kanr5khi1z6d9nzbavrb835neh3bzr6pfhf94e1y1xrw2jifwczc7dj7uasdt",
+        "X-LinkedIn-Id": "coa6dx-lw4yrqk8-p4",
+        "List-Unsubscribe": "<https://www.linkedin.com/comm/psettings/email-unsubscribe?lipi=urn%3Ali%3Apage%3Aemail_jobs_jymbii_digest%3B1N4JCkPlQja3hIprtnKLNg%3D%3D&midToken=AQF27aXXd8Tvaw&midSig=0p3FE4Hks5jrg1&trk=eml-jobs_jymbii_digest-unsub-0-unsub&trkEmail=eml-jobs_jymbii_digest-unsub-0-unsub-null-coa6dx~lw4yrqk8~p4-null-null&eid=coa6dx-lw4yrqk8-p4&loid=AQH_B3cOQ19dCwAAAY9yA8l1imc95wQ5HDiIeiGQ4zLeuiCLBTXZ3OSDCbnTeHRwgCMTNtQBSDoy82ZNB3MHSgVmELwGuq2YGmKgTXYtbH4p>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "Feedback-ID": "jobs_jymbii_digest:linkedin",
+        "Require-Recipient-Valid-Since": "antonioroddantas@gmail.com; Wed, 9 Aug 2023 09:44:02 +0000"
+    }
+}

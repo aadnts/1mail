@@ -1,0 +1,37 @@
+{
+    "id": "18f77e411bec88f4",
+    "snippet": "An all-new semi-modular analog spectral processor. Gear4music: 30-day money back guarantee, 3-year warranty, fast delivery. Gear4music Gear4music Gear4music Moog Spectravox Semi-Modular Analog Spectral",
+    "historyId": "2154619",
+    "internalDate": "2024-05-14 18:16:23",
+    "sizeEstimate": 62967,
+    "threadId": "18f77e411bec88f4",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from MTg0NzEyNjI (unknown) by geopod-ismtpd-9 (SG) with HTTP id 5tgJb3DMSS6OO8MaNDo2Zw Tue, 14 May 2024 16:16:23.840 +0000 (UTC)",
+        "X-Google-Smtp-Source": "AGHT+IFN9/9khJcuU2ltXmRudu1AeluxyM0fr4K4Wo/9+q7W3m9zmSp1EaarwqGpx5cs4qcfxujt",
+        "X-Received": "by 2002:a05:6122:da3:b0:4d3:3a78:60e2 with SMTP id 71dfb90a1353d-4df8833a0b9mr11813504e0c.1.1715703387246;        Tue, 14 May 2024 09:16:27 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715703387; cv=none;        d=google.com; s=arc-20160816;        b=AHuLLSnMH+8IWDFdLn4E1zGtqQs1L55ABqRvkPtQUunQlWkv7E7ejQGhNfPrpfKS8d         IBrqKwquvnoTpBGgU3a8eJa128fehimCyh6fcXr0qaggkb4KInQgd4f6PlP1X8e6yE9W         M0/lyL+p++pi1mde7L8jzYqK7X1Ley4CzRmb+NY2fTOo3ujerqnqC0fBV/zmA0cy2RzQ         CA6kJs2b/DTcqR0SieIxXTLRuSNdGKYsZLbFvuUs9sJ8aK5tj+ydJWJd3WNcWFwGcYAT         nPKhoALfIjL4Dl/gpRXphtZYF7C7EUnvfFS49dCh8lYHpAZ5P+Ayb3bRpDUbZmeaxrQg         iS5Q==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=to:subject:message-id:mime-version:from:date:dkim-signature         :dkim-signature;        bh=ieT8Z3LjEZlvw9bcbcfcHSiukdED2ONY6sPt2xiCZps=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=CCTh59JfDBtBsJlH3BAEvC69k/UjS5qRYRuf2brHvqk8JxTNc3404v3zbi50EKZDBR         FaTsfnp5B7NOgM1tgG4bYq37BNqUjlYJ72zTNF7wbKIoTMTRMNJCqH2yezCL8yM08hDs         84XAkooS13EBLcWRaOmOjUhD2Dxj49/jmuk29gQRB+KBaQ4p1NTjskkBlG+9MRF27dyJ         fLcG2da5Ql2RHkg42oSEcfXAj8FR21UW542mrcBxg30TeJvSKSbjR+Y0Bzfi98RA0wsF         fIVJU+PUef8jG4gilIpRPsA8fpPQ04KoRmoMp1wMGoCaAxSfcTgS/u1YWhnMLSZfG1sy         sYYA==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@marketing.gear4music.ch header.s=s1 header.b=c0ADaij3;       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=a11AtEeY;       spf=pass (google.com: domain of bounces+18471262-f8d8-antonioroddantas=gmail.com@em5754.marketing.gear4music.ch designates 168.245.2.53 as permitted sender) smtp.mailfrom=\"bounces+18471262-f8d8-antonioroddantas=gmail.com@em5754.marketing.gear4music.ch\";       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gear4music.ch",
+        "Return-Path": "<bounces+18471262-f8d8-antonioroddantas=gmail.com@em5754.marketing.gear4music.ch>",
+        "Received-SPF": "pass (google.com: domain of bounces+18471262-f8d8-antonioroddantas=gmail.com@em5754.marketing.gear4music.ch designates 168.245.2.53 as permitted sender) client-ip=168.245.2.53;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@marketing.gear4music.ch header.s=s1 header.b=c0ADaij3;       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=a11AtEeY;       spf=pass (google.com: domain of bounces+18471262-f8d8-antonioroddantas=gmail.com@em5754.marketing.gear4music.ch designates 168.245.2.53 as permitted sender) smtp.mailfrom=\"bounces+18471262-f8d8-antonioroddantas=gmail.com@em5754.marketing.gear4music.ch\";       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gear4music.ch",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info; h=content-type:from:mime-version:subject:x-feedback-id:to:cc: content-type:from:subject:to; s=smtpapi; bh=ieT8Z3LjEZlvw9bcbcfcHSiukdED2ONY6sPt2xiCZps=; b=a11AtEeYPXP/tJ4Z4sOk7rVE7ikQie3vkki0lLMjnOMzDH55PReGUSbxAVybU+SJj/Zu g5F5PdMWehn4t0gR800WRfOYHGBmSYu9vygX2yTkpnIU6qhF97SHyCSrr+7MoMKzelN8l2 csotJN2wjd2L+FxALK7Ijrf59T97bloYc=",
+        "Content-Type": "multipart/alternative; boundary=bae922f42b3326f2cdede80667bd6be92e73ff7496ad774cace4184e4200",
+        "Date": "Tue, 14 May 2024 16:16:23 +0000 (UTC)",
+        "From": "\"Gear4music.ch\" <info@marketing.gear4music.ch>",
+        "Mime-Version": "1.0",
+        "Message-ID": "<5tgJb3DMSS6OO8MaNDo2Zw@geopod-ismtpd-9>",
+        "Subject": "New Launch | Moog Spectravox",
+        "X-Feedback-ID": "18471262:SG",
+        "X-SG-EID": "u001.zk4YlSaj3MmZrMQntITVoQ682SW12AbjBdQBs3qwNm2YCyrmpX+0tRzuQk/JljUL7a3U/3a1j5FXr/MC2dk83B34HIYV0vD1i9pZEr0O/n8eIfASVpSDLNRoNMI3Ruxf3/ELH0HCpxJgYokImhBEdiu82pVRyVNkoM2/0VaAUNbUgu5MsL6t1wJPjKfEruKCeyAB+morOBEeX3VyRBtPSu5K+PW7fsbReDusHC59FDq6bSR2tP1hmwt/Tdj0i210e+nIHqxRrZaQJTCGFxInpQ==",
+        "X-SG-ID": "u001.SdBcvi+Evd/bQef8eZF3Bh3sfLaztx82TS3Yy1iDbKeputlhUI3gzoHF6a/bo0q0auzP9/d7ugPpHXD6pnfk9V3VlsKhAF9pUVV4o7BDIueZhdrmnP9b1C7ATke7m8a8hL07xg8XII8l/OO7dIknelTjHgu8BHLZ0GWy+hFSgYU=",
+        "To": "antonioroddantas@gmail.com",
+        "X-Entity-ID": "u001.V7suP24FwG4w+9sYDrbafw=="
+    }
+}

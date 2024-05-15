@@ -1,0 +1,8 @@
+Could you please extract all the relevant metadata of this document and produce a JSON file with it?
+Your answer should only contain the JSON file, nothing else!
+
+The metadata you will be searching for will vary depending on the document, so feel free to adapt the JSON file you will produce so that it contains any relevant information, here’s a reference for the type of JSON file that I want you to produce : 
+{json_data}
+
+Here's the document :
+{document}

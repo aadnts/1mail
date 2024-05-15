@@ -1,0 +1,41 @@
+{
+    "id": "18f76749d33195f4",
+    "snippet": "Profitez de l&#39;occasion pour acheter tout ce dont vous avez besoin pour votre entreprise. Version en ligne Logo Flyers Papier \u00c0 En-T\u00eate Tampons AUTRES Homepage Cartes De Visite Cartes De Visite 500",
+    "historyId": "2154270",
+    "internalDate": "2024-05-14 11:34:55",
+    "sizeEstimate": 52637,
+    "threadId": "18f76749d33195f4",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "by mta.mail.bizay.com id h8co4g2fmd4b for <antonioroddantas@gmail.com>; Tue, 14 May 2024 09:35:04 +0000 (envelope-from <bounce-103_HTML-123138414-1020912-100028578-1364@bounce.mail.bizay.com>)",
+        "X-Google-Smtp-Source": "AGHT+IG9ng2saS2aYlZNAdU4WphxgLxmjWQltaOAFdKXakZbPNSQS0yDVsECii07Or4OtD2kqAJ0",
+        "X-Received": "by 2002:a05:6808:1a28:b0:3c9:9693:f66 with SMTP id 5614622812f47-3c997231995mr14247132b6e.4.1715679304906;        Tue, 14 May 2024 02:35:04 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715679304; cv=none;        d=google.com; s=arc-20160816;        b=TAVprqBr4oAWmqIda+PFruq+2h7fJ3fyq33R6SEuzkevGKnfWSMExRzhHk3iXAoLk/         QmiZE4oqTEmH+BiiGNzSFdR5/9IpLTRgkJxyHfRTcXBnnsGA6a0aZTFBFNiZaGGng76/         p0MoSm4/gzdyKezuj9cV0ELjvbL7VT/GTNx/gOaD9KeUXnE3uk0BhkqUJPy7dIqGYuG9         aExeUs0cRAb0vO+apc9dN3akI1z9fILcA1l2sVyL4u6ImCMvgqesrLHcDF7T45IKznNL         fsX/HL7Ajwq1Xr9+hmZydq44dgNrw3A9z03nvsgGKh0L7eHEoT1JnmIlTmLBHEzlHrzI         0EGg==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=content-transfer-encoding:feedback-id:message-id:list-id:reply-to         :mime-version:list-unsubscribe-post:list-unsubscribe:date:subject:to         :from:dkim-signature;        bh=tT8Fg5pxFYJsOzzxiuYHSsaI19CrL54eEsZ5hhCFds0=;        fh=EMXkCWDI4uMhq7QwhuWzOsfzOF6vZQ2dloc9VHbajx8=;        b=IUYrPzUWtwGG+FHK73OMx39I/UUj2EXmsmf40IyHOny9OGXuHgqM2tb+JtZ1gUVOtp         kYktFXWUXXImF12UuHsaMdkHScI2YZBRY6DtbNkklLPeZx7R+ejIBk6RORhJHn/W7T5L         76/LGCGXDk6LBvqwh8O1B8tV/k1x35XdLWTNVHBhDW0atHswpirIsBhxNiSzEh/Y3m08         cMGtGruFmsoi85ENGtI+cy41NK6lLwDsDP5uPlrvAqWCHuGWaaY3PdjFA6U7m8++Scqe         wzrDxL7a61gqnoLsjTd+mDMOaboaXf+D5KLxXxHUm9pD1+606x55FPf2rZNwEs6lzMta         qwHg==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@mail.bizay.com header.s=10dkim1 header.b=pPKPhv9y;       spf=pass (google.com: domain of bounce-103_html-123138414-1020912-100028578-1364@bounce.mail.bizay.com designates 13.111.124.95 as permitted sender) smtp.mailfrom=bounce-103_HTML-123138414-1020912-100028578-1364@bounce.mail.bizay.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bizay.com",
+        "Return-Path": "<bounce-103_HTML-123138414-1020912-100028578-1364@bounce.mail.bizay.com>",
+        "Received-SPF": "pass (google.com: domain of bounce-103_html-123138414-1020912-100028578-1364@bounce.mail.bizay.com designates 13.111.124.95 as permitted sender) client-ip=13.111.124.95;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@mail.bizay.com header.s=10dkim1 header.b=pPKPhv9y;       spf=pass (google.com: domain of bounce-103_html-123138414-1020912-100028578-1364@bounce.mail.bizay.com designates 13.111.124.95 as permitted sender) smtp.mailfrom=bounce-103_HTML-123138414-1020912-100028578-1364@bounce.mail.bizay.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bizay.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; s=10dkim1; d=mail.bizay.com; h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version: Reply-To:List-ID:Message-ID:Content-Type:Content-Transfer-Encoding; i=campaigns@mail.bizay.com; bh=tT8Fg5pxFYJsOzzxiuYHSsaI19CrL54eEsZ5hhCFds0=; b=pPKPhv9yiMbCQsX0u+79ftvpcvOEJ60r2IKFVoZZScQH1A6UfY3FCKT9pgiYZ4jrxWT7tWltcNEe   hbCJtVsRCWorpOX/JSKeHDKSmxs94qsgnFZ34jGP4kHxituLCTbjN7KfMWkXuQKqwUFFV2AsnY/+   tw3iKEUxjfuKCQz9QVsoAvFq6t7z9a+JT3c9IgrLzwkmy8LTTud0tzJ6aefxHzR1W425erCQjfGZ   Dtpc86aHT2HBYdMdghSCS7qDwCglzoRcYHQZahZe/oeedFQsXeLBDrFddX7FrO7pXAPFihyBC1Y6   qQhfIAsB1qRCza3lY/v1gBsTLulqDx/wb9+1Gw==",
+        "From": "BIZAY <campaigns@mail.bizay.com>",
+        "To": "<antonioroddantas@gmail.com>",
+        "Subject": "Semaine Mondiale De L'Internet \ud83c\udf10 20% de R\u00e9duction sur tout le site!",
+        "Date": "Tue, 14 May 2024 03:34:55 -0600",
+        "List-Unsubscribe": "<https://click.mail.bizay.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiIxMDAwMjg1NzgiLCJzIjoiMTIzMTM4NDE0IiwibGlkIjoiMTAzIiwiaiI6IjEwMjA5MTIiLCJqYiI6IjEzNjQiLCJkIjoiMTAwMjEzIn0.3PLECeRH9_SuszBHW-EdhQb29xV9ctkSUxSINF6vDm4>, <mailto:leave-fd571570760b5c392848-fe34157276650775711574-fea0157077640d7c77-fe30157075640675701378-ff3115737360@leave.mail.bizay.com>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "MIME-Version": "1.0",
+        "Reply-To": "BIZAY <reply-fea0157077640d7c77-103_HTML-123138414-100028578-1364@mail.bizay.com>",
+        "List-ID": "<100013109.xt.local>",
+        "X-SFMC-Stack": "10",
+        "x-job": "100028578_1020912",
+        "Message-ID": "<5fd06279-8e4d-47ac-90b9-66cc8a8b58af@dfw1s10mta781.xt.local>",
+        "Feedback-ID": "100028578:1020912:13.111.124.95:sfmktgcld",
+        "Content-Type": "text/html; charset=\"utf-8\"",
+        "Content-Transfer-Encoding": "8bit"
+    }
+}

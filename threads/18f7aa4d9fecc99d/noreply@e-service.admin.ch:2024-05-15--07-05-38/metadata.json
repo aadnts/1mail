@@ -1,0 +1,39 @@
+{
+    "id": "18f7aa4d9fecc99d",
+    "snippet": "Ch\u00e8re utilisatrice, cher utilisateur, Votre num\u00e9ro de transaction (TAN) pour les demandes de renseignements est le suivant : B86F7540A5F. Pour m\u00e9moire: - Le formulaire de commande sign\u00e9 doit \u00eatre",
+    "historyId": "2154702",
+    "internalDate": "2024-05-15 07:05:38",
+    "sizeEstimate": 127378,
+    "threadId": "18f7aa4d9fecc99d",
+    "labelIds": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from aspmailout03.mail.admin.ch (aspmailout03.mail.admin.ch. [162.23.22.177])        by mx.google.com with ESMTPS id a640c23a62f3a-a5a17be6f31si685848366b.771.2024.05.14.22.06.14        for <antonioroddantas@gmail.com>        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);        Tue, 14 May 2024 22:06:14 -0700 (PDT)",
+        "X-Google-Smtp-Source": "AGHT+IHgV1Y4liYuiww41DhgIfmW6PpxybKeq8xl57uCDig7T6A+NHE/TaWhR+kBjDd+GxcVyVSV",
+        "X-Received": "by 2002:a17:906:fe49:b0:a59:cd10:9228 with SMTP id a640c23a62f3a-a5a2d508428mr1174205566b.2.1715749574738;        Tue, 14 May 2024 22:06:14 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715749574; cv=none;        d=google.com; s=arc-20160816;        b=KZx9DX2SPELadNlScrg4f9fB9jQuYcxBAbKk4Zok34Tg7/h59Ggqd4EKZNvhzNbkHu         u7YZcZIAjtOrhG+elIIxbvZKmwAqJk6yiJqlgnMCZuXoOM5OriiALAIAIdiK2sKYhsrS         DzMv/sKG6pPfcUhZW4rX3YZdXRJYjz9AJDFCR14WI57f7NNLfGMT1BaIMjCFDu54+C12         JzvTTHbyBlGUDTQ8sxPjBJ0e69LYfpIqRC7wob5ubG3PSM13iKhTO09tGNpPA90eNLL0         K0TJqnjjp+VSse6D924p75IN6WZGSZpcoVtaxw2hxzlkcCivSgNwHIX6rdUz7arEGR+j         AyLQ==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=mime-version:subject:message-id:to:reply-to:from:date         :dkim-signature;        bh=HViU6E8jc0DMaXbXNGzUBJ1n1J/eZsavUIqDuSDghjM=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=Q6OYrNBAuaItrGuYrUeYQHl9AX96z2laI/9p2L8XT6i2IMnxvCf23FnudV0tSlsiYl         TBI2m7HpuirpopkFXXwAcClk3d7IjQZKwWAIVVTyYk5EzBmxUfKbd9RFX+2MWFtldZj4         TYjJTTNWNeJiKfFtWCxbAdZqIuXVZo2DQtqtrjTCnbdSLzfS4Bk33315yTgtdQfL6Boy         TwVsveIIrdA0kltFn8eOlgfF1urEVe/iT4vTm1vLSbhSy96pMLcWWuGvWlIKKWWZmUcb         w559rBQNoDA6+KLHNl/lX6l4Yp2KIg7ZmVTpycqWa9Osd7OkxgqF1tnIkuJ3kZNsApLq         ls4Q==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@e-service.admin.ch header.s=dkimkey1 header.b=KwAAjI4G;       spf=pass (google.com: domain of noreply@e-service.admin.ch designates 162.23.22.177 as permitted sender) smtp.mailfrom=noreply@e-service.admin.ch;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=e-service.admin.ch",
+        "Return-Path": "<noreply@e-service.admin.ch>",
+        "Received-SPF": "pass (google.com: domain of noreply@e-service.admin.ch designates 162.23.22.177 as permitted sender) client-ip=162.23.22.177;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@e-service.admin.ch header.s=dkimkey1 header.b=KwAAjI4G;       spf=pass (google.com: domain of noreply@e-service.admin.ch designates 162.23.22.177 as permitted sender) smtp.mailfrom=noreply@e-service.admin.ch;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=e-service.admin.ch",
+        "DKIM-Signature": "v=1; a=rsa-sha256; q=dns/txt; d=e-service.admin.ch; s=dkimkey1; c=relaxed/relaxed;  h=date:from:reply-to:to:message-id:subject:mime-version:content-type;  bh=HViU6E8jc0DMaXbXNGzUBJ1n1J/eZsavUIqDuSDghjM=;  b=KwAAjI4GKLmGkoW7paTTMCV4+Uc3ciFeUxZ6/m3WtPOH9DQQG+6ApSGJVuZPvLLJPEbDXyYbz1uD bGKsX5VJKLvAThDgWv4Z2yYOQnl1pQQKzzv9vwqBlY1Wa9H1W5D0GloAhqBAOhFBds/hgjjSfWEL KCuXJasCNwhoutPEPRQ=",
+        "Date": "Wed, 15 May 2024 07:05:38 +0200 (CEST)",
+        "From": "noreply@e-service.admin.ch",
+        "Reply-To": "strafregister@bj.admin.ch",
+        "To": "antonioroddantas@gmail.com",
+        "Message-ID": "<1764738061.10811.1715749538603@e-service.admin.ch>",
+        "Subject": "Confirmation de commande d'extrait de casier judiciaire (Rodrigues Dantas Filho Antonio Aparecido, TAN = B86F7540A5F)",
+        "MIME-Version": "1.0",
+        "Content-Type": "multipart/mixed; boundary=\"----=_Part_10810_1685606053.1715749538529\"",
+        "X-FE-Attachment-Name": "form-64ca51c8-a807-4695-be22-5b554b86abe1.pdf",
+        "X-FEAS-Deferred": "FortiSandbox",
+        "X-FEAS-Client-IP": "185.235.188.116",
+        "X-FE-Last-Public-Client-IP": "185.235.188.116",
+        "X-FE-Policy-ID": "0:14:0:SYSTEM"
+    }
+}

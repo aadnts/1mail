@@ -1,0 +1,39 @@
+{
+    "id": "18f723f0a9f6da8f",
+    "snippet": "D\u00e9tendez-vous en chemin, nous nous occupons de la course. \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+    "historyId": "2152290",
+    "internalDate": "2024-05-13 15:58:03",
+    "sizeEstimate": 60533,
+    "threadId": "18f723f0a9f6da8f",
+    "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from localhost (unknown) by geopod-ismtpd-4 (SG) with ESMTP id sMtz_egvSZeFdxa17GElGw for <antonioroddantas@gmail.com>; Mon, 13 May 2024 13:58:03.418 +0000 (UTC)",
+        "X-Google-Smtp-Source": "AGHT+IHGNkI1Kye1KEB9uPcSlX2dzX1JHhA/Eo10vWmEDVHLitDYqQWNMm4h1icapJ5VeCMSDmfE",
+        "X-Received": "by 2002:a4a:de14:0:b0:5aa:3e4f:f01e with SMTP id 006d021491bc7-5b28193cc74mr10714513eaf.1.1715608685118;        Mon, 13 May 2024 06:58:05 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715608685; cv=none;        d=google.com; s=arc-20160816;        b=Luz9yOOJElgrFL91ydeR0gWEzvc6ZejWq3cDb5pYsgoTqrCmolA2qWuiaAGITjvqTf         VHsr86BuDj45R+izZwXP/TCHQaIlDwfAX6+EsWa5crHgjAJFAljfO98hHJTByit4l78D         jcGiZmldDdUOw+Cu6bbWntAA6o7cc77FxGTYeW1mtVyDxxJQcDMmN07IxnlXFgTIHd1y         6rsB1dMPnoj4Nqb4D9cHOGDG29T7ZZ6QVkN9BiO0jigvgOnNjeEkPaGbGDZh+rejdxKS         8Rp+XdXwZxnPGfVr6FUAJBzK6Ww76Hyd2WFLO0Y85JPr2khtx7a4Ag4V7ErC2vv8LSyC         RlyA==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=to:date:message-id:subject:from:content-transfer-encoding         :mime-version:dkim-signature:dkim-signature;        bh=SW71DIDg2VN9ZxoDASnY2EmYrr3MuHkiVk2hhjwDxCA=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=pTeMb/R5PS5d518DTSKSdg/VacdJ00wNyuq93fEaFJ2qfPU20i+r/SFhjYOtaVGqxM         2hdTqK+4GqGniXbmJiyoaqJ8jQMbQI/hxwSnGXsNJgBYcrSqV5ONjWA5oJTJsEfonWO5         n5sw0zuf0woI3e1p0OvoMRkO4cmkA8yYiKua2XrtDvBiqOycaR6BZ3sPkeQATfc+y3Ax         mF9SsuZAE5rA7EMaG65kk7LM5XIVFzaBKEnkIWgStlZQymn/jnOi4wXZQizygQjardrg         ylVVAYU/DDk7I2glVvhcH5B0uLvSSHb2si2nKCFoXccgeENpFLYdb0CZ9fOb9ZXazt87         DoLA==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@uber.com header.s=s1 header.b=en0K1tea;       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=kcCRqvRb;       spf=pass (google.com: domain of bounces+4468541-f2aa-antonioroddantas=gmail.com@em.uber.com designates 167.89.42.176 as permitted sender) smtp.mailfrom=\"bounces+4468541-f2aa-antonioroddantas=gmail.com@em.uber.com\";       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=uber.com",
+        "Return-Path": "<bounces+4468541-f2aa-antonioroddantas=gmail.com@em.uber.com>",
+        "Received-SPF": "pass (google.com: domain of bounces+4468541-f2aa-antonioroddantas=gmail.com@em.uber.com designates 167.89.42.176 as permitted sender) client-ip=167.89.42.176;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@uber.com header.s=s1 header.b=en0K1tea;       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=kcCRqvRb;       spf=pass (google.com: domain of bounces+4468541-f2aa-antonioroddantas=gmail.com@em.uber.com designates 167.89.42.176 as permitted sender) smtp.mailfrom=\"bounces+4468541-f2aa-antonioroddantas=gmail.com@em.uber.com\";       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=uber.com",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info; h=mime-version:content-transfer-encoding:content-type:from:subject: x-feedback-id:to:cc:content-type:from:subject:to; s=smtpapi; bh=SW71DIDg2VN9ZxoDASnY2EmYrr3MuHkiVk2hhjwDxCA=; b=kcCRqvRb/weB0uei0ITs1txjtb9gkvSWJwCwQ7heSWZqn+Ehu3h7WxdJThMiwl/73oly Vs3tFMX9ZJMnxRgc2Mb1uvDSPtsT8OGjn1cs3RYS3mK/N+qQK4PUk2Pnq05freuyi1iJDF RzUzRbhrAhbRA+pIaUxcXmqmET/vSEHJo=",
+        "MIME-Version": "1.0",
+        "Content-Transfer-Encoding": "quoted-printable",
+        "Content-Type": "text/html; charset=iso-8859-1",
+        "From": "Uber <uber@uber.com>",
+        "Subject": "Antonio, rejoignez facilement le lieu de votre rendez-vous",
+        "Message-Id": "<42cfb39d-b770-35d6-893d-49b390ea1e76@mail.uber.com>",
+        "X-Uber-Id": "42cfb39d-b770-35d6-893d-49b390ea1e76",
+        "Date": "Mon, 13 May 2024 13:58:03 +0000 (UTC)",
+        "X-Feedback-ID": "4468541:SG",
+        "X-SG-EID": "u001.VTllVn0weeW9N/y8CNQmb9nRYOBPGucjeAhFacKByP7SWKydiRf875h5CLHnCHN7pBFjNZijE67K+CNT0Sco+5NJZm2Q+d6NjJtl+BWhDvsnZC9HQD3Xh4/lSlGS1Kly/2LhZU7I1JVEOUKTqXKjyT6bs1LgMkMhFoYX3qYANbhmWlVqZjUZg7DAtP6Sq3wMRrChWCY/gFWciP8aoJyEIDV56it/VK/2Ipn1xs/es34=",
+        "X-SG-ID": "u001.SdBcvi+Evd/bQef8eZF3BuADEMQGezcFfA9FSBU7PmgU4cMFmUwltn78DrRdkSqvJwliHi1H+07II0FbvVozMK6WhgQS4Lw/zRAynfMKqVJFgc8IKNJCDfyGwFVf6PMyoRt7jXYWLc/LZBtCMTpgq3aGqfxmYgN4mh2RktN5Ythx/lUUVua/1t7zowCu/l/cvgc4YP4hJaEIPcc70vWqWbYmec10ip9/sCKOENXQSKqhKekEqGqcQ0sxPWC/Dko+yeSqEgHdLri8SmPo+S4r6CknowgZHxF2JB17nUzlWTt+6pPVYFWuq7L1KOgS+0FMbDsKjK7PoQvBChKb1CV6bZuyEaZNDpJIpWlMo7yxkpdaRrP9cA2zmiRt6if5XnBAEZb8NqFZqUq/mK+p3XcuJhEMuHBz4BdAaJVgqNFi9A0=",
+        "To": "antonioroddantas@gmail.com",
+        "X-Entity-ID": "u001.ezV1VdF0ZVFukC6+b2gZXg=="
+    }
+}

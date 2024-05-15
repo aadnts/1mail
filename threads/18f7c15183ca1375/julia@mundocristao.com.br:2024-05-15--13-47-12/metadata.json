@@ -1,0 +1,40 @@
+{
+    "id": "18f7c15183ca1375",
+    "snippet": "Vem saber mais! \u200c\u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c",
+    "historyId": "2154839",
+    "internalDate": "2024-05-15 13:47:12",
+    "sizeEstimate": 75028,
+    "threadId": "18f7c15183ca1375",
+    "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "by ip1.mundocristao.com.br id h8iggo34t7kq for <antonioroddantas@gmail.com>; Wed, 15 May 2024 11:47:12 +0000 (envelope-from <50682=a7eb75d9-508d-45d6-ac6c-47213185e63d=25=481674@e.mundocristao.com.br>)",
+        "X-Google-Smtp-Source": "AGHT+IFJlMAARs14ad7izrCtICSf33aRB9CBu1RHFq9mNyiIpprvQpdv8xJsa7NtiSFgRjPJDG0g",
+        "X-Received": "by 2002:a05:6512:3d19:b0:51f:3e42:1065 with SMTP id 2adb3069b0e04-5220fc73e1dmr10346470e87.1.1715773708536;        Wed, 15 May 2024 04:48:28 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1715773708; cv=none;        d=google.com; s=arc-20160816;        b=HS0UdAnjYcJr3wUknyfE/LwlWByXdw8fa/9K8mCLH593+79sJgSEX51A8Gar4nxbcZ         OIiObzYRqB4SXCjPHny6+YPa+XC/C3en4BE0M9fCwEAWnBMMYH0gSvtgRBUWaOIsn+SG         bvMTuXirP6b1GdGo/21b0pxP2fkxW0JUnUPi9Jj/2YQuHLWP20w+AMS2eHSJuOLWJf+D         heqHNDziNfMl9hJGpJ1YlVLtsrxxNL7tfvzwzZRS7YIrdBJg0IPQZMq7FoVn6YnHsXN1         8QNScM5Z4YvMzgzR/Cvca+rkkStQG7LgzE716Ynmz8TTylOrc0LIgMcDiEpqGbCN7P1q         nIrw==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=feedback-id:precedence:list-unsubscribe-post:list-unsubscribe:to         :reply-to:from:subject:message-id:date:mime-version:dkim-signature         :dkim-signature;        bh=b0HjzDaRreQz95TDIeh+hMJIq7IlkGAeU4nwtwyiTN4=;        fh=8/1EAZYE3KvcHexOu8W+VbWbcJSe2u/xrE96H8TEfIg=;        b=sHaeRktSAhtfTRwekPBQjpmh5/eImg56YDbdasKb2zCG38m0ziiBFEh8+86EIGaH0l         aKajiXxpGY5wN2kkpK2PUI0tkOOAc4WFCaEr5+2MMIi+zxW7Izx+KlYm80lVf6GJ6F/2         IpW8/5CfEGJCjPcEz1+jXJMZbVOx6HCXrmP0Fdpk3tYZiYojpc0h9YqbKQKFRrPi095K         rbhbfQuwyAFwxjgqMiTvH6mlIfqynpA9tu/HdrDMwRJHb/w9baTjq9upD7nSBS6Uakv5         zMcM5nErWdTtyNmtWCRv1guuU9M0Aq4fK7lfFmn+9A/jJ/kaotBhUYRzDdI9dSCwpqDi         NkfA==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@fbl-expertsender.com header.s=googlefbl header.b=d5BFFYt9;       dkim=pass header.i=@mundocristao.com.br header.s=default1k header.b=RFHvBIDt;       spf=pass (google.com: domain of 50682=a7eb75d9-508d-45d6-ac6c-47213185e63d=25=481674@e.mundocristao.com.br designates 185.31.83.219 as permitted sender) smtp.mailfrom=\"50682=a7eb75d9-508d-45d6-ac6c-47213185e63d=25=481674@e.mundocristao.com.br\";       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=mundocristao.com.br",
+        "Return-Path": "50682=a7eb75d9-508d-45d6-ac6c-47213185e63d=25=481674@e.mundocristao.com.br",
+        "Received-SPF": "pass (google.com: domain of 50682=a7eb75d9-508d-45d6-ac6c-47213185e63d=25=481674@e.mundocristao.com.br designates 185.31.83.219 as permitted sender) client-ip=185.31.83.219;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@fbl-expertsender.com header.s=googlefbl header.b=d5BFFYt9;       dkim=pass header.i=@mundocristao.com.br header.s=default1k header.b=RFHvBIDt;       spf=pass (google.com: domain of 50682=a7eb75d9-508d-45d6-ac6c-47213185e63d=25=481674@e.mundocristao.com.br designates 185.31.83.219 as permitted sender) smtp.mailfrom=\"50682=a7eb75d9-508d-45d6-ac6c-47213185e63d=25=481674@e.mundocristao.com.br\";       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=mundocristao.com.br",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; q=dns/txt; d=mundocristao.com.br; s=default1k; h=Date:Subject:From:To:X-CSA-Complaints:List-Unsubscribe:List-Unsubscribe-Post; bh=b0HjzDaRreQz95TDIeh+hMJIq7IlkGAeU4nwtwyiTN4=; b=RFHvBIDtVHBfRK+QdUhJAjOffnbkrCWwJX3qq42+VWEfLiG4hqy1vDnti+euDVRwYPsu eRlN4CYz7UfBDZijH5gUsoJ7QSeV0l35mUpovEjylufxg3GzhKh1BmgjtX6Gy77NUjl3W6 0hkFOtmASN/5xzPdOsMdyOyrN4NJrBEiY=",
+        "MIME-Version": "1.0",
+        "Date": "Wed, 15 May 2024 11:47:12 +0000",
+        "Message-ID": "<50682=a7eb75d9-508d-45d6-ac6c-47213185e63d=25=481674@links.mundocristao.com.br>",
+        "Content-Type": "multipart/alternative; boundary=\"------------000602010601040201050702\"",
+        "Subject": "\ud83d\udcd6 Vamos explorar o estudo da Teologia juntos?",
+        "From": "\"J\u00falia da MC\" <julia@mundocristao.com.br>",
+        "Reply-To": "noreply@mundocristao.com.br",
+        "To": "Antonio Rodrigues Dantas <antonioroddantas@gmail.com>",
+        "List-Unsubscribe": "<mailto:nlu=fbw=cycplynghh5kc7zvhn3da9y5k=-=63xh=c6184d95@f.mundocristao.com.br>, <https://links.mundocristao.com.br/u/k58/_551-VBaBhg4dbxpkv5Jra/t/FBJX/F/6b103ea8>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "Precedence": "bulk",
+        "X-Message-Type": "newsletter",
+        "X-CSA-Complaints": "csa-complaints@eco.de",
+        "Feedback-ID": "S5_Unit_50682_channelId_185.31.83.219:S5_Unit_50682_msg_368:S5_Unit_50682_list_25:ExpertSender"
+    }
+}
