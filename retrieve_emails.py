@@ -146,15 +146,15 @@ def remove_previous_conversations(email_message):
     previous_email_pattern_fr = re.compile(
         r'(-{2,}|De :|Envoyé :|À :|Objet :)'
     )
-    previous_email_pattern_en = re.compile(
-        r'(-{2,}|De :|Envoyé :|À :|Objet :)'
-    )    
+    # previous_email_pattern_en = re.compile(
+    #     r'(-{2,}|De :|Envoyé :|À :|Objet :)'
+    # )    
 
     lines = email_message.split('\n')
     new_lines = []
 
     for line in lines:
-        if previous_email_pattern.match(line):
+        if previous_email_pattern_fr.match(line):
             break
         new_lines.append(line)
 
