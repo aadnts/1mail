@@ -1,0 +1,30 @@
+{
+    "document_name": "Elodie Reche Wincasa SA Mandats",
+    "sender": {
+        "name": "Elodie Reche",
+        "address": "Blvd du Pont-d'Arve 28, 1211 Genève 4",
+        "phone_number": "+41 58 455 77 77",
+        "email": "info@wincasa.ch"
+    },
+    "company": {
+        "name": "Wincasa SA",
+        "address": "Blvd du Pont-d'Arve 28, 1211 Genève 4",
+        "phone_number": "+41 58 455 77 77",
+        "email": "info@wincasa.ch",
+        "website": "www.wincasa.ch"
+    },
+    "mandates": [
+        {
+            "company": "OTIS",
+            "task": "Passer à la porte de l'ascenseur cet après-midi, au plus tard demain"
+        },
+        {
+            "company": "Aqua Leman Carouge",
+            "task": "Installer une turbinette pour régler le problème de moisissures sur le plafond de la salle de bain"
+        },
+        {
+            "company": "Fast Service",
+            "task": "Peindre le plafond de la salle de bain"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "document_name": "Todan Relocation Sàrl CONTRAT DE TRAVAIL",
+    "sender": {
+        "name": "Todan Relocation Sàrl",
+        "address": "Chemin des Palettes 26, CH-1212 Grand Lancy",
+        "phone_number": "022/738.38.38",
+        "email": ""
+    },
+    "company": {
+        "name": "Todan Relocation Sàrl",
+        "address": "Chemin des Palettes 26, CH-1212 Grand Lancy",
+        "phone_number": "022/738.38.38",
+        "field": ""
+    },
+    "contract_details": {
+        "contract_id": "",
+        "start_date": "2020-11-01",
+        "end_date": "2021-08-31",
+        "terms": "Ce contrat est basé sur le C.O et sur la Convention Collective de Travail (CTT) de Genève."
+    }
+}

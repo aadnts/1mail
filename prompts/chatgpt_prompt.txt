@@ -11,7 +11,7 @@ The metadata you will be searching for will vary depending on the document, so f
 
 {json_data3}
 
-The only mandatory key your JSON file should contain is the "document_name", which should be as significative as possible and not have any spaces ' ' or punctuation, instead simply use '_' to separate words.
+The only mandatory key your JSON file should contain is the "document_name", which should contain "Sender Name AND/OR Company Name AND/OR Motive" and not have any punctuation, simply use ' ' to separate words.
 
 Finally, here's the document I want you to analyze :
 {document}

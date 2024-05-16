@@ -1,5 +1,5 @@
 {
-  "document_name": "Example_Corp_Contract",
+  "document_name": "John Doe Example Corp Contract",
   "document_id": "12345",
   "document_type": "contract",
   "date": "2024-05-15",
@@ -15,7 +15,7 @@
     "phone_number": "+1-555-555-1234",
     "field": "Technology"
   },
-  "person": {
+  "Client": {
     "name": "Jane Smith",
     "address": "789 Residential Ave, Hometown, USA",
     "phone_number": "+1-555-555-9876",

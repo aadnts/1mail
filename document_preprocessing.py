@@ -25,16 +25,19 @@ def process_pdf_or_image(file_path, predictor):
         print(f"Error processing {file_path}: {e}")
         return None
 
-def create_folder_and_save_outputs(json_output, raw_text=None, original_text=None, output_dir="./outputs"):
-    document_name = json_output.get("document_name", "Unknown")
-    date = json_output.get("date", "")
+def create_folder_and_save_outputs(json_output, raw_text=None, original_text=None, output_dir="./outputs", email_processing=False, file_name=None):
+    if email_processing:
+        if file_name.endswith('.txt'):
+            folder_name = "email_output"
+            original_text = None
+        else:
+            document_name = os.path.splitext(file_name)[0]
+            folder_name = f"output_{document_name}"
+    else:
+        document_name = json_output.get("document_name", "Unknown")
+        date = json_output.get("date", "")
+        folder_name = f"{document_name}:{date}" if date else document_name
 
-    if document_name is None:
-        document_name = "Unknown"
-    if date is None:
-        date = ""
-
-    folder_name = f"{document_name}:{date}" if date else document_name
     folder_path = os.path.join(output_dir, folder_name.replace(" ", "_").replace("/", "_"))
     os.makedirs(folder_path, exist_ok=True)
 
@@ -48,7 +51,7 @@ def create_folder_and_save_outputs(json_output, raw_text=None, original_text=Non
     with open(os.path.join(folder_path, "json_output.json"), 'w', encoding='UTF-8') as file:
         json.dump(json_output, file, ensure_ascii=False, indent=4)
 
-def process_files_in_folder(folder_path, predictor, model, systemPrompt, prompt, json_data, json_data1, json_data2, json_data3):
+def process_files_in_folder(folder_path, predictor, model, systemPrompt, prompt, json_data, json_data1, json_data2, json_data3, email_processing=False):
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
         raw_text = None
@@ -80,7 +83,7 @@ def process_files_in_folder(folder_path, predictor, model, systemPrompt, prompt,
         result = model.invoke(messages)
         json_output = json.loads(result.content)
 
-        create_folder_and_save_outputs(json_output, raw_text=raw_text, original_text=original_text, output_dir=folder_path)
+        create_folder_and_save_outputs(json_output, raw_text=raw_text, original_text=original_text, output_dir=folder_path, email_processing=email_processing, file_name=filename)
 
 def main():
     # Load environment variables
@@ -154,7 +157,7 @@ def main():
             for email_folder in os.listdir(thread_path):
                 email_path = os.path.join(thread_path, email_folder)
                 if os.path.isdir(email_path):
-                    process_files_in_folder(email_path, predictor, model, systemPrompt, prompt, json_data, json_data1, json_data2, json_data3)
+                    process_files_in_folder(email_path, predictor, model, systemPrompt, prompt, json_data, json_data1, json_data2, json_data3, email_processing=True)
                         
 if __name__ == "__main__":
     main()
