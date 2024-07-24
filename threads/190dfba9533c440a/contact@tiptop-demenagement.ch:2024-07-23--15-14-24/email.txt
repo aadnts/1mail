@@ -1,0 +1,12 @@
+Howdy! Some plugins have automatically updated to their latest versions on your site at https://www.tiptop-demenagement.ch. No further action is needed on your part.
+
+
+These plugins are now up to date:
+- Easy WP SMTP (from version 2.3.1 to 2.3.2) : https://wordpress.org/plugins/easy-wp-smtp/
+
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/forums/
+
+The WordPress Team
+

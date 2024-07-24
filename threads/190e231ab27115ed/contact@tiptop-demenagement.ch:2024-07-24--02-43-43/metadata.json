@@ -1,0 +1,35 @@
+{
+    "id": "190e231ab27115ed",
+    "snippet": "Howdy! Your site at https://www.tiptop-demenagement.ch has been updated automatically to WordPress 6.6.1. No further action is needed on your part. For more on version 6.6.1, see the About WordPress",
+    "historyId": "2236545",
+    "internalDate": "2024-07-24 02:43:43",
+    "sizeEstimate": 4718,
+    "threadId": "190e231ab27115ed",
+    "labelIds": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+    ],
+    "headers": {
+        "Delivered-To": "antonioroddantas@gmail.com",
+        "Received": "from unknown by smtp-3-0001.mail.infomaniak.ch (Postfix) with ESMTPA id 4WTFcv4Nd9z5Gf; Wed, 24 Jul 2024 02:43:43 +0200 (CEST)",
+        "X-Google-Smtp-Source": "AGHT+IEkYCqaBY/JaEugj8ADgUyZjLbvvLevAU5gETCK5Rq82kav8WIIPWT1rQtuVwL7LF9hW84E",
+        "X-Received": "by 2002:a17:907:6d17:b0:a7a:8284:c8db with SMTP id a640c23a62f3a-a7a8284c969mr184630966b.10.1721781824327;        Tue, 23 Jul 2024 17:43:44 -0700 (PDT)",
+        "ARC-Seal": "i=1; a=rsa-sha256; t=1721781824; cv=none;        d=google.com; s=arc-20160816;        b=N7A803UXRrqnv2N5bdV1C8zajWZ8DG7iDgpi33KDG8sdktoaJD4vDYQBQ/5lrOAltv         6ZiQvyrVbVn50o0bHzenGHEbOMUjZQwhWrEpKY2iRM4K28fMkOkgR6LIsIOkmrE7ZFni         HRPGstJYhqWt47D3AMtRkeGehgpvcV2pYoXZQp6PyBU6KjcBA0EaNas8wiujohNBwW0V         BFiGn2pP+VtI6fNJ+Qe2FshQpPxUAhTpK0xovEG4mV2vH4TdmM91UxPkC0MqnSihA0GG         JGAJK8lb7brfmXnQ9yZG9+rYUxIgpcebqpV4tMS8gzUdOPLS+f1kR3asAL6bnbNQ7K2n         O9ew==",
+        "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=mime-version:message-id:subject:from:to:date:dkim-signature;        bh=7glo+ymf/PA9U9jCIKDddsxYHvs8RgFE5tKmmHUUM+I=;        fh=yfVhRvnCY8jLda8QFuNhz0/DuIUqfwajat3S6Pibqxg=;        b=Sf79ty/s0gnzDkc7xH7N5k9Y2JrtuSi1F9jtcZmLusYtIh16ANJwnA4NtcA97i9mPs         IHNpKgPDVuWMy0KTNv7P3NcLLPdtCnfBpeMfouYS40Jo9IOJktkLeOSXqVwej63JRORn         ok5sHNK8ZbaiRZRvDBpjwYsR9wrq4wcVYUa+0+FZAaqcYrFzTEJHkzKeEnFT5ZqMDlqt         K8izQ+jfuTLQMQlO8As1qfGBQUuLrzPO1jWeYAmbJQuJ3J95rxmEMqX42d67OWiNaJYS         SNda5u4NACKlg7Ilkyj+tVBtOPSoGY/T+e2Qrb76KmeKPBI4kW6EgBNqh0NPuJt7caMu         2aew==;        dara=google.com",
+        "ARC-Authentication-Results": "i=1; mx.google.com;       dkim=pass header.i=@tiptop-demenagement.ch header.s=20191113 header.b=Gse14csv;       spf=pass (google.com: domain of contact@tiptop-demenagement.ch designates 83.166.143.170 as permitted sender) smtp.mailfrom=contact@tiptop-demenagement.ch;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=tiptop-demenagement.ch",
+        "Return-Path": "<contact@tiptop-demenagement.ch>",
+        "Received-SPF": "pass (google.com: domain of contact@tiptop-demenagement.ch designates 83.166.143.170 as permitted sender) client-ip=83.166.143.170;",
+        "Authentication-Results": "mx.google.com;       dkim=pass header.i=@tiptop-demenagement.ch header.s=20191113 header.b=Gse14csv;       spf=pass (google.com: domain of contact@tiptop-demenagement.ch designates 83.166.143.170 as permitted sender) smtp.mailfrom=contact@tiptop-demenagement.ch;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=tiptop-demenagement.ch",
+        "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=tiptop-demenagement.ch; s=20191113; t=1721781823; bh=7glo+ymf/PA9U9jCIKDddsxYHvs8RgFE5tKmmHUUM+I=; h=Date:To:From:Subject:From; b=Gse14csvECLqO15zXRHFWqqrT/Qkn3fKBU8Nl9oHdnUFBsATQ1B6ta1B5pMfN6GE2\t OTgbecIbb4wDj1PIMUl0Qqo4skHclmWefClD/eYLnn4aFTFe7r81rChU+cZLqK3fdx\t YsVLE38OFYL9wV6lRzlmLwdRkm/APEsIOIzRYEJk=",
+        "Date": "Wed, 24 Jul 2024 00:43:43 +0000",
+        "To": "antonioroddantas@gmail.com",
+        "From": "WordPress <contact@tiptop-demenagement.ch>",
+        "Subject": "[Tip-Top D\u00e9m\u00e9nagement] Your site has updated to WordPress 6.6.1",
+        "Message-ID": "<gCgj9qIyoUFiNrLKKYm1Z6zVyr9opz8aeJL6XPaCQ@www.tiptop-demenagement.ch>",
+        "X-Mailer": "EasyWPSMTP/Mailer/smtp 2.3.2",
+        "MIME-Version": "1.0",
+        "Content-Type": "text/plain; charset=UTF-8",
+        "X-Infomaniak-Routing": "alpha"
+    }
+}

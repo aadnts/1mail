@@ -1,0 +1,13 @@
+Howdy! Your site at https://www.tiptop-demenagement.ch has been updated automatically to WordPress 6.6.1.
+
+No further action is needed on your part. For more on version 6.6.1, see the About WordPress screen:
+https://www.tiptop-demenagement.ch/wp-admin/about.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/forums/
+
+You also have some plugins or themes with updates available. Update them now:
+https://www.tiptop-demenagement.ch/wp-admin/
+
+The WordPress Team
+

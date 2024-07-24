@@ -1,0 +1,39 @@
+Could you please extract all the relevant metadata of this document and produce the RDF Turtle format (TTL) for it?
+Your answer should only contain the TTL content, nothing else!
+
+The metadata you will be searching for will vary depending on the document, so feel free to adapt the TTL content you will produce so that it contains any relevant information, here’s multiple references for the type of TTL content that I want you to produce:
+
+@prefix ex: <http://example.com/> .
+
+ex:{document_name} a ex:Document ;
+    ex:documentId "{document_id}" ;
+    ex:documentType "{document_type}" ;
+    ex:date "{date}" ;
+    ex:sender [
+        ex:name "{sender_name}" ;
+        ex:address "{sender_address}" ;
+        ex:phoneNumber "{sender_phone_number}" ;
+        ex:email "{sender_email}"
+    ] ;
+    ex:company [
+        ex:name "{company_name}" ;
+        ex:address "{company_address}" ;
+        ex:phoneNumber "{company_phone_number}" ;
+        ex:field "{company_field}"
+    ] ;
+    ex:person [
+        ex:name "{person_name}" ;
+        ex:address "{person_address}" ;
+        ex:phoneNumber "{person_phone_number}" ;
+        ex:role "{person_role}"
+    ] ;
+    ex:details [
+        ex:detailsId "{details_id}" ;
+        ex:subject "{subject}" ;
+        ex:body "{body}"
+    ] .
+
+The only mandatory key your TTL content should contain is the "document_name", which should contain "Sender Name AND/OR Company Name AND/OR Motive" and not have any punctuation, simply use ' ' to separate words.
+
+Finally, here's the document I want you to analyze:
+{document}

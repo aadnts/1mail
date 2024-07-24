@@ -97,9 +97,24 @@ def process_message(message, thread_id):
             header["name"]: header["value"] for header in message["payload"]["headers"]
         }
         from_email = extract_sender_email(headers.get("From", ""))
+        
+        # Access labelIds directly from message
+        labels = message.get("labelIds", [])
+        
+        # Check if "CATEGORY_PERSONAL" is in the labels
+        if "CATEGORY_PERSONAL" not in labels:
+            print(f"Skipping email {message['id']} as it does not have CATEGORY_PERSONAL label.")
+            return  # Skip this email
+
         internal_date = datetime.fromtimestamp(
             int(message.get("internalDate")) / 1000
         ).strftime("%Y-%m-%d %H:%M:%S")
+
+        # Extract the email content
+        email_message = extract_latest_text(message["payload"])
+
+        # Remove previous conversations
+        email_message = remove_previous_conversations(email_message)
 
         # Create or update the thread folder
         thread_folder_path = create_thread_folder(thread_id)
@@ -109,12 +124,6 @@ def process_message(message, thread_id):
             thread_folder_path, from_email, internal_date
         )
 
-        # Extract the email content
-        email_message = extract_latest_text(message["payload"])
-
-        # Remove previous conversations
-        email_message = remove_previous_conversations(email_message)
-
         # Extract metadata
         metadata = {
             "id": message["id"],
@@ -123,7 +132,7 @@ def process_message(message, thread_id):
             "internalDate": internal_date,
             "sizeEstimate": message.get("sizeEstimate"),
             "threadId": message.get("threadId"),
-            "labelIds": message.get("labelIds"),
+            "labelIds": labels,
             "headers": headers,
         }
 
@@ -205,7 +214,7 @@ def get_attachments(message, folder_name):
 
 def main():
     threads_metadata = load_threads_metadata()
-    threads = get_threads(max_results=30)  # Retrieve the 10 latest threads
+    threads = get_threads(max_results=30)  # Retrieve the 30 latest threads
 
     if threads:
         for thread in threads:
@@ -218,16 +227,14 @@ def main():
                     "id": thread_id,
                     "created_at": current_datetime,
                 }
-                thread_folder_path = create_thread_folder(thread_id)
             else:
-                # Update the timestamp for the existing thread
+                # Existing thread, update the "created_at" value with the current time
                 threads_metadata[thread_id]["created_at"] = current_datetime
-                thread_folder_path = os.path.join(THREADS_FOLDER_PATH, thread_id)
 
+            # Process thread details only if it's not already processed
             get_thread_details(thread_id)
 
     save_threads_metadata(threads_metadata)
-
 
 if __name__ == "__main__":
     main()

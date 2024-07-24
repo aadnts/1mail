@@ -5,3 +5,4 @@ credentials.json
 __pycache__
 token*
 *.pickle
+neo4j_db/
